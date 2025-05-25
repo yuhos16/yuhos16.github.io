@@ -7,9 +7,9 @@
 
 # Site Settings
 title                    : "Yuhao Shen"
-description              : "Focusing on video and speech large generation model."
-repository               : "rayeren/rayeren.github.io"
-google_scholar_stats_use_cdn : true
+description              : "MPhil Student@HEAL Lab, CUHK-Shenzhen"
+repository               : "yuhos16/yuhos16.github.io"
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      : G-SWFCX99KQZ
@@ -21,14 +21,14 @@ baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "Yi Ren (任意)"
+  name             : "Yuhao Shen"
   avatar           : "images/ry_profile.jpeg"
   bio              : ""
-  location         : "Singapore"
+  location         : "Hangzhou, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=4FA6C0AAAAAJ"
-  email            : "rayeren613@gmail.com"
+  email            : "ssyee16@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "RayeRen"
+  github           : "yuhos16"
   google_plus      :
   keybase          :
   instagram        :
