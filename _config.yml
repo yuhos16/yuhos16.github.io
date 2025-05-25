@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yi Ren (任意)"
+title                    : "Yuhao Shen"
 description              : "Focusing on video and speech large generation model."
 repository               : "rayeren/rayeren.github.io"
 google_scholar_stats_use_cdn : true
