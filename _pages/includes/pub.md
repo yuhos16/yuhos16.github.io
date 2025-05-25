@@ -1,4 +1,4 @@
 
 # 📝 Publications 
 ## 🩺 Dermatological AI
-Coming soon.
+-_Coming soon._
