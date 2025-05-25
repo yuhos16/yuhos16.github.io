@@ -107,3 +107,7 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+body {
+  font-size: 18px;   // 默认大多是16px，你可以根据喜好改为 18~20px
+  line-height: 1.8;  // 行间距可提升可读性
+}
