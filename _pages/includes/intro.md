@@ -1,6 +1,6 @@
 # 👤 About Me
 
-I am currently a**M.Phil Student** in **Computer Science** at the [School of Data Science (SDS)](https://sds.cuhk.edu.cn/), The Chinese University of Hong Kong, Shenzhen. I am a member of the **HEAL Lab**, supervised by [Prof. Juexiao Zhou](https://www.joshuachou.ink/about/).
+I am currently a **M.Phil Student** in **Computer Science** at the [School of Data Science (SDS)](https://sds.cuhk.edu.cn/), The Chinese University of Hong Kong, Shenzhen. I am a member of the **HEAL Lab**, supervised by [Prof. Juexiao Zhou](https://www.joshuachou.ink/about/).
 
 I received my **Bachelor of Engineering** in Computer Science and Technology from Hangzhou Dianzi University (HDU), where I was advised by **Prof. Renshu Gu** and **Prof. Fangli Guan**.
 
