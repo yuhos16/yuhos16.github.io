@@ -8,4 +8,4 @@ My research interests include **_AI for Healthcare_**, **_Medical Imaging_**, an
 
 Outside of academia, I enjoy listening to **Eason Chan**, working out, drinking coffee, and spending time with my adorable dog, Kiki.
 
-Please feel free to email me at [ssyee16@gmail.com](mailto:ssyee16@gmail.com) for academic discussions, questions, or simply connections as friends.
+Please feel free to email me at [yuhos16@outlook.com](mailto:yuhos16@outlook.com) for academic discussions, questions, or simply connections as friends.
