@@ -6,11 +6,15 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Publications"
+  - title: "Publication"
     url: "/#-publications"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Education"
+    url: "/#-education"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Experience"
+    url: "/#-internship"
+
+  - title: "Teaching"
+    url: "/#-teaching"
+
