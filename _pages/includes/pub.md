@@ -1,4 +1,4 @@
 
 # 📝 Publications 
-## 🩺 Dermatological AI
+## 🩺 Benchmark and Large Medical Models in Dermatology
 - _Coming soon._
