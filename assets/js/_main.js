@@ -95,4 +95,33 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  // 主题切换功能
+  const themeToggleBtn = document.getElementById('theme-toggle-btn');
+  const themeIcon = document.querySelector('.theme-toggle-icon');
+  
+  // 检查本地存储中的主题设置
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', savedTheme);
+  updateThemeIcon(savedTheme);
+  
+  // 主题切换事件
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener('click', function() {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateThemeIcon(newTheme);
+    });
+  }
+  
+  // 更新主题图标
+  function updateThemeIcon(theme) {
+    if (themeIcon) {
+      themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
+      themeIcon.setAttribute('aria-label', theme === 'dark' ? '切换到白天模式' : '切换到黑夜模式');
+    }
+  }
+
 });
