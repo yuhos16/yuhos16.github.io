@@ -6,7 +6,7 @@
 <div class='paper-box-text' markdown="1">
 
 [SkinGPT-R1: A Minimal-Parameter Dermatology Reasoning Model via Adapter-Only Dual Distillation on Vision–R1](https://arxiv.org/abs/XXYY.ZZZZZ) \\
-**Yuhao Shen**, Jiahe Qian, Zhangtianyi Chen, Yuanhao He, Juexiao Zhou
+**Yuhao Shen#**, Jiahe Qian#, Zhangtianyi Chen, Yuanhao He, Juexiao Zhou
 
 [**Project**](https://github.com/placeholder/SkinGPT-R1) \| [**Code**](https://github.com/placeholder/SkinGPT-R1)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINGPT_R1'></span></strong>
 
@@ -19,7 +19,7 @@
 <div class='paper-box-text' markdown="1">
 
 [CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training](https://arxiv.org/abs/AA.BBBB) \\
-Jiahe Qian, **Yuhao Shen**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
+Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 
 [**Project**](https://github.com/placeholder/CoTBox-TTT) \| [**Code**](https://github.com/placeholder/CoTBox-TTT)  <strong><span class='show_paper_citations' data='PLACEHOLDER_COTBOX_TTT'></span></strong>
 
@@ -28,28 +28,29 @@ Jiahe Qian, **Yuhao Shen**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026 · Under Review</div><img src='images/dermeval.jpg' alt="DermBench & DermEval" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives](https://arxiv.org/abs/CC.DDDDD) \\
-**Yuhao Shen**, Jiahe Qian, Shuping Zhang, Zhangtianyi Chen, Tao Lu, Juexiao Zhou*
-
-[**Benchmark**](https://github.com/placeholder/DermBench) \| [**Project**](https://github.com/placeholder/DermEval)  <strong><span class='show_paper_citations' data='PLACEHOLDER_DERMBENCH'></span></strong>
-
-- Propose **DermBench** (six clinical dimensions) and **DermEval** (reference-free evaluator) for image–text dermatology reasoning aligned with physician scoring.
-- Curate dermatologist-verified image–narrative pairs; standardized reporting for safety, groundedness, and reasoning quality.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Scientific Data · Under Review</div><img src='images/skincare.jpg' alt="SkinCaRe Dataset" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Scientific Data · Under Review</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning](https://arxiv.org/abs/EE.FFFFF) \\
-**Yuhao Shen**, Liyuan Sun, Yan Xu, Wenbin Liu, Shuping Zhang, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
+**Yuhao Shen#**, Liyuan Sun#, Yan Xu#, Wenbin Liu#, Shuping Zhang#, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
 
 [**Dataset**](https://huggingface.co/datasets/placeholder/SkinCaRe) \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong>
 
 - Release **SkinCaRe**, unifying SkinCAP (medical captions) and SkinCoT (clinician-verified chains-of-thought) for transparent dermatologic reasoning.
 - Enables training and evaluation of VLMs that both **describe** findings and **explain** diagnostic steps.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026 · Under Review</div><img src='images/dermeval.jpg' alt="DermBench & DermEval" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives](https://arxiv.org/abs/CC.DDDDD) \\
+**Yuhao Shen#**, Jiahe Qian#, Shuping Zhang#, Zhangtianyi Chen, Tao Lu, Juexiao Zhou*
+
+[**Benchmark**](https://github.com/placeholder/DermBench) \| [**Project**](https://github.com/placeholder/DermEval)  <strong><span class='show_paper_citations' data='PLACEHOLDER_DERMBENCH'></span></strong>
+
+- Propose **DermBench** (six clinical dimensions) and **DermEval** (reference-free evaluator) for image–text dermatology reasoning aligned with physician scoring.
+- Curate dermatologist-verified image–narrative pairs; standardized reporting for safety, groundedness, and reasoning quality.
 </div>
 </div>
