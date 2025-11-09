@@ -26,7 +26,7 @@ Jiahe Qian, **Yuhao Shen**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026 · Under Review</div><img src='images/dermeval.pdf' alt="DermBench & DermEval" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026 · Under Review</div><img src='images/dermeval.png' alt="DermBench & DermEval" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives](https://arxiv.org/abs/CC.DDDDD) \\
