@@ -1,6 +1,6 @@
 ## 🩺 Dermatology & Multimodal Reasoning
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 · Under Review</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 · Under Review</div><img src='images/skingpt-r1.pdf' alt="SkinGPT-R1" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SkinGPT-R1: A Minimal-Parameter Dermatology Reasoning Model via Adapter-Only Dual Distillation on Vision–R1](https://arxiv.org/abs/XXYY.ZZZZZ) \\
@@ -26,7 +26,7 @@ Jiahe Qian, **Yuhao Shen**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026 · Under Review</div><img src='images/dermbench.png' alt="DermBench & DermEval" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026 · Under Review</div><img src='images/dermeval.pdf' alt="DermBench & DermEval" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives](https://arxiv.org/abs/CC.DDDDD) \\
@@ -39,7 +39,7 @@ Jiahe Qian, **Yuhao Shen**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Scientific Data · Under Review</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Scientific Data · Under Review</div><img src='images/skincare.pdf' alt="SkinCaRe Dataset" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning](https://arxiv.org/abs/EE.FFFFF) \\
