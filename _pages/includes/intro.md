@@ -6,4 +6,4 @@ I received my Bachelor's degree in Computer Science and Technology from Hangzhou
 
 My research interests include **_AI for Healthcare_**, **_Large Language Models(LLMs)_**, and **_Medical Imaging_**. I'm passionate about building intelligent medical applications and translating research into real-world impact.
 
-I'm always open to academic discussions, potential collaborations and interdisciplinary projects. Feel free to reach out at <u>yuhaoshen [at] link [dot] cuhk [dot] edu [dot] cn<u>.
+I'm always open to academic discussions, potential collaborations and interdisciplinary projects. Feel free to reach out at **yuhaoshen [at] link [dot] cuhk [dot] edu [dot] cn<**.

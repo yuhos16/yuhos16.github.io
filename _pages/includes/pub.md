@@ -1,6 +1,6 @@
 # Publications
 *# equal contribution, * corresponding author*
-## 🩺 AI-Driven Intelligence Application in Dermtoalogy 
+## 🩺 AI-Driven Intelligence System for Dermtoalogy 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 · Under Review</div><img src='images/skingpt_r1.jpg' alt="SkinGPT-R1" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -15,7 +15,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 · Under Review</div><img src='images/cotbox-ttt.png' alt="CoTBox-TTT" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 · Under Review</div><img src='images/ttt.jpg' alt="CoTBox-TTT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training](https://arxiv.org/abs/AA.BBBB) \\
