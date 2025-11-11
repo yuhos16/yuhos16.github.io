@@ -31,10 +31,10 @@ Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Scientific Data · Under Review</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning](https://arxiv.org/abs/EE.FFFFF) \\
+[SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning](https://arxiv.org/abs/2405.18004) \\
 **Yuhao Shen#**, Liyuan Sun#, Yan Xu#, Wenbin Liu#, Shuping Zhang#, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
 
-[**Dataset**](https://huggingface.co/datasets/placeholder/SkinCaRe) \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong>
+[**Dataset**](https://huggingface.co/datasets/yuhos16/SkinCaRe) \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong>
 
 - Release **SkinCaRe**, unifying SkinCAP (medical captions) and SkinCoT (clinician-verified chains-of-thought) for transparent dermatologic reasoning.
 - Enables training and evaluation of VLMs that both **describe** findings and **explain** diagnostic steps.
