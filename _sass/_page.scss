@@ -23,6 +23,7 @@
     @include prefix(0 of 12);
     @include suffix(0 of 12);
     @include nobreak();
+    float: left;
   }
 
   .page__inner-wrap {
