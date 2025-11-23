@@ -14,10 +14,11 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    @include span(3 of 12);
     float: none;
     margin-left: 0;
-    flex: 0 0 auto;
+    width: 300px;
+    max-width: 300px;
+    flex: 0 0 300px;
     order: 2;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
