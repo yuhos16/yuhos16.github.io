@@ -132,6 +132,8 @@ html.theme-dark body {
 html.theme-dark a {
   color: #8ab4f8;
 }
+html.theme-dark a:visited { color: #a0bdfc; }
+html.theme-dark a:hover { color: #bcd2ff; }
 
 html.theme-dark .masthead {
   background-color: #1a1a1a;
@@ -167,6 +169,9 @@ html.theme-dark .page__footer {
 html.theme-dark .page__content h1 {
   border-bottom-color: #333;
 }
+html.theme-dark .page__content h1, 
+html.theme-dark .page__content h2, 
+html.theme-dark .page__content h3 { color: #f2f2f2; }
 
 html.theme-dark .page__share,
 html.theme-dark .page__related,
@@ -186,6 +191,11 @@ html.theme-dark td > code {
   background: #1e1e1e;
   border-color: #333;
 }
+html.theme-dark .page__content strong, 
+html.theme-dark .page__content b { color: #ffffff; }
+html.theme-dark .page__content em, 
+html.theme-dark .page__content i { color: #e6e6e6; }
+html.theme-dark .page__content mark { background: #3a5fff; color: #fff; border-radius: 2px; }
 
 html.theme-dark .toc {
   background-color: #1a1a1a;
