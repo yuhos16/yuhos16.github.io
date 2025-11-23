@@ -311,11 +311,34 @@ html.theme-dark a:hover {
   align-items: center;
   font-weight: 700;
 }
-.masthead__menu-home-item a:before {
-  content: "";
+html:not(.theme-dark) .masthead__menu-home-item a { color: #000 !important; }
+
+.accent-bar {
   display: inline-block;
   width: 4px;
   height: 1.2em;
+  background-color: #00369f;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.boxed-link {
+  display: inline-block;
+  border: 1px solid #00369f;
+  border-radius: 6px;
+  padding: 0.1em 0.4em;
+  margin-left: 0.6em;
+}
+
+.vitem {
+  display: flex;
+  align-items: center;
+  margin: 0.25em 0;
+}
+.accent-bar-sm {
+  display: inline-block;
+  width: 4px;
+  height: 1em;
   background-color: #00369f;
   border-radius: 2px;
   margin-right: 8px;
