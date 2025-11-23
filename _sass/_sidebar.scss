@@ -97,9 +97,8 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
-      width: 175px;
-      height: 175px;
-      object-fit: cover;
+      width: auto;
+      height: auto;
       padding: 0;
       border: 0;
       box-shadow: 0 0 0 1px $border-color;

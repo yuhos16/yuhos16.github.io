@@ -1,4 +1,4 @@
-# Publications
+# 📚 Publications
 *# Equal Contribution*
 ## 🩺 AI-Driven Intelligence System for Dermtoalogy 
 
