@@ -11,7 +11,7 @@
 <!-- [**Project**](https://github.com/placeholder/SkinGPT-R1) \| [**Code**](https://github.com/placeholder/SkinGPT-R1)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINGPT_R1'></span></strong> -->
 
 - Introduce **SkinGPT-R1**, a dermatology-focused VLM that performs explicit, step-by-step, verifiable diagnostic chain-of-thought reasoning through DermCoT supervision and dermatology-aware visual distillation.
-- Establish **DermBench** and **DermEval** as the first physician-aligned framework for dermatologic narrative evaluation, enabling reliable benchmarking of VLMs across six clinically grounded dimensions.
+<!-- removed second bullet -->
 </div>
 </div>
 
@@ -25,7 +25,7 @@
  <!-- \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong> -->
 
 - Release **SkinCaRe**, unifying SkinCAP (medical captions) and SkinCoT (clinician-verified chains-of-thought) for transparent dermatologic reasoning.
-- Enables training and evaluation of VLMs that both **describe** findings and **explain** diagnostic steps.
+<!-- removed second bullet -->
 </div>
 </div>
 
@@ -39,7 +39,7 @@
 <!-- [**Benchmark**](https://github.com/placeholder/DermBench) \| [**Project**](https://github.com/placeholder/DermEval)  <strong><span class='show_paper_citations' data='PLACEHOLDER_DERMBENCH'></span></strong> -->
 
 - Propose **DermBench** (six clinical dimensions) and **DermEval** (reference-free evaluator) for image–text dermatology reasoning aligned with physician scoring.
-- Curate dermatologist-verified image–narrative pairs; standardized reporting for safety, groundedness, and reasoning quality.
+<!-- removed second bullet -->
 </div>
 </div>
 
@@ -52,6 +52,6 @@ Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 <!-- [**Project**](https://github.com/placeholder/CoTBox-TTT) \| [**Code**](https://github.com/placeholder/CoTBox-TTT)  <strong><span class='show_paper_citations' data='PLACEHOLDER_COTBOX_TTT'></span></strong> -->
 
 - Evidence-first **test-time training** with all backbones frozen; update a small set of continuous soft prompts guided by **visual chain-of-thought boxes**.
-- Enforces answer consistency between full image and localized crops; label-free, plug-and-play, robust to domain shift with low compute.
+<!-- removed second bullet -->
 </div>
 </div>
