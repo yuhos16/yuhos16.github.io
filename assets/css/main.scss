@@ -121,10 +121,11 @@ h1:before,
 body {
   font-size: 18px; // 默认大多是16px，你可以根据喜好改为 18~20px
   line-height: 1.8; // 行间距可提升可读性
+  background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
 }
 
 html.theme-dark body {
-  background-color: #111;
+  background: linear-gradient(180deg, #0f0f0f 0%, #171717 100%);
   color: #e0e0e0;
 }
 
