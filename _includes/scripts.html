@@ -9,23 +9,27 @@
       if(saved === 'dark' || saved === 'light') return saved;
       return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     }
+    function setIcon(theme){
+      var btn = document.getElementById('theme-toggle-btn');
+      if(!btn) return;
+      btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+      btn.setAttribute('title', theme === 'dark' ? '切换为浅色' : '切换为深色');
+    }
     function applyTheme(theme){
       var root = document.documentElement;
-      var toggle = document.getElementById('theme-toggle');
       if(theme === 'dark'){
         root.classList.add('theme-dark');
-        if(toggle) toggle.textContent = 'Light';
       } else {
         root.classList.remove('theme-dark');
-        if(toggle) toggle.textContent = 'Dark';
       }
       localStorage.setItem('theme', theme);
+      setIcon(theme);
     }
     document.addEventListener('DOMContentLoaded', function(){
       applyTheme(getPreferredTheme());
       document.addEventListener('click', function(e){
         var t = e.target;
-        if(t && t.id === 'theme-toggle'){
+        if(t && t.id === 'theme-toggle-btn'){
           e.preventDefault();
           applyTheme(document.documentElement.classList.contains('theme-dark') ? 'light' : 'dark');
         }

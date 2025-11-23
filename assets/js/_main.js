@@ -109,21 +109,28 @@ $(document).ready(function () {
     return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
   };
 
+  var setIcon = function (theme) {
+    var $btn = $("#theme-toggle-btn");
+    if ($btn.length) {
+      $btn.text(theme === 'dark' ? '☀️' : '🌙');
+      $btn.attr('title', theme === 'dark' ? '切换为浅色' : '切换为深色');
+    }
+  };
+
   var applyTheme = function (theme) {
     if (theme === 'dark') {
       document.documentElement.classList.add('theme-dark');
-      $("#theme-toggle").text('Light');
     } else {
       document.documentElement.classList.remove('theme-dark');
-      $("#theme-toggle").text('Dark');
     }
     localStorage.setItem('theme', theme);
+    setIcon(theme);
   };
 
   var currentTheme = getPreferredTheme();
   applyTheme(currentTheme);
 
-  $(document).on('click', '#theme-toggle', function (e) {
+  $(document).on('click', '#theme-toggle-btn', function (e) {
     e.preventDefault();
     var t = document.documentElement.classList.contains('theme-dark') ? 'light' : 'dark';
     applyTheme(t);

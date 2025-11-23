@@ -18,6 +18,7 @@
     @include clearfix;
     padding: .5em;
     font-family: $sans-serif-narrow;
+    position: relative;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -58,6 +59,23 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+  }
+}
+
+.theme-toggle {
+  position: absolute;
+  right: 0.5em;
+  top: 0.25em;
+  z-index: 25;
+
+  button {
+    background: transparent;
+    border: 1px solid $border-color;
+    border-radius: 999px;
+    padding: 0.25em 0.5em;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
   }
 }
 
