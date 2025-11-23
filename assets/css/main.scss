@@ -311,7 +311,7 @@ html.theme-dark a:hover {
   align-items: center;
   font-weight: 700;
 }
-html:not(.theme-dark) .masthead__menu-home-item a { color: #000 !important; }
+html:not(.theme-dark) .masthead__menu-home-item a { color: $text-color; }
 
 .accent-bar {
   display: inline-block;

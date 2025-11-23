@@ -18,7 +18,7 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Scientific Data · Under Review</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning](https://arxiv.org/abs/2405.18004) <a class="boxed-link" href="https://huggingface.co/datasets/yuhos16/SkinCaRe">[Dataset]</a> \\
+[SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning](https://arxiv.org/abs/2405.18004)&nbsp;<a href="https://huggingface.co/datasets/yuhos16/SkinCaRe">[Dataset]</a> \\
 **Yuhao Shen#**, Liyuan Sun#, Yan Xu#, Wenbin Liu#, Shuping Zhang#, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
 
  <!-- \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong> -->
