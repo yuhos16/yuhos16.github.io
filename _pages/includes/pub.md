@@ -10,7 +10,7 @@
 
 <!-- [**Project**](https://github.com/placeholder/SkinGPT-R1) \| [**Code**](https://github.com/placeholder/SkinGPT-R1)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINGPT_R1'></span></strong> -->
 
-- Introduce **SkinGPT-R1**, a dermatology-focused VLM that performs explicit, step-by-step, verifiable diagnostic chain-of-thought reasoning through DermCoT supervision and dermatology-aware visual distillation.
+- Introduce **SkinGPT-R1**, a dermatology-focused VLM that performs explicit, step-by-step, verifiable diagnostic chain-of-thought reasoning.
 <!-- removed second bullet -->
 </div>
 </div>
