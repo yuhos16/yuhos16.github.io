@@ -258,25 +258,6 @@ html.theme-dark ::-moz-selection {
   color: #fff;
 }
 
-.page__content h1 {
-  position: relative;
-}
-.page__content h1::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 2px;
-  width: 100%;
-  background: linear-gradient(90deg, #3a5fff, #7f53ff, #3a5fff);
-  background-size: 200% 100%;
-  animation: accentMove 6s linear infinite;
-}
-
-@keyframes accentMove {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
-}
 
 html.theme-dark a:hover {
   text-shadow: 0 0 8px rgba(138, 180, 248, 0.6);
