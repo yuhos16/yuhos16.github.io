@@ -26,11 +26,13 @@
 
   .page__inner-wrap {
     @include full();
+    @include nobreak();
 
     .page__content,
     .page__meta,
     .page__share {
       @include full();
+      @include nobreak();
     }
   }
 }
