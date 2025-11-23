@@ -48,6 +48,15 @@
   flex-wrap: wrap;
   border-bottom: 1px #efefef solid;
   padding: 2em 0 2em 0;
+  background: rgba(255,255,255,0.6);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  transition: transform .2s ease, box-shadow .2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.1);
+  }
 
   .paper-box-image {
     justify-content: center;
@@ -81,6 +90,11 @@
       order: 2;
     }
   }
+}
+
+html.theme-dark .paper-box {
+  background: rgba(32,32,32,0.6);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
 
 $scroll_offset: 2em;

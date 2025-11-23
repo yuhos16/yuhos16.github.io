@@ -10,8 +10,7 @@
 
 <!-- [**Project**](https://github.com/placeholder/SkinGPT-R1) \| [**Code**](https://github.com/placeholder/SkinGPT-R1)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINGPT_R1'></span></strong> -->
 
-- Freeze Vision–R1 and train only ~0.001% parameters via adapter-only **dual distillation** (visual prior transfer + instruction-tuned CoT) for step-by-step, verifiable dermatologic reasoning.
-- Teacher-free, low-latency inference; strong gains on safety & medical groundedness on DermBench (details in paper).
+**SkinGPT-R1** 是一个专注皮肤科的视觉-语言模型，显式、逐步、可验证地执行诊断 Chain-of-Thought 推理。我们构建 **DermCoT**（标准化皮肤科 CoT 语料，含 10,000 条 DermEval 过滤训练样本与 3,000 条皮肤科专家评分样本），并提出 **DermEval**（与医生一致的六维评估器）及对应基准 **DermBench**。在 DermBench 上，跨 14 个通用/推理/医学 VLM，**SkinGPT-R1** 在六个维度上取得平均 **4.031/5** 的得分，排名第 1，相比 Vision-R1 提升约 **41%**。在三项皮肤科分类基准上，**SkinGPT-R1** 相比 Vision-R1 也获得稳定的准确率提升并保持竞争力。消融实验显示：基于 **DermCoT** 的 CoT 监督显著优于基线；同时加入面向皮肤病学的视觉蒸馏可在叙述质量与识别上带来一致增益。
 </div>
 </div>
 
