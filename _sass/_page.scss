@@ -22,6 +22,7 @@
     @include span(9 of 12);
     @include prefix(0 of 12);
     @include suffix(0 of 12);
+    @include nobreak();
   }
 
   .page__inner-wrap {
