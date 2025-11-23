@@ -14,6 +14,12 @@
   @include breakpoint($x-large) {
     max-width: $x-large;
   }
+
+  @include breakpoint($large) {
+    display: flex;
+    align-items: flex-start;
+    gap: 8em;
+  }
 }
 
 .page {
@@ -23,7 +29,8 @@
     @include prefix(0 of 12);
     @include suffix(0 of 12);
     @include nobreak();
-    float: left;
+    float: none;
+    flex: 1 1 auto;
   }
 
   .page__inner-wrap {
