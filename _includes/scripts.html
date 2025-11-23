@@ -12,7 +12,12 @@
     function setIcon(theme){
       var btn = document.getElementById('theme-toggle-btn');
       if(!btn) return;
-      btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+      var sun = btn.querySelector('.icon-sun');
+      var moon = btn.querySelector('.icon-moon');
+      if(sun && moon){
+        sun.style.display = theme === 'dark' ? 'inline' : 'none';
+        moon.style.display = theme === 'dark' ? 'none' : 'inline';
+      }
       btn.setAttribute('title', theme === 'dark' ? '切换为浅色' : '切换为深色');
     }
     function applyTheme(theme){

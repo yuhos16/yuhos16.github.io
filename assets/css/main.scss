@@ -186,3 +186,28 @@ html.theme-dark .toc .nav__title {
 html.theme-dark .theme-toggle button {
   border-color: #333;
 }
+
+.theme-toggle-fixed {
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 1000;
+}
+
+.theme-toggle-fixed button {
+  background: transparent;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+  padding: 0.25em 0.5em;
+  font-size: 1rem;
+  line-height: 1;
+  color: $dark-gray;
+}
+
+.theme-toggle-fixed .icon-sun { display: none; }
+.theme-toggle-fixed .icon-moon { display: inline; }
+
+html.theme-dark .theme-toggle-fixed button { color: #e0e0e0; }
+html.theme-dark .theme-toggle-fixed .icon-sun { display: inline; }
+html.theme-dark .theme-toggle-fixed .icon-moon { display: none; }
+html.theme-dark .theme-toggle-fixed button { border-color: #333; }
