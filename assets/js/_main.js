@@ -102,4 +102,30 @@ $(document).ready(function () {
     closeOnContentClick: true,
     midClick: true, // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
+
+  var getPreferredTheme = function () {
+    var saved = localStorage.getItem('theme');
+    if (saved === 'dark' || saved === 'light') return saved;
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  };
+
+  var applyTheme = function (theme) {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('theme-dark');
+      $("#theme-toggle").text('Light');
+    } else {
+      document.documentElement.classList.remove('theme-dark');
+      $("#theme-toggle").text('Dark');
+    }
+    localStorage.setItem('theme', theme);
+  };
+
+  var currentTheme = getPreferredTheme();
+  applyTheme(currentTheme);
+
+  $(document).on('click', '#theme-toggle', function (e) {
+    e.preventDefault();
+    var t = document.documentElement.classList.contains('theme-dark') ? 'light' : 'dark';
+    applyTheme(t);
+  });
 });

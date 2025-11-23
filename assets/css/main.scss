@@ -10,7 +10,7 @@
  *
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/breakpoint/_breakpoint"; /* media query mixins */
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -107,4 +107,79 @@ h1:before,
 body {
   font-size: 18px; // 默认大多是16px，你可以根据喜好改为 18~20px
   line-height: 1.8; // 行间距可提升可读性
+}
+
+html.theme-dark body {
+  background-color: #111;
+  color: #e0e0e0;
+}
+
+html.theme-dark a {
+  color: #8ab4f8;
+}
+
+html.theme-dark .masthead {
+  background-color: #1a1a1a;
+  border-bottom-color: #333;
+}
+
+html.theme-dark .greedy-nav {
+  background: #1a1a1a;
+}
+
+html.theme-dark .greedy-nav a {
+  color: #ddd;
+}
+
+html.theme-dark .greedy-nav .visible-links a:before {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+html.theme-dark .greedy-nav .hidden-links {
+  background: #1e1e1e;
+  border-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+html.theme-dark .greedy-nav .hidden-links:after {
+  border-color: #1e1e1e transparent;
+}
+
+html.theme-dark .page__footer {
+  background-color: #0f0f0f;
+  color: #aaa;
+  border-top-color: #333;
+}
+
+html.theme-dark .page__content h1 {
+  border-bottom-color: #333;
+}
+
+html.theme-dark .page__share,
+html.theme-dark .page__related,
+html.theme-dark .page__comments-title {
+  border-top-color: #333;
+}
+
+html.theme-dark .page__comments-form {
+  background: #1a1a1a;
+}
+
+html.theme-dark p > code,
+html.theme-dark a > code,
+html.theme-dark li > code,
+html.theme-dark figcaption > code,
+html.theme-dark td > code {
+  background: #1e1e1e;
+  border-color: #333;
+}
+
+html.theme-dark .toc {
+  background-color: #1a1a1a;
+  border-color: #333;
+  color: #bbb;
+}
+
+html.theme-dark .toc .nav__title {
+  background: #333;
 }
