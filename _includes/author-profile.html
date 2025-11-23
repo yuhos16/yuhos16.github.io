@@ -28,6 +28,9 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
+      {% if author.cv %}
+        <li><a href="{{ author.cv }}"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> {% if author.cv_label %}{{ author.cv_label }}{% else %}CV{% endif %}</a></li>
+      {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
@@ -120,6 +123,9 @@
 {% endif %}
     </ul>
       <div class="author__urls_sm">
+      {% if author.cv %}
+        <a href="{{ author.cv }}"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i></a>
+      {% endif %}
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
