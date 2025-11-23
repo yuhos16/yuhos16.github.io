@@ -31,6 +31,7 @@
     @include nobreak();
     float: none;
     flex: 1 1 auto;
+    order: 1;
   }
 
   .page__inner-wrap {
