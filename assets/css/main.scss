@@ -127,9 +127,7 @@ html.theme-dark .greedy-nav {
   background: #1a1a1a;
 }
 
-html.theme-dark .greedy-nav a {
-  color: #ddd;
-}
+html.theme-dark .greedy-nav a { color: #f0f0f0; }
 
 html.theme-dark .greedy-nav .visible-links a:before {
   background: rgba(255, 255, 255, 0.3);
@@ -190,6 +188,7 @@ html.theme-dark .author__avatar img {
   border-color: #444;
   box-shadow: 0 0 0 1px #444;
 }
+ .author__avatar img { box-shadow: 0 0 0 1px $border-color; }
 
 html.theme-dark .author__urls .fas,
 html.theme-dark .author__urls .fab,

@@ -5,9 +5,10 @@
 <script>
   (function(){
     function getPreferredTheme(){
-      var saved = localStorage.getItem('theme');
+      var saved = null;
+      try { saved = localStorage.getItem('theme'); } catch(e) {}
       if(saved === 'dark' || saved === 'light') return saved;
-      return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      return 'dark';
     }
     function setIcon(theme){
       var btn = document.getElementById('theme-toggle-btn');
@@ -27,18 +28,18 @@
       } else {
         root.classList.remove('theme-dark');
       }
-      localStorage.setItem('theme', theme);
+      try { localStorage.setItem('theme', theme); } catch(e) {}
       setIcon(theme);
     }
     document.addEventListener('DOMContentLoaded', function(){
       applyTheme(getPreferredTheme());
-      document.addEventListener('click', function(e){
-        var t = e.target;
-        if(t && t.id === 'theme-toggle-btn'){
+      var btn = document.getElementById('theme-toggle-btn');
+      if(btn){
+        btn.addEventListener('click', function(e){
           e.preventDefault();
           applyTheme(document.documentElement.classList.contains('theme-dark') ? 'light' : 'dark');
-        }
-      });
+        }, { passive: true });
+      }
     });
   })();
 </script>

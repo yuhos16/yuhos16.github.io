@@ -10,6 +10,15 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
+<script>
+  (function(){
+    var saved = null;
+    try { saved = localStorage.getItem('theme'); } catch(e) {}
+    var initial = (saved === 'dark' || saved === 'light') ? saved : 'dark';
+    if(initial === 'dark') { document.documentElement.classList.add('theme-dark'); }
+  })();
+</script>
+
 <!-- For all browsers -->
 <link rel="stylesheet" href="assets/css/main.css">
 
