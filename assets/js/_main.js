@@ -103,36 +103,5 @@ $(document).ready(function () {
     midClick: true, // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
-  var getPreferredTheme = function () {
-    var saved = localStorage.getItem('theme');
-    if (saved === 'dark' || saved === 'light') return saved;
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  };
-
-  var setIcon = function (theme) {
-    var $btn = $("#theme-toggle-btn");
-    if ($btn.length) {
-      $btn.text(theme === 'dark' ? '☀️' : '🌙');
-      $btn.attr('title', theme === 'dark' ? '切换为浅色' : '切换为深色');
-    }
-  };
-
-  var applyTheme = function (theme) {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('theme-dark');
-    } else {
-      document.documentElement.classList.remove('theme-dark');
-    }
-    localStorage.setItem('theme', theme);
-    setIcon(theme);
-  };
-
-  var currentTheme = getPreferredTheme();
-  applyTheme(currentTheme);
-
-  $(document).on('click', '#theme-toggle-btn', function (e) {
-    e.preventDefault();
-    var t = document.documentElement.classList.contains('theme-dark') ? 'light' : 'dark';
-    applyTheme(t);
-  });
+  // theme toggle handled inline in scripts.html to avoid duplicate handlers
 });

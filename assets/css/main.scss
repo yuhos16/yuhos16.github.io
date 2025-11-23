@@ -186,11 +186,28 @@ html.theme-dark .toc .nav__title {
 html.theme-dark .theme-toggle button {
   border-color: #333;
 }
+html.theme-dark .author__avatar img {
+  border-color: #444;
+  box-shadow: 0 0 0 1px #444;
+}
+
+html.theme-dark .author__urls .fas,
+html.theme-dark .author__urls .fab,
+html.theme-dark .author__urls .far,
+html.theme-dark .author__urls .fal {
+  color: #ddd;
+}
+html.theme-dark .author__urls a {
+  color: #ddd;
+}
+html.theme-dark .author__urls_sm a {
+  color: #ddd;
+}
 
 .theme-toggle-fixed {
   position: fixed;
-  top: 0.5rem;
-  right: 0.5rem;
+  top: 0.75rem;
+  right: 0.75rem;
   z-index: 1000;
 }
 
@@ -198,10 +215,15 @@ html.theme-dark .theme-toggle button {
   background: transparent;
   border: 1px solid $border-color;
   border-radius: 999px;
-  padding: 0.25em 0.5em;
-  font-size: 1rem;
+  padding: 0.4em 0.6em;
+  font-size: 1.2rem;
   line-height: 1;
   color: $dark-gray;
+}
+
+.theme-toggle-fixed svg {
+  width: 26px;
+  height: 26px;
 }
 
 .theme-toggle-fixed .icon-sun { display: none; }

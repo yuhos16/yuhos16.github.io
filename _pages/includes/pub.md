@@ -1,5 +1,5 @@
 # Publications
-*# equal contribution, * corresponding author*
+*# Equal Contribution*
 ## 🩺 AI-Driven Intelligence System for Dermtoalogy 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 · Under Review</div><img src='images/skingpt_r1.jpg' alt="SkinGPT-R1" width="100%"></div></div>

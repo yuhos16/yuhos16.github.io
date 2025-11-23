@@ -97,7 +97,10 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
+      width: 175px;
+      height: 175px;
+      object-fit: cover;
+      padding: 0;
       border: 1px solid $border-color;
     }
   }
