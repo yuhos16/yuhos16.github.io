@@ -290,3 +290,32 @@ html.theme-dark ::-moz-selection {
 html.theme-dark a:hover {
   text-shadow: 0 0 8px rgba(138, 180, 248, 0.6);
 }
+
+/* vertical accent bars before name and welcome link */
+.author__name {
+  display: inline-flex;
+  align-items: center;
+}
+.author__name:before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 1.2em;
+  background-color: #00369f;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.masthead__menu-home-item a {
+  display: inline-flex;
+  align-items: center;
+}
+.masthead__menu-home-item a:before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 1.2em;
+  background-color: #00369f;
+  border-radius: 2px;
+  margin-right: 8px;
+}
