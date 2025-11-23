@@ -47,7 +47,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   border-bottom: 1px #efefef solid;
-  padding: 1em 3em;
+  padding: 0.8em 2em;
   min-height: 0;
   background: rgba(255,255,255,0.6);
   border-radius: 12px;
@@ -82,14 +82,14 @@
     .paper-box-image {
       justify-content: left;
       min-width: 200px;
-      max-width: 22%;
+      max-width: 40%;
       order: 1;
     }
 
     .paper-box-text {
       justify-content: left;
-      padding-left: 1.2em;
-      max-width: 78%;
+      padding-left: 1em;
+      max-width: 60%;
       flex: 1 1 auto;
       order: 2;
     }
