@@ -97,15 +97,8 @@ html.theme-dark .paper-box {
   box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
 
-$scroll_offset: 2em;
-.anchor:before {
-  content: "";
-  display: block;
-  position: relative;
-  width: 0;
-  height: $scroll_offset;
-  margin-top: -$scroll_offset;
-}
+$scroll_offset: 0;
+.anchor:before { content: ""; display: block; width: 0; height: 0; margin-top: 0; }
 
 .badge {
   padding-left: 1rem;
