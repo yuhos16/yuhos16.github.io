@@ -10,7 +10,8 @@
 
 <!-- [**Project**](https://github.com/placeholder/SkinGPT-R1) \| [**Code**](https://github.com/placeholder/SkinGPT-R1)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINGPT_R1'></span></strong> -->
 
-**SkinGPT-R1** is a dermatology-focused vision–language model that makes diagnostic chain-of-thought reasoning explicit, stepwise, and verifiable. To enable skin-specific reasoning, we curate **DermCoT**, a standardized corpus that combines 10,000 DermEval-filtered training cases with 3,000 dermatologist-scored certified cases, and define **DermEval** as a physician-aligned six-dimensional evaluator together with the benchmark **DermBench** for dermatologic CoT quality. On DermBench, across 14 general, reasoning, and medical VLMs, **SkinGPT-R1** achieves an average score of **4.031/5** over six clinician-defined dimensions, ranks first among all systems, and improves the average score over Vision–R1 by about **41%**. On three dermatology classification benchmarks, **SkinGPT-R1** delivers stable accuracy gains over Vision–R1 and remains competitive among strong VLMs. Ablations further demonstrate that DermCoT-based CoT supervision substantially improves over the base model, while adding dermatology-aware visual distillation yields consistent additional gains in both narrative quality and recognition.
+- Introduce **SkinGPT-R1**, a dermatology-focused VLM that performs explicit, step-by-step, verifiable diagnostic chain-of-thought reasoning through DermCoT supervision and dermatology-aware visual distillation.
+- Establish **DermBench** and **DermEval** as the first physician-aligned framework for dermatologic narrative evaluation, enabling reliable benchmarking of VLMs across six clinically grounded dimensions.
 </div>
 </div>
 
