@@ -117,7 +117,10 @@
     @include breakpoint($large){
       width: 220px;
     }
-    .bio-photo img{ width: 100%; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
+    .bio-photo img{ width: 100%; height: auto; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
+    @include breakpoint($small){
+      .bio-photo img{ max-height: 40vh; object-fit: contain; }
+    }
     .bio-links{
       list-style: none;
       padding: 0;

@@ -12,6 +12,7 @@ redirect_from:
 <h1>About Me</h1>
 <section class="bio-wrap">
   <div class="bio-main" markdown="1">
+    <h2 class="bio-title"><span class="accent-bar"></span>About Me</h2>
     {% capture bio_md %}{% include_relative includes/intro.md %}{% endcapture %}
     {{ bio_md | markdownify }}
   </div>
