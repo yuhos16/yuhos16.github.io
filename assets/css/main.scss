@@ -316,10 +316,11 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $text-color; }
 .accent-bar {
   display: inline-block;
   width: 4px;
-  height: 1.2em;
+  height: 1em;
   background-color: #00369f;
   border-radius: 2px;
   margin-right: 8px;
+  vertical-align: middle;
 }
 
 .boxed-link {
