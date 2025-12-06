@@ -21,6 +21,8 @@ redirect_from:
   </aside>
 </section>
 
+<p class="contact-line">I'm always open to academic discussions, potential collaborations and interdisciplinary projects. Feel free to reach out at: <strong>yuhaoshen [at] link [dot] cuhk [dot] edu [dot] cn</strong>.</p>
+
 {% include_relative includes/news.md %}
 
 {% include_relative includes/pub.md %}

@@ -19,4 +19,4 @@ Hello! My primary research interest is **AI for Healthcare**. As a member of the
 <div class="vitem"><span class="accent-bar-sm"></span> <strong>LLM Reasoning & Reinforcement learning</strong></div>
 <div class="vitem"><span class="accent-bar-sm"></span> <strong>Medical Imaging & Computer Vision</strong></div>
 
-I'm always open to academic discussions, potential collaborations and interdisciplinary projects. Feel free to reach out at: **yuhaoshen [at] link [dot] cuhk [dot] edu [dot] cn**.
+ 
