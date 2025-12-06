@@ -77,13 +77,7 @@
   }
 
   .bio-wrap{
-    display: flex;
-    align-items: flex-start;
-    gap: 1.5em;
-
-    @include breakpoint($small){
-      display: block;
-    }
+    display: block;
   }
 
   .bio-main{
@@ -107,6 +101,25 @@
       flex: none;
       width: 100%;
       margin: 0.5em 0 1em;
+    }
+  }
+
+  .bio-inline{
+    float: right;
+    width: 240px;
+    margin-left: 1.2em;
+    margin-bottom: .5em;
+    .profile_box{ display: block; }
+    .author__name, .author__bio{ display: none; }
+    .author__urls{ display: none !important; }
+    .author__avatar img{ max-width: 180px; }
+    .author__urls_sm{ display: block !important; font-size: 1.2em; }
+
+    @include breakpoint($small){
+      float: none;
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 1em;
     }
   }
 
