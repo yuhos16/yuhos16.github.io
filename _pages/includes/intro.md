@@ -13,8 +13,6 @@ The Chinese University of Hong Kong, Shenzhen</p>
   </div>
 
 
-Hello! My primary research interest is AI for Healthcare. As a member of the HEAL Group, I work under the supervision of Prof. Juexiao Zhou. I focus on building dependable AI systems for real clinical use, emphasizing safety, transparency, and rigorous evaluation. My current work centers on the following three areas:
-
 Hello! I’m Yuhao. My primary research interest is AI for Healthcare. As a member of the HEAL Group, I’m fortunate to work under the supervision of Prof. Juexiao Zhou. My current work centers on the following three areas:
 
 <div class="vitem"><span class="accent-bar-sm"></span> <strong>Medical Vision Language Models (VLMs) & Agents</strong></div>
