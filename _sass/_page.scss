@@ -111,9 +111,10 @@
     margin-bottom: .5em;
     .profile_box{ display: block; }
     .author__name, .author__bio{ display: none; }
+    .author__content{ display: none; }
     .author__urls{ display: none !important; }
-    .author__avatar img{ max-width: 180px; }
-    .author__urls_sm{ display: block !important; font-size: 1.2em; }
+    .author__avatar img{ max-width: 180px; display: block; margin-left: auto; }
+    .author__urls_sm{ display: flex !important; flex-wrap: wrap; gap: .4em; font-size: 1.1em; }
 
     @include breakpoint($small){
       float: none;

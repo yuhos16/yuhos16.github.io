@@ -14,7 +14,8 @@ redirect_from:
   <div class="bio-main" markdown="1">
     <h2 class="bio-title"><span class="accent-bar"></span>{{ site.author.name }}</h2>
     <div class="bio-inline">{% include author-profile.html %}</div>
-    {% include_relative includes/intro.md %}
+    {% capture bio_md %}{% include_relative includes/intro.md %}{% endcapture %}
+    {{ bio_md | markdownify }}
   </div>
 </section>
 
