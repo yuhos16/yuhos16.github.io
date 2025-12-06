@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "Bio"
+  - title: "About Me"
     url: "/#about-me"
 
   - title: "News"
@@ -17,4 +17,3 @@ main:
 
   - title: "Teaching"
     url: "/#-teaching"
-
