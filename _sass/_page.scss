@@ -140,6 +140,11 @@
   .bio-main .highlight,
   .bio-main code{ background: transparent; border: 0; box-shadow: none; }
 
+  .inline-links{ display:flex; flex-wrap:wrap; align-items:center; gap:.25em; font-size:$type-size-5; margin:.4em 0 1em; }
+  .inline-links a{ text-decoration:none; }
+  .inline-links i{ margin-right:.25em; }
+  .inline-links .sep{ margin:0 .5em; opacity:.8; }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;

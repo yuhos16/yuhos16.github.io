@@ -3,6 +3,23 @@
 School of Data Science<br>
 The Chinese University of Hong Kong, Shenzhen</p>
 
+<div class="inline-links">
+  <i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> <a href="{{ site.author.cv }}" target="_blank">{{ site.author.cv_label }}</a>
+  <span class="sep">|</span>
+  <i class="fas fa-fw fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ site.author.email }}">Email</a>
+  <span class="sep">|</span>
+  <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">LinkedIn</a>
+  <span class="sep">|</span>
+  <i class="ai ai-dblp ai-fw" aria-hidden="true"></i> <a href="{{ site.author.dblp }}" target="_blank">DBLP</a>
+  <span class="sep">|</span>
+  <i class="fab fa-fw fa-github" aria-hidden="true"></i> <a href="https://github.com/{{ site.author.github }}" target="_blank">Github</a>
+  <span class="sep">|</span>
+  <i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>
+  <span class="sep">|</span>
+  <i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> <a href="{{ site.author.orcid }}" target="_blank">ORCID</a>
+  </div>
+
+
 Hello! My primary research interest is **AI for Healthcare**. As a member of the HEAL Group, I work under the supervision of [Prof. Juexiao Zhou](https://www.joshuachou.ink/about/). I focus on building dependable AI systems for real clinical use, emphasizing safety, transparency, and rigorous evaluation. My current work centers on the following three areas:
 
 <div class="vitem"><span class="accent-bar-sm"></span> <strong>Medical Vision Language Models (VLMs) & Agents</strong></div>
