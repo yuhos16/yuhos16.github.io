@@ -1,7 +1,7 @@
 
 <p><strong>M.Phil Student</strong> in <strong>Computer Science</strong><br>
-HEAL Group, School of Data Science <code>https://sds.cuhk.edu.cn/</code><br>
-The Chinese University of Hong Kong, Shenzhen <code>https://www.cuhk.edu.cn/</code></p>
+HEAL Group, School of Data Science <a href="https://sds.cuhk.edu.cn/" target="_blank" rel="noopener">https://sds.cuhk.edu.cn/</a><br>
+The Chinese University of Hong Kong, Shenzhen <a href="https://www.cuhk.edu.cn/" target="_blank" rel="noopener">https://www.cuhk.edu.cn/</a></p>
 
 Hello! My primary research interest is **AI for Healthcare**. As a member of the **HEAL Group**, I work under the supervision of `https://www.joshuachou.ink/about/`. I focus on building dependable AI systems for real clinical use, emphasizing safety, transparency, and rigorous evaluation. My current work centers on the following three areas:
 
