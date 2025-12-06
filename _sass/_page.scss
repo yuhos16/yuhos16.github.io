@@ -76,21 +76,36 @@
     font-size: 1em;
   }
 
-  .inline-author{
-    float: right;
+  .bio-wrap{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5em;
+
+    @include breakpoint($small){
+      display: block;
+    }
+  }
+
+  .bio-main{
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .bio-side{
+    flex: 0 0 260px;
     width: 260px;
-    margin-left: 1.5em;
-    margin-bottom: 1em;
 
     .profile_box{ display: block; }
     .author__avatar img{ max-width: 120px; }
+    .author__name{ display: none; }
+    .author__bio{ display: none; }
     .author__urls{ display: none !important; }
     .author__urls_sm{ display: block !important; font-size: 1.25em; }
 
     @include breakpoint($small){
-      float: none;
+      flex: none;
       width: 100%;
-      margin-left: 0;
+      margin: 0.5em 0 1em;
     }
   }
 

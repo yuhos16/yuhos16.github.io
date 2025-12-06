@@ -9,8 +9,14 @@ redirect_from:
 ---
 
 <span class='anchor' id='about-me'></span>
-<div class="inline-author">{% include author-profile.html %}</div>
-{% include_relative includes/intro.md %}
+<section class="bio-wrap">
+  <div class="bio-main">
+    {% include_relative includes/intro.md %}
+  </div>
+  <aside class="bio-side">
+    {% include author-profile.html %}
+  </aside>
+</section>
 
 {% include_relative includes/news.md %}
 
