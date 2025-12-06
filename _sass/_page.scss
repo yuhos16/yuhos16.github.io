@@ -70,7 +70,7 @@
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
   }
-  .anchor + h1 { margin-top: 0; }
+  .anchor + h1 { margin-top: 0; border-bottom: 0; }
 
   p, li, dl {
     font-size: 1em;
@@ -90,7 +90,8 @@
   .bio-main{
     flex: 1 1 auto;
     min-width: 0;
-    .bio-title{ margin: 0 0 .5em; font-size: $type-size-3; }
+    .bio-title{ margin: 0 0 .5em; font-size: $type-size-3; background: transparent; border: 0; box-shadow: none; padding: 0; }
+    input{ display: none; }
   }
 
   .bio-side{
