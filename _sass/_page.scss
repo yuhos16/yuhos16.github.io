@@ -77,12 +77,12 @@
   }
 
   .bio-wrap{
-    display: flex;
-    align-items: flex-start;
-    gap: 1.5em;
-
-    @include breakpoint($small){
-      display: block;
+    display: block;
+    @include breakpoint($large){
+      display: grid;
+      grid-template-columns: 1fr 260px;
+      align-items: start;
+      gap: 1.5em;
     }
   }
 
@@ -111,18 +111,17 @@
   }
 
   .bio-fixed{
-    flex: 0 0 260px;
-    width: 260px;
-    .profile_box{ display: block; }
-    .author__name, .author__bio, .author__content{ display: none; }
-    .author__urls{ display: none !important; }
-    .author__avatar img{ max-width: 200px; }
-    .author__urls_sm{ display: flex !important; flex-wrap: wrap; gap: .4em; font-size: 1.1em; }
-
-    @include breakpoint($small){
-      flex: none;
-      width: 100%;
-      margin-top: .5em;
+    width: 100%;
+    @include breakpoint($large){
+      width: 260px;
+    }
+    .bio-photo img{ width: 100%; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
+    .bio-links{
+      list-style: none;
+      padding: 0;
+      margin: .6em 0 0;
+      li{ margin: .35em 0; font-size: $type-size-5; }
+      a{ text-decoration: none; }
     }
   }
 
