@@ -13,10 +13,12 @@ redirect_from:
 <section class="bio-wrap">
   <div class="bio-main" markdown="1">
     <h2 class="bio-title"><span class="accent-bar"></span>{{ site.author.name }}</h2>
-    <div class="bio-inline">{% include author-profile.html %}</div>
     {% capture bio_md %}{% include_relative includes/intro.md %}{% endcapture %}
     {{ bio_md | markdownify }}
   </div>
+  <aside class="bio-fixed">
+    {% include author-profile.html %}
+  </aside>
 </section>
 
 {% include_relative includes/news.md %}
