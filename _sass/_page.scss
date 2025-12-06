@@ -82,7 +82,8 @@
       display: grid;
       grid-template-columns: 1fr 220px;
       align-items: start;
-      gap: 1.2em;
+      column-gap: 2em;
+      row-gap: 0;
     }
   }
 
@@ -131,6 +132,9 @@
     padding: 0;
     margin: 0;
   }
+
+  .bio-main .highlight,
+  .bio-main code{ background: transparent; border: 0; box-shadow: none; }
 
   /* paragraph indents */
   p {
