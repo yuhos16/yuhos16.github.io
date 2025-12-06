@@ -9,8 +9,10 @@ redirect_from:
 ---
 
 <span class='anchor' id='about-me'></span>
+<h1>About Me</h1>
 <section class="bio-wrap">
   <div class="bio-main">
+    <h2 class="bio-title"><span class="accent-bar"></span>{{ site.author.name }}</h2>
     {% include_relative includes/intro.md %}
   </div>
   <aside class="bio-side">

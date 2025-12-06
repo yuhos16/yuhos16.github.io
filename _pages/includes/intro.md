@@ -1,5 +1,4 @@
 <a class="anchor" id="about-me"></a>
-# 👤 Bio
 
 I am currently a **M.Phil Student** in **Computer Science** at the [School of Data Science (SDS)](https://sds.cuhk.edu.cn/), The Chinese University of Hong Kong, Shenzhen. As a member of the **HEAL Group**, I am fortunate to work under the supervision of [Prof. Juexiao Zhou](https://www.joshuachou.ink/about/).
 
