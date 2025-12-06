@@ -2,13 +2,14 @@
 permalink: /
 title: ""
 excerpt: ""
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
 <span class='anchor' id='about-me'></span>
+<div class="inline-author">{% include author-profile.html %}</div>
 {% include_relative includes/intro.md %}
 
 {% include_relative includes/news.md %}

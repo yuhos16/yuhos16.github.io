@@ -76,6 +76,24 @@
     font-size: 1em;
   }
 
+  .inline-author{
+    float: right;
+    width: 260px;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+
+    .profile_box{ display: block; }
+    .author__avatar img{ max-width: 120px; }
+    .author__urls{ display: none !important; }
+    .author__urls_sm{ display: block !important; font-size: 1.25em; }
+
+    @include breakpoint($small){
+      float: none;
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
