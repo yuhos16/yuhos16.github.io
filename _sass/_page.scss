@@ -78,13 +78,13 @@
 
   .bio-wrap{
     display: grid;
-    grid-template-columns: 1fr 160px;
+    grid-template-columns: 1fr;
     align-items: start;
-    column-gap: 1.5em;
-    row-gap: 0;
+    row-gap: 1em;
     @include breakpoint($medium){
       grid-template-columns: 1fr 200px;
       column-gap: 2em;
+      row-gap: 0;
     }
     @include breakpoint($large){
       grid-template-columns: 1fr 220px;
@@ -117,13 +117,18 @@
   }
 
   .bio-fixed{
-    width: 160px;
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
     @include breakpoint($medium){
       width: 200px;
+      max-width: none;
+      margin: 0;
     }
     @include breakpoint($large){
       width: 220px;
     }
+    .bio-photo{ display: flex; justify-content: center; }
     .bio-photo img{ width: 100%; height: auto; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
     @include breakpoint($small){
       .bio-photo img{ max-height: 40vh; object-fit: contain; }
@@ -141,9 +146,9 @@
   .bio-main .highlight,
   .bio-main code{ background: transparent; border: 0; box-shadow: none; }
 
-  .inline-links{ display:grid; grid-template-columns: repeat(3, max-content); column-gap:1em; row-gap:.4em; align-items:center; font-size:$type-size-5; margin:.4em 0 1em; }
-  .inline-links .il-item{ display:inline-flex; align-items:center; gap:.25em; }
-  .inline-links a{ text-decoration:none; }
+  .inline-links{ display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); column-gap:.75em; row-gap:.4em; align-items:center; font-size:$type-size-5; margin:.4em 0 1em; max-width:100%; }
+  .inline-links .il-item{ display:inline-flex; align-items:center; gap:.25em; min-width:0; }
+  .inline-links a{ text-decoration:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .inline-links i{ margin-right:.25em; }
 
   /* paragraph indents */
