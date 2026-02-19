@@ -78,13 +78,13 @@
 
   .bio-wrap{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 160px;
     align-items: start;
-    row-gap: 1em;
+    column-gap: 1.5em;
+    row-gap: 0;
     @include breakpoint($medium){
       grid-template-columns: 1fr 200px;
       column-gap: 2em;
-      row-gap: 0;
     }
     @include breakpoint($large){
       grid-template-columns: 1fr 220px;
