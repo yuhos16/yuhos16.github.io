@@ -1,7 +1,7 @@
 # 📚 Publication
 *# Equal Contribution*
  
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/r1.pdf' alt="SkinGPT-R1" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/r1.png' alt="SkinGPT-R1" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities](https://arxiv.org/abs/2511.15242) \\
