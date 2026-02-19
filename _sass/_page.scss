@@ -79,11 +79,17 @@
   .bio-wrap{
     display: grid;
     grid-template-columns: 1fr 160px;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "text photo"
+      "text text";
     align-items: start;
     column-gap: 1.5em;
     row-gap: 0;
     @include breakpoint($medium){
       grid-template-columns: 1fr 200px;
+      grid-template-rows: auto;
+      grid-template-areas: "text photo";
       column-gap: 2em;
     }
     @include breakpoint($large){
@@ -92,6 +98,7 @@
   }
 
   .bio-main{
+    grid-area: text;
     flex: 1 1 auto;
     min-width: 0;
     .bio-title{ margin: 0 0 .5em; font-size: $type-size-3; background: transparent; border: 0; box-shadow: none; padding: 0; }
@@ -117,6 +124,7 @@
   }
 
   .bio-fixed{
+    grid-area: photo;
     width: 100%;
     max-width: 220px;
     margin: 0 auto;
