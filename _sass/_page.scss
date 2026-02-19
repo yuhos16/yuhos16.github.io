@@ -77,10 +77,18 @@
   }
 
   .bio-wrap{
-    display: flex;
-    align-items: flex-start;
-    column-gap: 1.5em;
-    row-gap: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    row-gap: 1em;
+    @include breakpoint($medium){
+      grid-template-columns: 1fr 200px;
+      column-gap: 2em;
+      row-gap: 0;
+    }
+    @include breakpoint($large){
+      grid-template-columns: 1fr 220px;
+    }
   }
 
   .bio-main{
@@ -109,16 +117,16 @@
   }
 
   .bio-fixed{
-    flex: 0 0 160px;
-    max-width: 160px;
-    margin: 0 0 0 auto;
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
     @include breakpoint($medium){
-      flex-basis: 200px;
-      max-width: 200px;
+      width: 200px;
+      max-width: none;
+      margin: 0;
     }
     @include breakpoint($large){
-      flex-basis: 220px;
-      max-width: 220px;
+      width: 220px;
     }
     .bio-photo{ display: flex; justify-content: center; }
     .bio-photo img{ width: 100%; height: auto; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
