@@ -2,7 +2,6 @@
 # 📖 Education
 - *2025.09 - Present:* M.Phil Student in Computer Science, School of Data Science, The Chinese University of Hong Kong, Shenzhen.
 - *2021.09 - 2025.06:* B.Eng. in Computer Science and Technology, School of Computer Science, Hangzhou Dianzi University, Hangzhou.
-- *2018.09 - 2021.06:* Jinhua No.1 High School, Zhejiang.
 
 # 💻 Internship
 - *2025.03 - 2025.05:* Reasearch Assistant, The Chinese University of Hong Kong, Shenzhen.
