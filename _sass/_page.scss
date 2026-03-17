@@ -82,12 +82,12 @@
     align-items: start;
     row-gap: 1em;
     @include breakpoint($medium){
-      grid-template-columns: 1fr 200px;
-      column-gap: 2em;
+      grid-template-columns: 1fr 240px;
+      column-gap: 1.2em;
       row-gap: 0;
     }
     @include breakpoint($large){
-      grid-template-columns: 1fr 220px;
+      grid-template-columns: 1fr 250px;
     }
   }
 
@@ -123,17 +123,18 @@
     @include breakpoint($medium){
       width: 230px;
       max-width: none;
-      margin: 0;
+      margin: .25rem 0 0 -18px;
     }
     @include breakpoint($large){
       width: 250px;
+      margin-left: -22px;
     }
-    .bio-photo{ display: flex; justify-content: center; }
+    .bio-photo{ display: flex; justify-content: flex-start; }
     .bio-photo img{ width: 100%; height: auto; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
     @include breakpoint($small){
       .bio-photo img{ max-height: 40vh; object-fit: contain; }
     }
-    .bio-motto{ margin:.6em 0 0; font-size:$type-size-5; font-style: italic; text-align:center; }
+    .bio-motto{ margin:.55em 0 0; font-size:$type-size-5; font-style: italic; text-align:left; }
   }
 
   .bio-main pre{
