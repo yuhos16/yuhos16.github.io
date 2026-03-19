@@ -134,7 +134,7 @@
     @include breakpoint($small){
       .bio-photo img{ max-height: 40vh; object-fit: contain; }
     }
-    .bio-motto{ margin:.55em 0 0; font-size:$type-size-5; font-style: italic; text-align:left; }
+    .bio-motto{ width: 100%; margin:.55em 0 0; font-size:$type-size-5; font-style: italic; text-align:center; }
   }
 
   .bio-main pre{
