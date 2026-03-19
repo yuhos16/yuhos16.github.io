@@ -149,7 +149,9 @@
 
   .inline-links{ display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); column-gap:.75em; row-gap:.4em; align-items:center; font-size:$type-size-5; margin:.4em 0 1em; max-width:100%; }
   .inline-links .il-item{ display:inline-flex; align-items:center; gap:.25em; min-width:0; }
-  .inline-links .il-icon-img{ width: 1em; height: 1em; flex: 0 0 1em; object-fit: contain; }
+  .inline-links .il-icon-img{ width: 1em; height: 1em; flex: 0 0 1em; object-fit: contain; display: block; }
+  .inline-links .il-item-hf .il-icon-img{ filter: grayscale(1) brightness(0); opacity: .82; transform: translateY(1px); }
+  html.theme-dark .inline-links .il-item-hf .il-icon-img{ filter: grayscale(1) brightness(0) invert(1); opacity: .88; }
   .inline-links a{ text-decoration:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .inline-links i{ margin-right:.25em; }
 
