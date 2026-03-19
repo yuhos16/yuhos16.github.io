@@ -42,7 +42,7 @@
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.09195">PDF</a>
 </div>
-**Yuhao Shen**, Jiahe Qian#, Shuping Zhang#, Zhangtianyi Chen, Tao Lu, Juexiao Zhou
+**Yuhao Shen**, Jiahe Qian, Shuping Zhang, Zhangtianyi Chen, Tao Lu, Juexiao Zhou
 
 <!-- [**Benchmark**](https://github.com/placeholder/DermBench) \| [**Project**](https://github.com/placeholder/DermEval)  <strong><span class='show_paper_citations' data='PLACEHOLDER_DERMBENCH'></span></strong> -->
 

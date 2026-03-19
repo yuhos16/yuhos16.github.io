@@ -1,7 +1,7 @@
 <span class='anchor' id='education'></span>
 # 📖 Education
-- *2025.09 - Present:* M.Phil. in Computer Science, School of Data Science, The Chinese University of Hong Kong, Shenzhen.
-- *2021.09 - 2025.06:* B.Eng. in Computer Science and Technology, School of Computer Science, Hangzhou Dianzi University, Hangzhou.
+- *2025.09 - Present:* Master of Philosophy in Computer Science, School of Data Science, The Chinese University of Hong Kong, Shenzhen.<br>Supervisor: **Juexiao Zhou**.
+- *2021.09 - 2025.06:* Bachelor of Engineering in Computer Science and Technology, School of Computer Science, Hangzhou Dianzi University, Hangzhou.<br>Supervisors: **Renshu Gu** and **Fangli Guan**.
 
 <span class='anchor' id='experience'></span>
 # 💼 Experience
