@@ -90,11 +90,12 @@
     flex: 1 1 100%;
     margin-top: 0.6em;
     padding-left: 0;
+    font-size: 0.95em;
 
     .paper-title {
       margin: 0 0 0.35em;
       color: inherit;
-      font-size: 1.05em;
+      font-size: 1em;
       font-weight: 700;
       line-height: 1.45;
     }
@@ -114,7 +115,7 @@
       border-radius: 999px;
       background: rgba(0, 54, 159, 0.08);
       color: #00369f;
-      font-size: 0.82em;
+      font-size: 0.78em;
       font-weight: 600;
       line-height: 1.4;
       text-decoration: none;
@@ -147,7 +148,7 @@
       flex: 1 1 auto;
       margin-top: 0;
       padding-left: 1.3em;
-      font-size: 1.02em;
+      font-size: 0.98em;
     }
   }
 }
