@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <span class='anchor' id='about-me'></span>
-<h1><span class="accent-bar"></span>Yuhao Shen</h1>
+<h1><span class="accent-bar"></span>Yuhao Shen 沈宇昊</h1>
 <section class="bio-wrap">
   <div class="bio-main" markdown="1">
     {% capture bio_md %}{% include_relative includes/intro.md %}{% endcapture %}

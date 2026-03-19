@@ -5,7 +5,7 @@
 
 <span class='anchor' id='experience'></span>
 # 💼 Experience
-- *2026.02 - Present:* Research Assistant, University of Illinois Urbana-Champaign (UIUC). Supervisor: Yue Guo.
-- *2025.03 - 2025.05:* Research Assistant, The Chinese University of Hong Kong, Shenzhen. Supervisor: Juexiao Zhou.
+- *2026.02 - Present:* Research Assistant, University of Illinois Urbana-Champaign (UIUC).<br>Supervisor: **Yue Guo**.
+- *2025.03 - 2025.05:* Research Assistant, The Chinese University of Hong Kong, Shenzhen.<br>Supervisor: **Juexiao Zhou**.
 - *2024.12 - 2025.02:* Algorithm Engineer Intern, Hangzhou Huaxin Mechanical and Electrical Engineering Co., Ltd., Hangzhou.
-- *2023.07 - 2023.09:* Research Assistant, Hangzhou Institute of Technology, Xidian University, Hangzhou. Supervisor: Chao Yang.
+- *2023.07 - 2023.09:* Research Assistant, Hangzhou Institute of Technology, Xidian University, Hangzhou.<br>Supervisor: **Chao Yang**.

@@ -25,7 +25,7 @@
   <a class="paper-link-button" href="https://arxiv.org/abs/2405.18004">PDF</a>
   <a class="paper-link-button" href="https://huggingface.co/datasets/yuhos16/SkinCaRe">Dataset</a>
 </div>
-**Yuhao Shen**, Liyuan Sun#, Yan Xu#, Wenbin Liu#, Shuping Zhang#, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
+**Yuhao Shen**, Liyuan Sun, Yan Xu, Wenbin Liu, Shuping Zhang, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
 
  <!-- \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong> -->
 
@@ -42,7 +42,7 @@
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.09195">PDF</a>
 </div>
-**Yuhao Shen**, Jiahe Qian#, Shuping Zhang#, Zhangtianyi Chen, Tao Lu, Juexiao Zhou*
+**Yuhao Shen**, Jiahe Qian#, Shuping Zhang#, Zhangtianyi Chen, Tao Lu, Juexiao Zhou
 
 <!-- [**Benchmark**](https://github.com/placeholder/DermBench) \| [**Project**](https://github.com/placeholder/DermEval)  <strong><span class='show_paper_citations' data='PLACEHOLDER_DERMBENCH'></span></strong> -->
 
