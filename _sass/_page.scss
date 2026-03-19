@@ -83,7 +83,7 @@
     row-gap: 1em;
     @include breakpoint($medium){
       grid-template-columns: 1fr 240px;
-      column-gap: 1.2em;
+      column-gap: 1.35em;
       row-gap: 0;
     }
     @include breakpoint($large){
@@ -123,11 +123,11 @@
     @include breakpoint($medium){
       width: 230px;
       max-width: none;
-      margin: .25rem 0 0 -18px;
+      margin: .25rem 0 0 -14px;
     }
     @include breakpoint($large){
       width: 250px;
-      margin-left: -22px;
+      margin-left: -18px;
     }
     .bio-photo{ display: flex; justify-content: flex-start; }
     .bio-photo img{ width: 100%; height: auto; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.2); }

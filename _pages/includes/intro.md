@@ -13,7 +13,7 @@ The Chinese University of Hong Kong, Shenzhen</p>
   </div>
 
 
-Hello! I’m Yuhao, currently an M.Phil. student in Computer Science at The Chinese University of Hong Kong, Shenzhen, where I am fortunate to be advised by [Prof. Juexiao Zhou](https://www.joshuachou.ink/about/). My primary research interest is **AI for Healthcare**, and my current work centers on the following three areas:
+Hello! I’m Yuhao. I am currently an M.Phil. student in Computer Science at CUHK-SZ, where I am fortunate to be advised by [Prof. Juexiao Zhou](https://www.joshuachou.ink/about/). My primary research interest is **AI for Healthcare**, and my current work centers on the following three areas:
 
 <div class="vitem"><span class="accent-bar-sm"></span> <strong>Medical LLMs & Agents</strong></div>
 <div class="vitem"><span class="accent-bar-sm"></span> <strong>LLM Reasoning & Reinforcement learning</strong></div>
