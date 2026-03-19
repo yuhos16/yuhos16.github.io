@@ -5,7 +5,7 @@ The Chinese University of Hong Kong, Shenzhen</p>
 
 <div class="inline-links">
   <div class="il-item"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> <a href="{{ site.author.cv }}" target="_blank">{{ site.author.cv_label }}</a></div>
-  <div class="il-item il-item-hf"><img class="il-icon-img" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face logo"> <a href="https://huggingface.co/yuhos16" target="_blank">Hugging Face</a></div>
+  <div class="il-item il-item-hf"><span class="il-icon-hf" aria-hidden="true"></span><a href="https://huggingface.co/yuhos16" target="_blank">Hugging Face</a></div>
   <div class="il-item"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ site.author.email }}">Email</a></div>
   <div class="il-item"><i class="fab fa-fw fa-github" aria-hidden="true"></i> <a href="https://github.com/{{ site.author.github }}" target="_blank">Github</a></div>
   <div class="il-item"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a></div>

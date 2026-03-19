@@ -294,9 +294,9 @@ html.theme-dark .author__urls a {
 html.theme-dark .author__urls_sm a {
   color: #ddd;
 }
-html.theme-dark .inline-links .il-item-hf .il-icon-img {
-  filter: grayscale(1) brightness(0) invert(1) !important;
-  opacity: .92;
+html.theme-dark .inline-links .il-item-hf .il-icon-hf {
+  background-color: #ddd;
+  opacity: 1;
 }
 
 .theme-toggle-fixed {
