@@ -57,6 +57,7 @@
 <div class="paper-title">SkinGPT-X: A Multimodal Collaborative Multi-agent System with Self-evolving Dermatological Memory for Transparent and Trustworthy Diagnosis</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2603.26122">PDF</a>
+  <a class="paper-link-button" href="https://github.com/healme-225040511/Skingpt_X">Code</a>
 </div>
 Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
 
