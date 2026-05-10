@@ -40,6 +40,11 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+$cuhk-purple: #6b2c91;
+$cuhk-purple-light: #c8a3e8;
+$cuhk-purple-lighter: #d7b9f0;
+$cuhk-purple-bright: #8f59c1;
+
 .paper-box {
   display: flex;
   justify-content: left;
@@ -111,10 +116,10 @@
       display: inline-flex;
       align-items: center;
       padding: 0.16rem 0.62rem;
-      border: 1px solid rgba(0, 54, 159, 0.18);
+      border: 1px solid rgba($cuhk-purple, 0.18);
       border-radius: 999px;
-      background: rgba(0, 54, 159, 0.08);
-      color: #00369f;
+      background: rgba($cuhk-purple, 0.08);
+      color: $cuhk-purple;
       font-size: 0.78em;
       font-weight: 600;
       line-height: 1.4;
@@ -123,8 +128,8 @@
     }
 
     .paper-link-button:hover {
-      background: rgba(0, 54, 159, 0.14);
-      border-color: rgba(0, 54, 159, 0.3);
+      background: rgba($cuhk-purple, 0.14);
+      border-color: rgba($cuhk-purple, 0.3);
       text-decoration: none;
     }
   }
@@ -159,14 +164,14 @@ html.theme-dark .paper-box {
 }
 
 html.theme-dark .paper-box .paper-box-text .paper-link-button {
-  border-color: rgba(138, 180, 248, 0.22);
-  background: rgba(138, 180, 248, 0.12);
-  color: #8ab4f8;
+  border-color: rgba($cuhk-purple-light, 0.28);
+  background: rgba($cuhk-purple-light, 0.14);
+  color: $cuhk-purple-light;
 }
 
 html.theme-dark .paper-box .paper-box-text .paper-link-button:hover {
-  background: rgba(138, 180, 248, 0.18);
-  border-color: rgba(138, 180, 248, 0.34);
+  background: rgba($cuhk-purple-light, 0.2);
+  border-color: rgba($cuhk-purple-light, 0.4);
 }
 
 $scroll_offset: 0;
@@ -179,7 +184,7 @@ $scroll_offset: 0;
   top: 0.5em;
   left: 0.5em;
   color: white;
-  background-color: #00369f;
+  background-color: $cuhk-purple;
   font-size: 0.8em;
   border-radius: 6px;
   pointer-events: none;
@@ -196,10 +201,10 @@ html.theme-dark body {
 }
 
 html.theme-dark a {
-  color: #8ab4f8;
+  color: $cuhk-purple-light;
 }
-html.theme-dark a:visited { color: #a0bdfc; }
-html.theme-dark a:hover { color: #bcd2ff; }
+html.theme-dark a:visited { color: $cuhk-purple-lighter; }
+html.theme-dark a:hover { color: #e2cdf5; }
 
 html.theme-dark .masthead {
   background-color: #1a1a1a;
@@ -261,7 +266,7 @@ html.theme-dark .page__content strong,
 html.theme-dark .page__content b { color: #ffffff; }
 html.theme-dark .page__content em, 
 html.theme-dark .page__content i { color: #e6e6e6; }
-html.theme-dark .page__content mark { background: #3a5fff; color: #fff; border-radius: 2px; }
+html.theme-dark .page__content mark { background: $cuhk-purple-bright; color: #fff; border-radius: 2px; }
 
 html.theme-dark .toc {
   background-color: #1a1a1a;
@@ -330,17 +335,17 @@ html.theme-dark .theme-toggle-fixed .icon-moon { display: none; }
 html.theme-dark .theme-toggle-fixed button { border-color: #333; }
 
 html.theme-dark ::selection {
-  background: #3a5fff;
+  background: $cuhk-purple-bright;
   color: #fff;
 }
 html.theme-dark ::-moz-selection {
-  background: #3a5fff;
+  background: $cuhk-purple-bright;
   color: #fff;
 }
 
 
 html.theme-dark a:hover {
-  text-shadow: 0 0 8px rgba(138, 180, 248, 0.6);
+  text-shadow: 0 0 8px rgba($cuhk-purple-light, 0.65);
 }
 
 /* vertical accent bars before name and welcome link */
@@ -353,7 +358,7 @@ html.theme-dark a:hover {
   display: inline-block;
   width: 4px;
   height: 1.2em;
-  background-color: #00369f;
+  background-color: $cuhk-purple;
   border-radius: 2px;
   margin-right: 8px;
 }
@@ -369,7 +374,7 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $text-color; }
   display: inline-block;
   width: 4px;
   height: 1em;
-  background-color: #00369f;
+  background-color: $cuhk-purple;
   border-radius: 2px;
   margin-right: 8px;
   vertical-align: middle;
@@ -377,7 +382,7 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $text-color; }
 
 .boxed-link {
   display: inline-block;
-  border: 1px solid #00369f;
+  border: 1px solid $cuhk-purple;
   border-radius: 6px;
   padding: 0.1em 0.4em;
   margin-left: 0.6em;
@@ -392,7 +397,7 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $text-color; }
   display: inline-block;
   width: 4px;
   height: 1em;
-  background-color: #00369f;
+  background-color: $cuhk-purple;
   border-radius: 2px;
   margin-right: 8px;
 }
