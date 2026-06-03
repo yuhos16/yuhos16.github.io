@@ -6,9 +6,6 @@ main:
   - title: "Publication"
     url: "/#publication"
 
-  - title: "News"
-    url: "/#news"
-
   - title: "Education"
     url: "/#education"
 

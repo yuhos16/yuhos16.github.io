@@ -50,7 +50,7 @@
   border-bottom: 1px #e6ded1 solid;
   padding: 0.8em 1.2em 0.6em;
   min-height: 0;
-  margin: 0 0 0.8em 3.25rem;
+  margin: 0 0 0.8em;
   background: rgba(255, 255, 248, 0.72);
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(71, 53, 47, 0.08);
@@ -93,20 +93,6 @@
     padding-left: 0;
     font-size: 0.95em;
 
-    .paper-date {
-      position: absolute;
-      top: 0.95rem;
-      left: -2.78rem;
-      width: 2.45rem;
-      color: #4f423d;
-      font-size: 0.64em;
-      font-weight: 700;
-      line-height: 1.2;
-      text-align: left;
-      white-space: nowrap;
-      font-variant-numeric: tabular-nums;
-    }
-
     .paper-title {
       margin: 0 0 0.35em;
       color: inherit;
@@ -147,7 +133,6 @@
   @include breakpoint($medium) {
     flex-wrap: nowrap;
     align-items: center;
-    margin-left: 3.55rem;
 
     .paper-box-image {
       justify-content: center;
@@ -167,11 +152,6 @@
       font-size: 0.98em;
     }
 
-    .paper-box-text .paper-date {
-      left: -3.05rem;
-      width: 2.7rem;
-      font-size: 0.66em;
-    }
   }
 }
 
@@ -189,10 +169,6 @@ html.theme-dark .paper-box .paper-box-text .paper-link-button {
 html.theme-dark .paper-box .paper-box-text .paper-link-button:hover {
   background: rgba(216, 198, 188, 0.18);
   border-color: rgba(216, 198, 188, 0.4);
-}
-
-html.theme-dark .paper-box .paper-box-text .paper-date {
-  color: #d8c6bc;
 }
 
 $scroll_offset: 0;
