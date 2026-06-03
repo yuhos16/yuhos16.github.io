@@ -5,7 +5,7 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="paper-date">2026.05</div>
+<div class="paper-date">May 2026</div>
 <div class="paper-title">MedGuideX: Internalizing Decision Logic from Executable Guidelines into Large Language Models for Clinical Reasoning</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2605.26567">PDF</a>
@@ -17,7 +17,7 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="paper-date">2026.03</div>
+<div class="paper-date">Mar 2026</div>
 <div class="paper-title">SkinGPT-X: A Multimodal Collaborative Multi-agent System with Self-evolving Dermatological Memory for Transparent and Trustworthy Diagnosis</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2603.26122">PDF</a>
@@ -33,7 +33,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="paper-date">2026.02</div>
+<div class="paper-date">Feb 2026</div>
 <div class="paper-title">Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.15242">PDF</a>
@@ -49,7 +49,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/dermeval.jpg' alt="DermBench & DermEval" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="paper-date">2025.11</div>
+<div class="paper-date">Nov 2025</div>
 <div class="paper-title">Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.09195">PDF</a>
@@ -66,7 +66,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/cotboxttt.png' alt="CoTBox-TTT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="paper-date">2025.11</div>
+<div class="paper-date">Nov 2025</div>
 <div class="paper-title">CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.12446">PDF</a>
@@ -83,7 +83,7 @@ Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="paper-date">2024.05</div>
+<div class="paper-date">May 2024</div>
 <div class="paper-title">SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2405.18004">PDF</a>
@@ -93,7 +93,5 @@ Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 
  <!-- \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong> -->
 
-- Release **SkinCaRe**, unifying SkinCAP (medical captions) and SkinCoT (clinician-verified chains-of-thought) for transparent dermatologic reasoning.
-<!-- removed second bullet -->
 </div>
 </div>
