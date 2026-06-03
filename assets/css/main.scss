@@ -92,6 +92,20 @@
     padding-left: 0;
     font-size: 0.95em;
 
+    .paper-date {
+      display: inline-flex;
+      align-items: center;
+      margin: 0 0 0.32em;
+      padding: 0.12rem 0.52rem;
+      border-left: 3px solid #00369f;
+      border-radius: 4px;
+      background: rgba(0, 54, 159, 0.08);
+      color: #00369f;
+      font-size: 0.76em;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
     .paper-title {
       margin: 0 0 0.35em;
       color: inherit;
@@ -167,6 +181,12 @@ html.theme-dark .paper-box .paper-box-text .paper-link-button {
 html.theme-dark .paper-box .paper-box-text .paper-link-button:hover {
   background: rgba(138, 180, 248, 0.18);
   border-color: rgba(138, 180, 248, 0.34);
+}
+
+html.theme-dark .paper-box .paper-box-text .paper-date {
+  border-left-color: #8ab4f8;
+  background: rgba(138, 180, 248, 0.12);
+  color: #8ab4f8;
 }
 
 $scroll_offset: 0;
