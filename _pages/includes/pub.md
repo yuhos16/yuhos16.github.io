@@ -11,9 +11,6 @@
   <a class="paper-link-button" href="https://arxiv.org/abs/2605.26567">PDF</a>
 </div>
 **Yuhao Shen**, Lang Cao, Simo Du, Yuqing Wang, Juexiao Zhou, Hao Peng, Yue Guo
-
-- Introduce **MedGuideX**, a guideline-derived medical LLM training pipeline that transforms executable clinical decision logic into factual and counterfactual QA supervision for stronger and more faithful clinical reasoning.
-<!-- removed second bullet -->
 </div>
 </div>
 
@@ -33,7 +30,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/r1.png' alt="SkinGPT-R1" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-date">2026.02</div>
