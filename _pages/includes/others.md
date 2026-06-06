@@ -5,7 +5,7 @@
     <div class="profile-logo"><img src="images/education/cuhk-shenzhen.png" alt="The Chinese University of Hong Kong, Shenzhen logo"></div>
     <div class="profile-card-main">
       <div class="profile-card-title">The Chinese University of Hong Kong, Shenzhen</div>
-      <div class="profile-card-subtitle">MPhil in Computer Science</div>
+      <div class="profile-card-subtitle">Master of Philosophy in Computer Science</div>
     </div>
     <div class="profile-card-meta">
       <div>Sep 2025 - Present</div>
@@ -17,7 +17,7 @@
     <div class="profile-logo"><img src="images/education/hdu.png" alt="Hangzhou Dianzi University logo"></div>
     <div class="profile-card-main">
       <div class="profile-card-title">Hangzhou Dianzi University</div>
-      <div class="profile-card-subtitle">B.Eng. in Computer Science and Technology</div>
+      <div class="profile-card-subtitle">Bachelor of Engineering in Computer Science and Technology</div>
     </div>
     <div class="profile-card-meta">
       <div>Sep 2021 - Jun 2025</div>

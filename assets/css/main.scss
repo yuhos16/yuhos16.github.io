@@ -428,6 +428,11 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $text-color; }
   line-height: 1.35;
 }
 
+.education-card .profile-card-subtitle {
+  font-size: 0.9em;
+  line-height: 1.32;
+}
+
 .profile-card-meta {
   color: #5f625d;
   font-size: 0.82em;
