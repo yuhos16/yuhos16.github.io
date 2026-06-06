@@ -5,7 +5,7 @@
     <div class="profile-logo"><img src="images/education/cuhk-shenzhen.png" alt="The Chinese University of Hong Kong, Shenzhen logo"></div>
     <div class="profile-card-main">
       <div class="profile-card-title">The Chinese University of Hong Kong, Shenzhen</div>
-      <div class="profile-card-subtitle">M.Phil. in Computer Science</div>
+      <div class="profile-card-subtitle">MPhil in Computer Science</div>
     </div>
     <div class="profile-card-meta">
       <div>Sep 2025 - Present</div>
