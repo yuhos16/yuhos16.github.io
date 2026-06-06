@@ -415,13 +415,6 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $text-color; }
   object-fit: contain;
 }
 
-.profile-logo-text {
-  color: #5f665a;
-  font-size: 1rem;
-  font-weight: 800;
-  letter-spacing: 0;
-}
-
 .profile-card-title {
   font-weight: 700;
   line-height: 1.35;
@@ -452,10 +445,6 @@ html.theme-dark .profile-card {
 html.theme-dark .profile-logo {
   border-color: rgba(255, 255, 255, 0.12);
   background: rgba(24, 24, 24, 0.6);
-}
-
-html.theme-dark .profile-logo-text {
-  color: #b9c3b4;
 }
 
 html.theme-dark .profile-card-subtitle,

@@ -37,7 +37,6 @@
     </div>
     <div class="profile-card-meta">
       <div>Feb 2026 - Present</div>
-      <div>Champaign, IL</div>
     </div>
   </div>
 
@@ -49,19 +48,6 @@
     </div>
     <div class="profile-card-meta">
       <div>Mar 2025 - May 2025</div>
-      <div>Shenzhen, China</div>
-    </div>
-  </div>
-
-  <div class="profile-card experience-card">
-    <div class="profile-logo profile-logo-text">HX</div>
-    <div class="profile-card-main">
-      <div class="profile-card-title">Hangzhou Huaxin Mechanical and Electrical Engineering Co., Ltd.</div>
-      <div class="profile-card-subtitle">Algorithm Engineer Intern</div>
-    </div>
-    <div class="profile-card-meta">
-      <div>Dec 2024 - Feb 2025</div>
-      <div>Hangzhou, China</div>
     </div>
   </div>
 
@@ -73,7 +59,6 @@
     </div>
     <div class="profile-card-meta">
       <div>Jul 2023 - Sep 2023</div>
-      <div>Hangzhou, China</div>
     </div>
   </div>
 </div>
