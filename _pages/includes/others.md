@@ -1,27 +1,25 @@
 <span class='anchor' id='education'></span>
-# Education
-<div class="education-list">
-  <div class="education-card">
-    <div class="education-logo"><img src="images/education/cuhk-shenzhen.png" alt="The Chinese University of Hong Kong, Shenzhen logo"></div>
-    <div class="education-main">
-      <div class="education-school">The Chinese University of Hong Kong, Shenzhen</div>
-      <div class="education-degree">M.Phil. in Computer Science</div>
-      <div class="education-note">School of Data Science · Supervisor: <strong>Juexiao Zhou</strong></div>
+# 📖 Education
+<div class="timeline-card-list">
+  <div class="profile-card education-card">
+    <div class="profile-logo"><img src="images/education/cuhk-shenzhen.png" alt="The Chinese University of Hong Kong, Shenzhen logo"></div>
+    <div class="profile-card-main">
+      <div class="profile-card-title">The Chinese University of Hong Kong, Shenzhen</div>
+      <div class="profile-card-subtitle">M.Phil. in Computer Science</div>
     </div>
-    <div class="education-meta">
+    <div class="profile-card-meta">
       <div>Sep 2025 - Present</div>
       <div>Shenzhen, China</div>
     </div>
   </div>
 
-  <div class="education-card">
-    <div class="education-logo"><img src="images/education/hdu.png" alt="Hangzhou Dianzi University logo"></div>
-    <div class="education-main">
-      <div class="education-school">Hangzhou Dianzi University</div>
-      <div class="education-degree">B.Eng. in Computer Science and Technology</div>
-      <div class="education-note">School of Computer Science · Supervisors: <strong>Renshu Gu</strong>, <strong>Fangli Guan</strong></div>
+  <div class="profile-card education-card">
+    <div class="profile-logo"><img src="images/education/hdu.png" alt="Hangzhou Dianzi University logo"></div>
+    <div class="profile-card-main">
+      <div class="profile-card-title">Hangzhou Dianzi University</div>
+      <div class="profile-card-subtitle">B.Eng. in Computer Science and Technology</div>
     </div>
-    <div class="education-meta">
+    <div class="profile-card-meta">
       <div>Sep 2021 - Jun 2025</div>
       <div>Hangzhou, China</div>
     </div>
@@ -30,7 +28,52 @@
 
 <span class='anchor' id='experience'></span>
 # 💼 Experience
-- *2026.02 - Present:* Research Assistant, University of Illinois Urbana-Champaign (UIUC).<br>Supervisor: **Yue Guo**.
-- *2025.03 - 2025.05:* Research Assistant, The Chinese University of Hong Kong, Shenzhen.<br>Supervisor: **Juexiao Zhou**.
-- *2024.12 - 2025.02:* Algorithm Engineer Intern, Hangzhou Huaxin Mechanical and Electrical Engineering Co., Ltd., Hangzhou.
-- *2023.07 - 2023.09:* Research Assistant, Hangzhou Institute of Technology, Xidian University, Hangzhou.<br>Supervisor: **Chao Yang**.
+<div class="timeline-card-list">
+  <div class="profile-card experience-card">
+    <div class="profile-logo"><img src="images/experience/uiuc-block-i.png" alt="University of Illinois Urbana-Champaign logo"></div>
+    <div class="profile-card-main">
+      <div class="profile-card-title">University of Illinois Urbana-Champaign (UIUC)</div>
+      <div class="profile-card-subtitle">Research Assistant</div>
+    </div>
+    <div class="profile-card-meta">
+      <div>Feb 2026 - Present</div>
+      <div>Champaign, IL</div>
+    </div>
+  </div>
+
+  <div class="profile-card experience-card">
+    <div class="profile-logo"><img src="images/education/cuhk-shenzhen.png" alt="The Chinese University of Hong Kong, Shenzhen logo"></div>
+    <div class="profile-card-main">
+      <div class="profile-card-title">The Chinese University of Hong Kong, Shenzhen</div>
+      <div class="profile-card-subtitle">Research Assistant</div>
+    </div>
+    <div class="profile-card-meta">
+      <div>Mar 2025 - May 2025</div>
+      <div>Shenzhen, China</div>
+    </div>
+  </div>
+
+  <div class="profile-card experience-card">
+    <div class="profile-logo profile-logo-text">HX</div>
+    <div class="profile-card-main">
+      <div class="profile-card-title">Hangzhou Huaxin Mechanical and Electrical Engineering Co., Ltd.</div>
+      <div class="profile-card-subtitle">Algorithm Engineer Intern</div>
+    </div>
+    <div class="profile-card-meta">
+      <div>Dec 2024 - Feb 2025</div>
+      <div>Hangzhou, China</div>
+    </div>
+  </div>
+
+  <div class="profile-card experience-card">
+    <div class="profile-logo"><img src="images/experience/xidian.png" alt="Xidian University logo"></div>
+    <div class="profile-card-main">
+      <div class="profile-card-title">Hangzhou Institute of Technology, Xidian University</div>
+      <div class="profile-card-subtitle">Research Assistant</div>
+    </div>
+    <div class="profile-card-meta">
+      <div>Jul 2023 - Sep 2023</div>
+      <div>Hangzhou, China</div>
+    </div>
+  </div>
+</div>
