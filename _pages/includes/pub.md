@@ -23,7 +23,7 @@
 </div>
 Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
 
-- Introduce **SkinGPT-X**, a multimodal collaborative multi-agent dermatology diagnosis system with self-evolving memory.
+<div class="paper-note">Introduce <strong>SkinGPT-X</strong>, a multimodal collaborative multi-agent dermatology diagnosis system with self-evolving memory.</div>
 <!-- removed second bullet -->
 </div>
 </div>
@@ -38,23 +38,24 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 </div>
 **Yuhao Shen**, Zhangtianyi Chen, Yuanhao He, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
 
-- Introduce **SkinGPT-R1**, a dermatology VLM that achieves interpretable and equitable diagnosis across diverse ethnicities by performing explicit, step-by-step, and verifiable diagnostic chain-of-thought reasoning.
+<div class="paper-note">Introduce <strong>SkinGPT-R1</strong>, a dermatology VLM for interpretable and equitable diagnosis across diverse ethnicities through explicit, step-by-step diagnostic reasoning.</div>
 <!-- removed second bullet -->
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/dermeval.jpg' alt="DermBench & DermEval" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/dermeval.jpg' alt="DermBench & DermEval" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.09195">PDF</a>
 </div>
+<div class="paper-venue">ECCV 2026</div>
 **Yuhao Shen**, Jiahe Qian, Shuping Zhang, Zhangtianyi Chen, Tao Lu, Juexiao Zhou
 
 <!-- [**Benchmark**](https://github.com/placeholder/DermBench) \| [**Project**](https://github.com/placeholder/DermEval)  <strong><span class='show_paper_citations' data='PLACEHOLDER_DERMBENCH'></span></strong> -->
 
-- Propose **DermBench** and **DermEval** for image–text dermatology reasoning aligned with physician scoring.
+<div class="paper-note">Propose <strong>DermBench</strong> and <strong>DermEval</strong> for image-text dermatology reasoning aligned with physician scoring.</div>
 <!-- removed second bullet -->
 </div>
 </div>
@@ -70,7 +71,7 @@ Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 
 <!-- [**Project**](https://github.com/placeholder/CoTBox-TTT) \| [**Code**](https://github.com/placeholder/CoTBox-TTT)  <strong><span class='show_paper_citations' data='PLACEHOLDER_COTBOX_TTT'></span></strong> -->
 
-- Evidence-first **test-time training** with all backbones frozen; update continuous soft prompts guided by **visual chain-of-thought boxes**.
+<div class="paper-note">Evidence-first <strong>test-time training</strong> with frozen backbones and soft prompts guided by <strong>visual chain-of-thought boxes</strong>.</div>
 <!-- removed second bullet -->
 </div>
 </div>

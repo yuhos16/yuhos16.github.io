@@ -127,6 +127,27 @@
       border-color: rgba(95, 102, 90, 0.38);
       text-decoration: none;
     }
+
+    .paper-venue {
+      margin: -0.1em 0 0.45em;
+      color: #5f665a;
+      font-size: 0.82em;
+      font-weight: 700;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    .paper-note {
+      margin-top: 0.5em;
+      color: #666a63;
+      font-size: 0.84em;
+      font-weight: 400;
+      line-height: 1.45;
+    }
+
+    .paper-note strong {
+      font-weight: 650;
+    }
   }
 
   @include breakpoint($medium) {
@@ -169,6 +190,14 @@ html.theme-dark .paper-box .paper-box-text .paper-link-button {
 html.theme-dark .paper-box .paper-box-text .paper-link-button:hover {
   background: rgba(185, 195, 180, 0.16);
   border-color: rgba(185, 195, 180, 0.46);
+}
+
+html.theme-dark .paper-box .paper-box-text .paper-venue {
+  color: #b9c3b4;
+}
+
+html.theme-dark .paper-box .paper-box-text .paper-note {
+  color: #b8b8b3;
 }
 
 $scroll_offset: 0;
