@@ -11,14 +11,6 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 <div class="name-row">
   <h1><span class="accent-bar"></span>Yuhao Shen 沈宇昊</h1>
-  <div class="inline-links">
-    <a class="il-item" href="{{ site.author.cv }}" target="_blank" aria-label="{{ site.author.cv_label }}" title="{{ site.author.cv_label }}"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i></a>
-    <a class="il-item il-item-hf" href="https://huggingface.co/yuhos16" target="_blank" aria-label="Hugging Face" title="Hugging Face"><span class="il-icon-hf" aria-hidden="true"></span></a>
-    <a class="il-item" href="mailto:{{ site.author.email }}" aria-label="Email" title="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
-    <a class="il-item" href="https://github.com/{{ site.author.github }}" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
-    <a class="il-item" href="{{ site.author.googlescholar }}" target="_blank" aria-label="Google Scholar" title="Google Scholar"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i></a>
-    <a class="il-item" href="{{ site.author.orcid }}" target="_blank" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i></a>
-  </div>
 </div>
 <section class="bio-wrap">
   <div class="bio-main" markdown="1">
