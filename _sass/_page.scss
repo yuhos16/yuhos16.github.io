@@ -82,7 +82,7 @@
     border-bottom: 1px solid #dddddd;
   }
 
-  .anchor + .name-row { margin-top: 0; }
+  .anchor + .name-row { margin-top: clamp(1.25rem, 3vw, 2rem); }
 
   .name-row h1 {
     margin: 0;
