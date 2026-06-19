@@ -17,7 +17,6 @@ redirect_from:
   </div>
   <aside class="bio-fixed">
     <div class="bio-photo"><img src="{{ site.author.avatar }}" alt="{{ site.author.name }}"></div>
-    <div class="bio-motto">🎵 Neither coming nor going</div>
   </aside>
 </section>
 

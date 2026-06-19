@@ -23,7 +23,7 @@
 </div>
 Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
 
-<div class="paper-note">Introduce <strong>SkinGPT-X</strong>, a multimodal collaborative multi-agent dermatology diagnosis system with self-evolving memory.</div>
+- Introduce **SkinGPT-X**, a multimodal collaborative multi-agent dermatology diagnosis system with self-evolving memory.
 <!-- removed second bullet -->
 </div>
 </div>
@@ -38,7 +38,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 </div>
 **Yuhao Shen**, Zhangtianyi Chen, Yuanhao He, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
 
-<div class="paper-note">Introduce <strong>SkinGPT-R1</strong>, a dermatology VLM for interpretable and equitable diagnosis across diverse ethnicities through explicit, step-by-step diagnostic reasoning.</div>
+- Introduce **SkinGPT-R1**, a dermatology VLM that achieves interpretable and equitable diagnosis across diverse ethnicities by performing explicit, step-by-step, and verifiable diagnostic chain-of-thought reasoning.
 <!-- removed second bullet -->
 </div>
 </div>
@@ -55,7 +55,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 
 <!-- [**Benchmark**](https://github.com/placeholder/DermBench) \| [**Project**](https://github.com/placeholder/DermEval)  <strong><span class='show_paper_citations' data='PLACEHOLDER_DERMBENCH'></span></strong> -->
 
-<div class="paper-note">Propose <strong>DermBench</strong> and <strong>DermEval</strong> for image-text dermatology reasoning aligned with physician scoring.</div>
+- Propose **DermBench** and **DermEval** for image-text dermatology reasoning aligned with physician scoring.
 <!-- removed second bullet -->
 </div>
 </div>
@@ -71,7 +71,7 @@ Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 
 <!-- [**Project**](https://github.com/placeholder/CoTBox-TTT) \| [**Code**](https://github.com/placeholder/CoTBox-TTT)  <strong><span class='show_paper_citations' data='PLACEHOLDER_COTBOX_TTT'></span></strong> -->
 
-<div class="paper-note">Evidence-first <strong>test-time training</strong> with frozen backbones and soft prompts guided by <strong>visual chain-of-thought boxes</strong>.</div>
+- Evidence-first **test-time training** with all backbones frozen; update continuous soft prompts guided by **visual chain-of-thought boxes**.
 <!-- removed second bullet -->
 </div>
 </div>
