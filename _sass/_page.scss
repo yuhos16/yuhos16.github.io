@@ -181,28 +181,28 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 2.55rem;
+    height: 2.75rem;
     color: $text-color;
-    font-size: 1.42rem;
+    font-size: 1.62rem;
     line-height: 1;
     min-width: 0;
     text-decoration: none;
   }
   .inline-links .il-icon-hf{
     display: inline-block;
-    width: 1.42rem;
-    height: 1.42rem;
-    flex: 0 0 1.42rem;
+    width: 1.62rem;
+    height: 1.62rem;
+    flex: 0 0 1.62rem;
     background-color: #4f4f4f;
     opacity: .95;
     transform: translateY(1px);
-    -webkit-mask: url("/images/huggingface.svg") center / 1.26rem 1.26rem no-repeat;
-    mask: url("/images/huggingface.svg") center / 1.26rem 1.26rem no-repeat;
+    -webkit-mask: url("/images/huggingface.svg") center / 1.44rem 1.44rem no-repeat;
+    mask: url("/images/huggingface.svg") center / 1.44rem 1.44rem no-repeat;
   }
   .inline-links i,
   .inline-links .ai{
     margin-right: 0;
-    width: 1.42rem;
+    width: 1.62rem;
     text-align: center;
   }
 
