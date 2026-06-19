@@ -4,13 +4,13 @@ School of Data Science<br>
 The Chinese University of Hong Kong, Shenzhen</p>
 
 <div class="inline-links">
-  <div class="il-item"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> <a href="{{ site.author.cv }}" target="_blank">{{ site.author.cv_label }}</a></div>
-  <div class="il-item il-item-hf"><span class="il-icon-hf" aria-hidden="true"></span><a href="https://huggingface.co/yuhos16" target="_blank">Hugging Face</a></div>
-  <div class="il-item"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ site.author.email }}">Email</a></div>
-  <div class="il-item"><i class="fab fa-fw fa-github" aria-hidden="true"></i> <a href="https://github.com/{{ site.author.github }}" target="_blank">Github</a></div>
-  <div class="il-item"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a></div>
-  <div class="il-item"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> <a href="{{ site.author.orcid }}" target="_blank">ORCID</a></div>
-  </div>
+  <a class="il-item" href="{{ site.author.cv }}" target="_blank" aria-label="{{ site.author.cv_label }}" title="{{ site.author.cv_label }}"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i></a>
+  <a class="il-item il-item-hf" href="https://huggingface.co/yuhos16" target="_blank" aria-label="Hugging Face" title="Hugging Face"><span class="il-icon-hf" aria-hidden="true"></span></a>
+  <a class="il-item" href="mailto:{{ site.author.email }}" aria-label="Email" title="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+  <a class="il-item" href="https://github.com/{{ site.author.github }}" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+  <a class="il-item" href="{{ site.author.googlescholar }}" target="_blank" aria-label="Google Scholar" title="Google Scholar"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i></a>
+  <a class="il-item" href="{{ site.author.orcid }}" target="_blank" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i></a>
+</div>
 
 
 Hi there! I am currently an MPhil student in Computer Science at CUHK-SZ, advised by [**Prof. Juexiao Zhou**](https://www.joshuachou.ink/about/). My primary research interest lies in **AI for Healthcare**, with a particular focus on the following three areas:
