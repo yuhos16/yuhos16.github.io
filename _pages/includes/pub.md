@@ -2,7 +2,7 @@
 # 📚 Publication
 *# Equal Contribution*
  
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2026</div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">MedGuideX: Internalizing Decision Logic from Executable Guidelines into Large Language Models for Clinical Reasoning</div>
@@ -13,7 +13,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2026</div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">SkinGPT-X: A Multimodal Collaborative Multi-agent System with Self-evolving Dermatological Memory for Transparent and Trustworthy Diagnosis</div>
@@ -28,7 +28,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2025</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities</div>
@@ -60,7 +60,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/cotboxttt.png' alt="CoTBox-TTT" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2025</div><img src='images/cotboxttt.png' alt="CoTBox-TTT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training</div>
@@ -76,7 +76,7 @@ Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2025</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning</div>
