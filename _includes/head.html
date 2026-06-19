@@ -20,7 +20,11 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css?v={{ site.time | date: "%s" }}">
+{% assign css_cache_bust = site.time | date: "%s" %}
+{% if site.github.build_revision %}
+  {% assign css_cache_bust = site.github.build_revision %}
+{% endif %}
+<link rel="stylesheet" href="assets/css/main.css?v={{ css_cache_bust }}">
 
 <meta http-equiv="cleartype" content="on">
 <head>
