@@ -5,14 +5,14 @@
 .masthead {
   position: sticky;
   top: 0;
-  background-color: transparent;
-  border-bottom: 0;
-  box-shadow: none;
+  background-color: $background-color;
+  border-bottom: 1px solid $border-color;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 20;
+  z-index: 1000;
 
   &__inner-wrap {
     @include container;
@@ -20,7 +20,7 @@
     padding: .5em;
     font-family: $sans-serif-narrow;
     position: relative;
-    backdrop-filter: saturate(180%) blur(6px);
+    background-color: $background-color;
   
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -80,4 +80,3 @@
     cursor: pointer;
   }
 }
-

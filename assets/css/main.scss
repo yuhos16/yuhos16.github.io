@@ -232,6 +232,10 @@ html.theme-dark .masthead {
   border-bottom-color: #303030;
 }
 
+html.theme-dark .masthead__inner-wrap {
+  background-color: #181818;
+}
+
 html.theme-dark .greedy-nav {
   background: #181818;
 }
@@ -329,7 +333,7 @@ html.theme-dark .inline-links .il-item-hf .il-icon-hf {
   position: fixed;
   top: 0.75rem;
   right: 0.75rem;
-  z-index: 1000;
+  z-index: 1100;
 }
 
 .theme-toggle-fixed button {
