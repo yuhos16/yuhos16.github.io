@@ -49,8 +49,8 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class="paper-title">Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.09195">PDF</a>
+  <span class="paper-link-button paper-venue-button">ECCV 2026</span>
 </div>
-<div class="paper-venue">ECCV 2026</div>
 **Yuhao Shen**, Jiahe Qian, Shuping Zhang, Zhangtianyi Chen, Tao Lu, Juexiao Zhou
 
 <!-- [**Benchmark**](https://github.com/placeholder/DermBench) \| [**Project**](https://github.com/placeholder/DermEval)  <strong><span class='show_paper_citations' data='PLACEHOLDER_DERMBENCH'></span></strong> -->
