@@ -187,6 +187,13 @@
     &:hover {
       color: $masthead-link-color-hover;
     }
+
+    &:focus,
+    &:focus-visible,
+    &:active {
+      outline: none;
+      box-shadow: none;
+    }
   }
 
   button {
