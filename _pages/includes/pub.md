@@ -9,7 +9,7 @@
 <div class="paper-authors" markdown="1">
 **Yuhao Shen**, Lang Cao, Simo Du, Yuqing Wang, Juexiao Zhou, Hao Peng, Yue Guo
 </div>
-<div class="paper-meta">Preprint, 2026</div>
+<div class="paper-meta"><strong>Preprint, 2026</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2605.26567">PDF</a>
 </div>
@@ -23,7 +23,7 @@
 <div class="paper-authors" markdown="1">
 Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
 </div>
-<div class="paper-meta">Preprint, 2026</div>
+<div class="paper-meta"><strong>Preprint, 2026</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2603.26122">PDF</a>
   <a class="paper-link-button" href="https://github.com/healme-225040511/Skingpt_X">Code</a>
@@ -43,7 +43,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class="paper-authors" markdown="1">
 **Yuhao Shen**, Zhangtianyi Chen, Yuanhao He, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
 </div>
-<div class="paper-meta">Preprint, 2025</div>
+<div class="paper-meta"><strong>Preprint, 2025</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.15242">PDF</a>
   <a class="paper-link-button" href="https://huggingface.co/yuhos16/SkinGPT-R1">Code</a>
@@ -63,7 +63,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class="paper-authors" markdown="1">
 **Yuhao Shen**, Jiahe Qian, Shuping Zhang, Zhangtianyi Chen, Tao Lu, Juexiao Zhou
 </div>
-<div class="paper-meta">ECCV 2026</div>
+<div class="paper-meta"><strong>ECCV 2026</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.09195">PDF</a>
   <a class="paper-link-button" href="https://github.com/yuhos16/DermBench">Code</a>
@@ -85,7 +85,7 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class="paper-authors" markdown="1">
 Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 </div>
-<div class="paper-meta">Preprint, 2025</div>
+<div class="paper-meta"><strong>Preprint, 2025</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.12446">PDF</a>
 </div>
@@ -106,7 +106,7 @@ Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 <div class="paper-authors" markdown="1">
 **Yuhao Shen**, Liyuan Sun, Yan Xu, Wenbin Liu, Shuping Zhang, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
 </div>
-<div class="paper-meta">Preprint, 2025</div>
+<div class="paper-meta"><strong>Preprint, 2025</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2405.18004">PDF</a>
   <a class="paper-link-button" href="https://huggingface.co/datasets/yuhos16/SkinCaRe">Dataset</a>
