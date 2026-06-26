@@ -8,7 +8,7 @@
       var saved = null;
       try { saved = localStorage.getItem('theme'); } catch(e) {}
       if(saved === 'dark' || saved === 'light') return saved;
-      return 'dark';
+      return 'light';
     }
     function setIcon(theme){
       var btn = document.getElementById('theme-toggle-btn');

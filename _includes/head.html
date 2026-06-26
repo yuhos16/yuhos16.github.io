@@ -14,7 +14,7 @@
   (function(){
     var saved = null;
     try { saved = localStorage.getItem('theme'); } catch(e) {}
-    var initial = (saved === 'dark' || saved === 'light') ? saved : 'dark';
+    var initial = (saved === 'dark' || saved === 'light') ? saved : 'light';
     if(initial === 'dark') { document.documentElement.classList.add('theme-dark'); }
   })();
 </script>
