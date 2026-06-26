@@ -42,7 +42,7 @@
 
 $site-ink: #181818;
 $site-white: #ffffff;
-$site-green: #163026;
+$site-green: #5f665a;
 
 .paper-box {
   position: relative;
@@ -180,9 +180,9 @@ $site-green: #163026;
 }
 
 html.theme-dark .paper-box {
-  background: $site-ink;
-  border-bottom-color: rgba($site-white, 0.16);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+  background: #222222;
+  border-bottom-color: #333333;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.42);
 }
 
 html.theme-dark .paper-box .paper-box-text .paper-link-button {
