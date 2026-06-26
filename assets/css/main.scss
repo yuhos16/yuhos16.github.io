@@ -113,7 +113,7 @@
 
     .paper-meta {
       margin: 0 0 0.66em;
-      color: #5b724f;
+      color: #425a37;
       font-size: 0.92em;
       font-style: italic;
       font-weight: 800;
@@ -146,10 +146,6 @@
       background: rgba(95, 102, 90, 0.14);
       border-color: rgba(95, 102, 90, 0.38);
       text-decoration: none;
-    }
-
-    .paper-venue-button {
-      cursor: default;
     }
 
   }
@@ -338,6 +334,35 @@ html.theme-dark .inline-links .il-item {
 html.theme-dark .inline-links .il-item-hf .il-icon-hf {
   background-color: #d7dfd3;
   opacity: 1;
+}
+
+html:not(.theme-dark) .greedy-nav a,
+html:not(.theme-dark) .greedy-nav a:hover,
+html:not(.theme-dark) .greedy-nav .hidden-links a:hover {
+  color: $text-color;
+}
+
+html:not(.theme-dark) .greedy-nav .visible-links a:before {
+  background: rgba(73, 78, 82, 0.34);
+}
+
+html:not(.theme-dark) .greedy-nav .hidden-links a:hover {
+  background: rgba(73, 78, 82, 0.08);
+}
+
+html:not(.theme-dark) .bio-main,
+html:not(.theme-dark) .bio-main a,
+html:not(.theme-dark) .bio-main a:visited,
+html:not(.theme-dark) .bio-main strong,
+html:not(.theme-dark) .bio-main b,
+html:not(.theme-dark) .bio-main em,
+html:not(.theme-dark) .bio-main i,
+html:not(.theme-dark) .inline-links .il-item {
+  color: $text-color;
+}
+
+html:not(.theme-dark) .inline-links .il-icon-hf {
+  background-color: $text-color;
 }
 
 .theme-toggle-fixed {

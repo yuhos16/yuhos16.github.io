@@ -67,7 +67,6 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.09195">PDF</a>
   <a class="paper-link-button" href="https://github.com/yuhos16/DermBench">Code</a>
-  <a class="paper-link-button paper-venue-button" href="https://eccv.ecva.net/" target="_blank">ECCV 2026</a>
 </div>
 
 <!-- [**Benchmark**](https://github.com/placeholder/DermBench) \| [**Project**](https://github.com/placeholder/DermEval)  <strong><span class='show_paper_citations' data='PLACEHOLDER_DERMBENCH'></span></strong> -->
