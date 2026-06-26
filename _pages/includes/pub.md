@@ -6,10 +6,13 @@
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">MedGuideX: Internalizing Decision Logic from Executable Guidelines into Large Language Models for Clinical Reasoning</div>
+<div class="paper-authors" markdown="1">
+**Yuhao Shen**, Lang Cao, Simo Du, Yuqing Wang, Juexiao Zhou, Hao Peng, Yue Guo
+</div>
+<div class="paper-meta">Preprint, 2026</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2605.26567">PDF</a>
 </div>
-**Yuhao Shen**, Lang Cao, Simo Du, Yuqing Wang, Juexiao Zhou, Hao Peng, Yue Guo
 </div>
 </div>
 
@@ -17,13 +20,18 @@
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">SkinGPT-X: A Multimodal Collaborative Multi-agent System with Self-evolving Dermatological Memory for Transparent and Trustworthy Diagnosis</div>
+<div class="paper-authors" markdown="1">
+Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
+</div>
+<div class="paper-meta">Preprint, 2026</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2603.26122">PDF</a>
   <a class="paper-link-button" href="https://github.com/healme-225040511/Skingpt_X">Code</a>
 </div>
-Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
 
+<!--
 - Introduce **SkinGPT-X**, a multimodal collaborative multi-agent dermatology diagnosis system with self-evolving memory.
+-->
 <!-- removed second bullet -->
 </div>
 </div>
@@ -32,13 +40,18 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities</div>
+<div class="paper-authors" markdown="1">
+**Yuhao Shen**, Zhangtianyi Chen, Yuanhao He, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
+</div>
+<div class="paper-meta">Preprint, 2025</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.15242">PDF</a>
   <a class="paper-link-button" href="https://huggingface.co/yuhos16/SkinGPT-R1">Code</a>
 </div>
-**Yuhao Shen**, Zhangtianyi Chen, Yuanhao He, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
 
+<!--
 - Introduce **SkinGPT-R1**, a dermatology VLM that achieves interpretable and equitable diagnosis across diverse ethnicities by performing explicit, step-by-step, and verifiable diagnostic chain-of-thought reasoning.
+-->
 <!-- removed second bullet -->
 </div>
 </div>
@@ -47,16 +60,21 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives</div>
+<div class="paper-authors" markdown="1">
+**Yuhao Shen**, Jiahe Qian, Shuping Zhang, Zhangtianyi Chen, Tao Lu, Juexiao Zhou
+</div>
+<div class="paper-meta">ECCV 2026</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.09195">PDF</a>
   <a class="paper-link-button" href="https://github.com/yuhos16/DermBench">Code</a>
   <a class="paper-link-button paper-venue-button" href="https://eccv.ecva.net/" target="_blank">ECCV 2026</a>
 </div>
-**Yuhao Shen**, Jiahe Qian, Shuping Zhang, Zhangtianyi Chen, Tao Lu, Juexiao Zhou
 
 <!-- [**Benchmark**](https://github.com/placeholder/DermBench) \| [**Project**](https://github.com/placeholder/DermEval)  <strong><span class='show_paper_citations' data='PLACEHOLDER_DERMBENCH'></span></strong> -->
 
+<!--
 - Propose **DermBench** and **DermEval** for image-text dermatology reasoning aligned with physician scoring.
+-->
 <!-- removed second bullet -->
 </div>
 </div>
@@ -65,14 +83,19 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training</div>
+<div class="paper-authors" markdown="1">
+Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
+</div>
+<div class="paper-meta">Preprint, 2025</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.12446">PDF</a>
 </div>
-Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 
 <!-- [**Project**](https://github.com/placeholder/CoTBox-TTT) \| [**Code**](https://github.com/placeholder/CoTBox-TTT)  <strong><span class='show_paper_citations' data='PLACEHOLDER_COTBOX_TTT'></span></strong> -->
 
+<!--
 - Evidence-first **test-time training** with all backbones frozen; update continuous soft prompts guided by **visual chain-of-thought boxes**.
+-->
 <!-- removed second bullet -->
 </div>
 </div>
@@ -81,11 +104,14 @@ Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning</div>
+<div class="paper-authors" markdown="1">
+**Yuhao Shen**, Liyuan Sun, Yan Xu, Wenbin Liu, Shuping Zhang, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
+</div>
+<div class="paper-meta">Preprint, 2025</div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2405.18004">PDF</a>
   <a class="paper-link-button" href="https://huggingface.co/datasets/yuhos16/SkinCaRe">Dataset</a>
 </div>
-**Yuhao Shen**, Liyuan Sun, Yan Xu, Wenbin Liu, Shuping Zhang, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
 
  <!-- \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong> -->
 

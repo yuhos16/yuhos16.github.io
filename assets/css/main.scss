@@ -93,11 +93,30 @@
     font-size: 0.95em;
 
     .paper-title {
-      margin: 0 0 0.35em;
+      margin: 0 0 0.38em;
       color: inherit;
-      font-size: 1em;
+      font-size: 1.08em;
+      font-weight: 800;
+      line-height: 1.38;
+    }
+
+    .paper-authors {
+      margin: 0 0 0.16em;
+      color: inherit;
+      font-size: 0.9em;
+      line-height: 1.42;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .paper-meta {
+      margin: 0 0 0.55em;
+      color: #5f665a;
+      font-size: 0.84em;
       font-weight: 700;
-      line-height: 1.45;
+      line-height: 1.35;
     }
 
     .paper-links {
@@ -174,6 +193,10 @@ html.theme-dark .paper-box .paper-box-text .paper-link-button {
 html.theme-dark .paper-box .paper-box-text .paper-link-button:hover {
   background: rgba(185, 195, 180, 0.16);
   border-color: rgba(185, 195, 180, 0.46);
+}
+
+html.theme-dark .paper-box .paper-box-text .paper-meta {
+  color: #d7dfd3;
 }
 
 $scroll_offset: 0;
