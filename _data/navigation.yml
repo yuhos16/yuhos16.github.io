@@ -3,7 +3,7 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "Publication"
+  - title: "Selected Publication"
     url: "/#publication"
 
   - title: "Education"

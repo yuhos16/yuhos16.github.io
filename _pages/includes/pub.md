@@ -1,5 +1,5 @@
 <span class='anchor' id='publication'></span>
-# 📚 Publication
+# 📚 Selected Publication [[Google Scholar](https://scholar.google.com/citations?user=4lxKAtMAAAAJ&hl=zh-CN)]
 *# Equal Contribution*
  
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2026</div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>

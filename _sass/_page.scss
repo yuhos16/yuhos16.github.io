@@ -92,6 +92,14 @@
     flex: 0 1 auto;
   }
 
+  .cuhk-logo-mark {
+    display: block;
+    width: clamp(96px, 16vw, 145px);
+    height: auto;
+    margin-left: auto;
+    object-fit: contain;
+  }
+
   p, li, dl {
     font-size: 1em;
   }
@@ -150,7 +158,7 @@
       margin-left: -18px;
     }
     .bio-photo{ display: flex; justify-content: flex-start; }
-    .bio-photo img{ width: 100%; height: auto; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
+    .bio-photo img{ width: 100%; height: auto; border-radius: 0; box-shadow: none; }
     @include breakpoint($small){
       .bio-photo img{ max-height: 40vh; object-fit: contain; }
     }
