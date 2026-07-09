@@ -36,6 +36,50 @@
   }
 }
 
+.masthead-logo {
+  position: absolute;
+  right: 0.45rem;
+  top: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: translateY(-50%);
+  z-index: 20;
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  &:hover img {
+    box-shadow: none;
+  }
+}
+
+.greedy-nav {
+  padding-right: 3.45rem;
+}
+
+@include breakpoint(max-width $medium) {
+  .masthead-logo {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .greedy-nav {
+    padding-right: 3rem;
+  }
+}
+
 .masthead__menu {
 
   ul {

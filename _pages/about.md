@@ -11,7 +11,6 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 <div class="name-row">
   <h1><span class="accent-bar"></span>Yuhao Shen 沈宇昊</h1>
-  <img class="cuhk-logo-mark" src="images/cuhk-sz-logo.png" alt="CUHK-Shenzhen logo">
 </div>
 <section class="bio-wrap">
   <div class="bio-main" markdown="1">
