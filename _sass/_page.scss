@@ -75,7 +75,7 @@
 
   .name-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     gap: 0.55rem 1.1rem;
     margin: 0 0 1rem;
@@ -90,6 +90,48 @@
     padding-bottom: 0;
     border-bottom: 0;
     flex: 0 1 auto;
+  }
+
+  .name-row-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 6.8rem;
+    width: 6.8rem;
+    height: 5.25rem;
+    margin-left: auto;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .name-row-logo img {
+    display: block;
+    width: auto;
+    height: 4.85rem;
+    max-width: 100%;
+    object-fit: contain;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .name-row-logo:hover img {
+    box-shadow: none;
+  }
+
+  @include breakpoint(max-width $small) {
+    .name-row {
+      flex-wrap: wrap;
+    }
+
+    .name-row-logo {
+      flex-basis: 4.6rem;
+      width: 4.6rem;
+      height: 3.55rem;
+    }
+
+    .name-row-logo img {
+      height: 3.2rem;
+    }
   }
 
   p, li, dl {
