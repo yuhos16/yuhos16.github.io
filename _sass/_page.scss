@@ -75,7 +75,7 @@
 
   .name-row {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.55rem 1.1rem;
     margin: 0 0 1rem;
@@ -90,12 +90,6 @@
     padding-bottom: 0;
     border-bottom: 0;
     flex: 0 1 auto;
-  }
-
-  @include breakpoint(max-width $small) {
-    .name-row {
-      flex-wrap: wrap;
-    }
   }
 
   p, li, dl {

@@ -175,7 +175,6 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  padding-left: clamp(1.25rem, 3vw, 2.75rem);
   background: $background-color;
 
   a {
