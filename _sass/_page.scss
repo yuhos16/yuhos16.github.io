@@ -92,44 +92,9 @@
     flex: 0 1 auto;
   }
 
-  .name-row-logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex: 0 0 5.8rem;
-    width: 5.8rem;
-    height: 4.25rem;
-    margin-left: auto;
-    padding: 0;
-    line-height: 0;
-  }
-
-  .name-row-logo img {
-    display: block;
-    width: auto !important;
-    height: 4rem !important;
-    max-width: 5.8rem !important;
-    max-height: 4rem !important;
-    object-fit: contain;
-    background: transparent;
-    box-shadow: none !important;
-  }
-
   @include breakpoint(max-width $small) {
     .name-row {
       flex-wrap: wrap;
-    }
-
-    .name-row-logo {
-      flex-basis: 4rem;
-      width: 4rem;
-      height: 3rem;
-    }
-
-    .name-row-logo img {
-      height: 2.8rem !important;
-      max-width: 4rem !important;
-      max-height: 2.8rem !important;
     }
   }
 

@@ -64,6 +64,55 @@
   }
 }
 
+.masthead__menu-logo-item {
+  padding-left: 0.15rem;
+}
+
+.masthead-logo-link {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.15rem !important;
+  margin-right: 0 !important;
+  padding: 0.08rem 0 0.06rem !important;
+  line-height: 0;
+
+  &:before {
+    content: none !important;
+  }
+
+  img {
+    display: block;
+    width: auto !important;
+    height: 4.2rem !important;
+    max-width: 5.4rem !important;
+    max-height: 4.2rem !important;
+    object-fit: contain;
+    background: transparent;
+    box-shadow: none !important;
+  }
+
+  &:hover img {
+    box-shadow: none !important;
+  }
+}
+
+@include breakpoint(max-width $medium) {
+  .masthead__menu-logo-item {
+    padding-left: 0;
+  }
+
+  .masthead-logo-link {
+    margin-left: 0 !important;
+
+    img {
+      height: 2.8rem !important;
+      max-width: 3.6rem !important;
+      max-height: 2.8rem !important;
+    }
+  }
+}
+
 .theme-toggle {
   position: absolute;
   right: 0.5em;
