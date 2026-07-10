@@ -11,9 +11,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 <div class="name-row">
   <h1><span class="accent-bar"></span>Yuhao Shen 沈宇昊</h1>
-  <a class="name-row-logo" href="#about-me" aria-label="CUHK-Shenzhen">
-    <img src="images/cuhk-sz-logo.png" alt="CUHK-Shenzhen logo">
-  </a>
+  <span class="name-row-logo" aria-label="CUHK-Shenzhen">
+    <img src="images/cuhk-sz-logo.png" alt="CUHK-Shenzhen logo" style="display:block;width:auto !important;height:4rem !important;max-width:5.8rem !important;max-height:4rem !important;object-fit:contain;background:transparent;box-shadow:none;">
+  </span>
 </div>
 <section class="bio-wrap">
   <div class="bio-main" markdown="1">

@@ -96,26 +96,23 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    flex: 0 0 6.8rem;
-    width: 6.8rem;
-    height: 5.25rem;
+    flex: 0 0 5.8rem;
+    width: 5.8rem;
+    height: 4.25rem;
     margin-left: auto;
     padding: 0;
-    text-decoration: none;
+    line-height: 0;
   }
 
   .name-row-logo img {
     display: block;
-    width: auto;
-    height: 4.85rem;
-    max-width: 100%;
+    width: auto !important;
+    height: 4rem !important;
+    max-width: 5.8rem !important;
+    max-height: 4rem !important;
     object-fit: contain;
     background: transparent;
-    box-shadow: none;
-  }
-
-  .name-row-logo:hover img {
-    box-shadow: none;
+    box-shadow: none !important;
   }
 
   @include breakpoint(max-width $small) {
@@ -124,13 +121,15 @@
     }
 
     .name-row-logo {
-      flex-basis: 4.6rem;
-      width: 4.6rem;
-      height: 3.55rem;
+      flex-basis: 4rem;
+      width: 4rem;
+      height: 3rem;
     }
 
     .name-row-logo img {
-      height: 3.2rem;
+      height: 2.8rem !important;
+      max-width: 4rem !important;
+      max-height: 2.8rem !important;
     }
   }
 
