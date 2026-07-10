@@ -38,13 +38,13 @@
 
 .masthead-logo {
   position: absolute;
-  right: clamp(10rem, 11vw, 14rem);
+  right: clamp(9.4rem, 10.4vw, 13.4rem);
   top: 50%;
   display: flex !important;
   align-items: center;
   justify-content: center;
-  width: 4.6rem;
-  height: 4.6rem;
+  width: 4.4rem;
+  height: 4.4rem;
   margin: 0 !important;
   padding: 0 !important;
   transform: translateY(-50%);
@@ -72,8 +72,8 @@
 @include breakpoint(max-width $medium) {
   .masthead-logo {
     right: 0.85rem;
-    width: 2.9rem;
-    height: 2.9rem;
+    width: 2.75rem;
+    height: 2.75rem;
   }
 
   .greedy-nav {
