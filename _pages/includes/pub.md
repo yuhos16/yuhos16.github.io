@@ -1,40 +1,6 @@
 <span class='anchor' id='publication'></span>
 # 📚 Selected Publication [[Google Scholar](https://scholar.google.com/citations?user=4lxKAtMAAAAJ&hl=zh-CN)]
-*# Equal Contribution*
- 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2026</div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">MedGuideX: Internalizing Decision Logic from Executable Guidelines into Large Language Models for Clinical Reasoning</div>
-<div class="paper-authors" markdown="1">
-**Yuhao Shen**, Lang Cao, Simo Du, Yuqing Wang, Juexiao Zhou, Hao Peng, Yue Guo
-</div>
-<div class="paper-meta"><strong>Preprint, 2026</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/abs/2605.26567">PDF</a>
-</div>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2026</div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">SkinGPT-X: A Multimodal Collaborative Multi-agent System with Self-evolving Dermatological Memory for Transparent and Trustworthy Diagnosis</div>
-<div class="paper-authors" markdown="1">
-Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
-</div>
-<div class="paper-meta"><strong>Preprint, 2026</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/abs/2603.26122">PDF</a>
-  <a class="paper-link-button" href="https://github.com/healme-225040511/Skingpt_X">Code</a>
-</div>
-
-<!--
-- Introduce **SkinGPT-X**, a multimodal collaborative multi-agent dermatology diagnosis system with self-evolving memory.
--->
-<!-- removed second bullet -->
-</div>
-</div>
+*\* Equal Contribution*
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2025</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -53,6 +19,20 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 - Introduce **SkinGPT-R1**, a dermatology VLM that achieves interpretable and equitable diagnosis across diverse ethnicities by performing explicit, step-by-step, and verifiable diagnostic chain-of-thought reasoning.
 -->
 <!-- removed second bullet -->
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2026</div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">MedGuideX: Internalizing Decision Logic from Executable Guidelines into Large Language Models for Clinical Reasoning</div>
+<div class="paper-authors" markdown="1">
+**Yuhao Shen**, Lang Cao, Simo Du, Yuqing Wang, Juexiao Zhou, Hao Peng, Yue Guo
+</div>
+<div class="paper-meta"><strong>Preprint, 2026</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://arxiv.org/abs/2605.26567">PDF</a>
+</div>
 </div>
 </div>
 
@@ -78,27 +58,6 @@ Zhangtianyi Chen#, **Yuhao Shen#**, Florensia Widjaja#, Yan Xu, Liyuan Sun, Ziji
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2025</div><img src='images/cotboxttt.png' alt="CoTBox-TTT" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training</div>
-<div class="paper-authors" markdown="1">
-Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
-</div>
-<div class="paper-meta"><strong>Preprint, 2025</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/abs/2511.12446">PDF</a>
-</div>
-
-<!-- [**Project**](https://github.com/placeholder/CoTBox-TTT) \| [**Code**](https://github.com/placeholder/CoTBox-TTT)  <strong><span class='show_paper_citations' data='PLACEHOLDER_COTBOX_TTT'></span></strong> -->
-
-<!--
-- Evidence-first **test-time training** with all backbones frozen; update continuous soft prompts guided by **visual chain-of-thought boxes**.
--->
-<!-- removed second bullet -->
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2025</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -114,5 +73,46 @@ Jiahe Qian#, **Yuhao Shen#**, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 
  <!-- \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong> -->
 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2026</div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">SkinGPT-X: A Multimodal Collaborative Multi-agent System with Self-evolving Dermatological Memory for Transparent and Trustworthy Diagnosis</div>
+<div class="paper-authors" markdown="1">
+Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
+</div>
+<div class="paper-meta"><strong>Preprint, 2026</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://arxiv.org/abs/2603.26122">PDF</a>
+  <a class="paper-link-button" href="https://github.com/healme-225040511/Skingpt_X">Code</a>
+</div>
+
+<!--
+- Introduce **SkinGPT-X**, a multimodal collaborative multi-agent dermatology diagnosis system with self-evolving memory.
+-->
+<!-- removed second bullet -->
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2025</div><img src='images/cotboxttt.png' alt="CoTBox-TTT" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training</div>
+<div class="paper-authors" markdown="1">
+Jiahe Qian\*, **Yuhao Shen\***, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
+</div>
+<div class="paper-meta"><strong>Preprint, 2025</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://arxiv.org/abs/2511.12446">PDF</a>
+</div>
+
+<!-- [**Project**](https://github.com/placeholder/CoTBox-TTT) \| [**Code**](https://github.com/placeholder/CoTBox-TTT)  <strong><span class='show_paper_citations' data='PLACEHOLDER_COTBOX_TTT'></span></strong> -->
+
+<!--
+- Evidence-first **test-time training** with all backbones frozen; update continuous soft prompts guided by **visual chain-of-thought boxes**.
+-->
+<!-- removed second bullet -->
 </div>
 </div>
