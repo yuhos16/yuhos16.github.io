@@ -456,16 +456,16 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
 
 .timeline-card-list {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.9rem;
   margin: 0.4rem 0 1.4rem;
 }
 
 .profile-card {
   display: grid;
-  grid-template-columns: 64px minmax(0, 1fr) auto;
-  gap: 1rem;
+  grid-template-columns: 84px minmax(0, 1fr) auto;
+  gap: 1.1rem;
   align-items: center;
-  padding: 0.82rem 1rem;
+  padding: 0.95rem 1.05rem;
   border: 1px solid rgba($site-ink, 0.14);
   border-radius: 8px;
   background: $site-white;
@@ -476,17 +476,23 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
-  border: 1px solid rgba($site-ink, 0.14);
-  border-radius: 8px;
-  background: $site-white;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
 }
 
 .profile-logo img {
-  width: 48px;
-  height: 48px;
+  width: 74px;
+  height: 74px;
   object-fit: contain;
+}
+
+.profile-logo--ant img {
+  width: 96px;
+  height: 96px;
+  max-width: none;
+  object-fit: cover;
+  object-position: left center;
 }
 
 .profile-card-title {
@@ -495,11 +501,27 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
 }
 
 .profile-card-subtitle {
-  margin-top: 0.12rem;
+  margin-top: 0.16rem;
   color: $site-ink;
   font-size: 0.98em;
   font-weight: 600;
   line-height: 1.35;
+}
+
+.profile-card-detail {
+  margin-top: 0.28rem;
+  color: rgba($site-ink, 0.82);
+  font-size: 0.88em;
+  line-height: 1.42;
+}
+
+.profile-card-detail + .profile-card-detail {
+  margin-top: 0.1rem;
+}
+
+.profile-card-label {
+  color: $site-green;
+  font-weight: 700;
 }
 
 .education-card .profile-card-subtitle {
@@ -521,21 +543,32 @@ html.theme-dark .profile-card {
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.24);
 }
 
-html.theme-dark .profile-logo {
-  border-color: rgba($site-white, 0.16);
-  background: $site-ink;
-}
-
 html.theme-dark .profile-card-subtitle,
-html.theme-dark .profile-card-meta {
+html.theme-dark .profile-card-meta,
+html.theme-dark .profile-card-detail {
   color: $site-white;
 }
 
 @media (max-width: 640px) {
   .profile-card {
-    grid-template-columns: 58px minmax(0, 1fr);
-    gap: 0.75rem;
-    padding: 0.75rem 0.82rem;
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 0.8rem;
+    padding: 0.82rem;
+  }
+
+  .profile-logo {
+    width: 68px;
+    height: 68px;
+  }
+
+  .profile-logo img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .profile-logo--ant img {
+    width: 82px;
+    height: 82px;
   }
 
   .profile-card-meta {
