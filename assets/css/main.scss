@@ -523,15 +523,29 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
   font-weight: 700;
 }
 
+.experience-card .profile-card-label {
+  color: $site-ink;
+}
+
+.education-card .profile-card-subtitle {
+  font-size: 0.88em;
+  line-height: 1.42;
+}
+
 .profile-card-facts {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 1rem;
+  column-gap: 0.75rem;
   row-gap: 0.1rem;
 }
 
 .profile-card-facts > span {
   white-space: nowrap;
+}
+
+.profile-card-facts > span + span {
+  padding-left: 0.75rem;
+  border-left: 1px solid rgba($site-ink, 0.18);
 }
 
 .profile-card-detail a.profile-card-person-link,
@@ -565,6 +579,14 @@ html.theme-dark .profile-card-detail a.profile-card-person-link,
 html.theme-dark .profile-card-detail a.profile-card-person-link:visited,
 html.theme-dark .profile-card-detail a.profile-card-person-link:hover {
   color: $site-white;
+}
+
+html.theme-dark .experience-card .profile-card-label {
+  color: $site-white;
+}
+
+html.theme-dark .profile-card-facts > span + span {
+  border-left-color: rgba($site-white, 0.24);
 }
 
 @media (max-width: 640px) {
