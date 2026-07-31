@@ -6,7 +6,7 @@
     <div class="profile-card-main">
       <div class="profile-card-title">Ant Group</div>
       <div class="profile-card-subtitle">Research Intern</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Mentor:</span> <strong><a href="https://junjun2016.github.io/">Junjun He</a></strong></div>
+      <div class="profile-card-detail"><span class="profile-card-label">Mentor:</span> <strong><a class="profile-card-person-link" href="https://junjun2016.github.io/">Junjun He</a></strong></div>
       <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Medical AGI and World Models</div>
     </div>
     <div class="profile-card-meta">
@@ -19,24 +19,11 @@
     <div class="profile-card-main">
       <div class="profile-card-title">University of Illinois Urbana-Champaign (UIUC)</div>
       <div class="profile-card-subtitle">Research Intern</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <strong><a href="https://yueguo-50.github.io/">Prof. Yue Guo</a></strong></div>
+      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <strong><a class="profile-card-person-link" href="https://yueguo-50.github.io/">Prof. Yue Guo</a></strong></div>
       <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Trustworthy Clinical Reasoning for Medical LLMs</div>
     </div>
     <div class="profile-card-meta">
       <div>Feb 2026 - Jun 2026</div>
-    </div>
-  </div>
-
-  <div class="profile-card experience-card">
-    <div class="profile-logo"><img src="images/education/cuhk-shenzhen.png" alt="The Chinese University of Hong Kong, Shenzhen logo"></div>
-    <div class="profile-card-main">
-      <div class="profile-card-title">The Chinese University of Hong Kong, Shenzhen</div>
-      <div class="profile-card-subtitle">Research Intern</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <strong><a href="https://www.joshuachou.ink/about/">Prof. Juexiao Zhou</a></strong></div>
-      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Dermatology Image Segmentation and Medical Vision</div>
-    </div>
-    <div class="profile-card-meta">
-      <div>Mar 2025 - May 2025</div>
     </div>
   </div>
 
@@ -62,6 +49,11 @@
     <div class="profile-card-main">
       <div class="profile-card-title">The Chinese University of Hong Kong, Shenzhen</div>
       <div class="profile-card-subtitle">Master of Philosophy in Computer Science</div>
+      <div class="profile-card-detail profile-card-facts">
+        <span><span class="profile-card-label">School:</span> School of Data Science</span>
+        <span><span class="profile-card-label">GPA:</span> 3.6/4.0</span>
+      </div>
+      <div class="profile-card-detail"><span class="profile-card-label">Advisor:</span> <strong><a class="profile-card-person-link" href="https://www.joshuachou.ink/about/">Prof. Juexiao Zhou</a></strong></div>
     </div>
     <div class="profile-card-meta">
       <div>Sep 2025 - Present</div>
@@ -74,6 +66,12 @@
     <div class="profile-card-main">
       <div class="profile-card-title">Hangzhou Dianzi University</div>
       <div class="profile-card-subtitle">Bachelor of Engineering in Computer Science and Technology</div>
+      <div class="profile-card-detail profile-card-facts">
+        <span><span class="profile-card-label">School:</span> School of Computer Science</span>
+        <span><span class="profile-card-label">GPA:</span> 3.8/4.0</span>
+        <span><span class="profile-card-label">Honor:</span> Outstanding Graduate</span>
+      </div>
+      <div class="profile-card-detail"><span class="profile-card-label">Supervisors:</span> <strong><a class="profile-card-person-link" href="https://faculty.hdu.edu.cn/jsjxy/grs/main.htm">Prof. Renshu Gu</a></strong> and <strong><a class="profile-card-person-link" href="https://faculty.hdu.edu.cn/jsjxy/gfl/main.htm">Prof. Fangli Guan</a></strong></div>
     </div>
     <div class="profile-card-meta">
       <div>Sep 2021 - Jun 2025</div>
