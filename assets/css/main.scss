@@ -488,11 +488,14 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
 }
 
 .profile-logo--ant img {
-  width: 96px;
-  height: 96px;
-  max-width: none;
-  object-fit: cover;
-  object-position: left center;
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.experience-card {
+  padding-left: 4rem;
 }
 
 .profile-card-title {
@@ -567,8 +570,12 @@ html.theme-dark .profile-card-detail {
   }
 
   .profile-logo--ant img {
-    width: 82px;
-    height: 82px;
+    width: 66px;
+    height: 66px;
+  }
+
+  .experience-card {
+    padding-left: 0.82rem;
   }
 
   .profile-card-meta {

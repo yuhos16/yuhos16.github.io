@@ -5,9 +5,9 @@
     <div class="profile-logo profile-logo--ant"><img src="images/experience/ant-group.png" alt="Ant Group logo"></div>
     <div class="profile-card-main">
       <div class="profile-card-title">Ant Group</div>
-      <div class="profile-card-subtitle">Research Intern, Foundation Models</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Mentor:</span> Junjun He</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Generalist Medical AI and World Models</div>
+      <div class="profile-card-subtitle">Research Intern</div>
+      <div class="profile-card-detail"><span class="profile-card-label">Mentor:</span> <strong><a href="https://junjun2016.github.io/">Junjun He</a></strong></div>
+      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Medical AGI and World Models</div>
     </div>
     <div class="profile-card-meta">
       <div>Aug 2026 - Present</div>
@@ -19,8 +19,8 @@
     <div class="profile-card-main">
       <div class="profile-card-title">University of Illinois Urbana-Champaign (UIUC)</div>
       <div class="profile-card-subtitle">Research Intern</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> Prof. Yue Guo</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> MedGuideX and Verifiable Clinical Reasoning</div>
+      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <strong><a href="https://yueguo-50.github.io/">Prof. Yue Guo</a></strong></div>
+      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Trustworthy Clinical Reasoning for Medical LLMs</div>
     </div>
     <div class="profile-card-meta">
       <div>Feb 2026 - Jun 2026</div>
@@ -32,7 +32,7 @@
     <div class="profile-card-main">
       <div class="profile-card-title">The Chinese University of Hong Kong, Shenzhen</div>
       <div class="profile-card-subtitle">Research Intern</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> Prof. Juexiao Zhou</div>
+      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <strong><a href="https://www.joshuachou.ink/about/">Prof. Juexiao Zhou</a></strong></div>
       <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Dermatology Image Segmentation and Medical Vision</div>
     </div>
     <div class="profile-card-meta">
@@ -45,7 +45,7 @@
     <div class="profile-card-main">
       <div class="profile-card-title">Hangzhou Institute of Technology, Xidian University</div>
       <div class="profile-card-subtitle">Research Intern</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> Prof. Chao Yang</div>
+      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <strong>Prof. Chao Yang</strong></div>
       <div class="profile-card-detail"><span class="profile-card-label">Research:</span> 3D Point-Cloud Perception for Automated Ship-Hold Cleaning</div>
     </div>
     <div class="profile-card-meta">
