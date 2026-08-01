@@ -548,13 +548,13 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
 .profile-card-detail a.profile-card-person-link,
 .profile-card-detail a.profile-card-person-link:visited,
 .profile-card-detail a.profile-card-person-link:hover {
-  color: $site-green;
+  color: $site-ink;
   text-decoration: none;
 }
 
-.intro-accent-link,
-.intro-accent-link:visited,
-.intro-accent-link:hover {
+.page__content a.intro-accent-link,
+.page__content a.intro-accent-link:visited,
+.page__content a.intro-accent-link:hover {
   color: $site-green;
   text-decoration: none;
 }
@@ -583,7 +583,14 @@ html.theme-dark .profile-card-person,
 html.theme-dark .profile-card-detail a.profile-card-person-link,
 html.theme-dark .profile-card-detail a.profile-card-person-link:visited,
 html.theme-dark .profile-card-detail a.profile-card-person-link:hover {
-  color: $site-green;
+  color: $site-white;
+}
+
+html.theme-dark .page__content a.intro-accent-link,
+html.theme-dark .page__content a.intro-accent-link:visited,
+html.theme-dark .page__content a.intro-accent-link:hover {
+  color: $site-white;
+  text-decoration: none;
 }
 
 html.theme-dark .profile-card-facts > span + span {
