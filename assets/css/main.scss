@@ -509,7 +509,7 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
 
 .profile-card-detail {
   margin-top: 0.28rem;
-  color: rgba($site-ink, 0.82);
+  color: $site-ink;
   font-size: 0.88em;
   line-height: 1.42;
 }
@@ -519,12 +519,8 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
 }
 
 .profile-card-label {
-  color: $site-green;
-  font-weight: 700;
-}
-
-.experience-card .profile-card-label {
-  color: $site-ink;
+  color: inherit;
+  font-weight: 400;
 }
 
 .education-card .profile-card-subtitle {
@@ -548,6 +544,7 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
   border-left: 1px solid rgba($site-ink, 0.18);
 }
 
+.profile-card-person,
 .profile-card-detail a.profile-card-person-link,
 .profile-card-detail a.profile-card-person-link:visited,
 .profile-card-detail a.profile-card-person-link:hover {
@@ -575,13 +572,10 @@ html.theme-dark .profile-card-detail {
   color: $site-white;
 }
 
+html.theme-dark .profile-card-person,
 html.theme-dark .profile-card-detail a.profile-card-person-link,
 html.theme-dark .profile-card-detail a.profile-card-person-link:visited,
 html.theme-dark .profile-card-detail a.profile-card-person-link:hover {
-  color: $site-white;
-}
-
-html.theme-dark .experience-card .profile-card-label {
   color: $site-white;
 }
 
