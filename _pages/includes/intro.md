@@ -12,7 +12,7 @@ The Chinese University of Hong Kong, Shenzhen</p>
   <a class="il-item" href="{{ site.author.orcid }}" target="_blank" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i></a>
 </div>
 
-Hi there! I am currently an MPhil student in Computer Science at CUHK-SZ, advised by [**Prof. Juexiao Zhou**](https://www.joshuachou.ink/about/). My primary research interest lies in **AI for Healthcare**, with a particular focus on the following three areas:
+Hi there! I am currently an MPhil student in Computer Science at <a class="intro-accent-link" href="https://www.cuhk.edu.cn/en"><strong><em>CUHK-Shenzhen</em></strong></a>, advised by <a class="intro-accent-link" href="https://www.joshuachou.ink/about/"><strong><em>Prof. Juexiao Zhou</em></strong></a>. My primary research interest lies in **AI for Healthcare**, with a particular focus on the following three areas:
 
 <div class="vitem"><span class="accent-bar-sm"></span> <strong>Medical LLMs & Agents</strong></div>
 <div class="vitem"><span class="accent-bar-sm"></span> <strong>LLM Reasoning & Reinforcement learning</strong></div>

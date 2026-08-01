@@ -56,7 +56,6 @@
     </div>
     <div class="profile-card-meta">
       <div>Sep 2025 - Present</div>
-      <div>Shenzhen, China</div>
     </div>
   </div>
 
@@ -73,7 +72,6 @@
     </div>
     <div class="profile-card-meta">
       <div>Sep 2021 - Jun 2025</div>
-      <div>Hangzhou, China</div>
     </div>
   </div>
 </div>

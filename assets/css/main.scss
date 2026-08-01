@@ -548,7 +548,14 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
 .profile-card-detail a.profile-card-person-link,
 .profile-card-detail a.profile-card-person-link:visited,
 .profile-card-detail a.profile-card-person-link:hover {
-  color: $site-ink;
+  color: $site-green;
+  text-decoration: none;
+}
+
+.intro-accent-link,
+.intro-accent-link:visited,
+.intro-accent-link:hover {
+  color: $site-green;
   text-decoration: none;
 }
 
@@ -576,7 +583,7 @@ html.theme-dark .profile-card-person,
 html.theme-dark .profile-card-detail a.profile-card-person-link,
 html.theme-dark .profile-card-detail a.profile-card-person-link:visited,
 html.theme-dark .profile-card-detail a.profile-card-person-link:hover {
-  color: $site-white;
+  color: $site-green;
 }
 
 html.theme-dark .profile-card-facts > span + span {
