@@ -554,19 +554,33 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
   border-left: 1px solid rgba($site-ink, 0.18);
 }
 
-.profile-card-person,
+.profile-card-person {
+  color: $site-ink;
+}
+
 .profile-card-detail a.profile-card-person-link,
 .profile-card-detail a.profile-card-person-link:visited,
 .profile-card-detail a.profile-card-person-link:hover {
-  color: $site-ink;
-  text-decoration: none;
-}
-
-.page__content a.intro-accent-link,
-.page__content a.intro-accent-link:visited,
-.page__content a.intro-accent-link:hover {
   color: $site-green;
   text-decoration: none;
+  font-style: italic;
+  font-weight: 700;
+}
+
+html:not(.theme-dark) .page__content a.intro-accent-link,
+html:not(.theme-dark) .page__content a.intro-accent-link:visited,
+html:not(.theme-dark) .page__content a.intro-accent-link:hover {
+  color: $site-green;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 700;
+}
+
+html:not(.theme-dark) .page__content a.intro-accent-link strong,
+html:not(.theme-dark) .page__content a.intro-accent-link em {
+  color: $site-green;
+  font-style: italic;
+  font-weight: 700;
 }
 
 .profile-card-meta {
@@ -589,18 +603,35 @@ html.theme-dark .profile-card-detail {
   color: $site-white;
 }
 
-html.theme-dark .profile-card-person,
+html.theme-dark .profile-card-person {
+  color: $site-white;
+}
+
 html.theme-dark .profile-card-detail a.profile-card-person-link,
 html.theme-dark .profile-card-detail a.profile-card-person-link:visited,
 html.theme-dark .profile-card-detail a.profile-card-person-link:hover {
   color: $site-white;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+  font-style: italic;
+  font-weight: 700;
 }
 
 html.theme-dark .page__content a.intro-accent-link,
 html.theme-dark .page__content a.intro-accent-link:visited,
 html.theme-dark .page__content a.intro-accent-link:hover {
   color: $site-white;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+  font-style: italic;
+  font-weight: 700;
+}
+
+html.theme-dark .page__content a.intro-accent-link strong,
+html.theme-dark .page__content a.intro-accent-link em {
+  color: $site-white;
+  font-style: italic;
+  font-weight: 700;
 }
 
 html.theme-dark .profile-card-facts > span + span {
