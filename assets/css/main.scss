@@ -373,6 +373,12 @@ html:not(.theme-dark) .inline-links .il-icon-hf {
   z-index: 1100;
 }
 
+@media (max-width: 768px) {
+  .theme-toggle-fixed {
+    display: none;
+  }
+}
+
 .theme-toggle-fixed button {
   background: transparent;
   border: 1px solid rgba($site-ink, 0.16);
@@ -427,6 +433,10 @@ html:not(.theme-dark) ::-moz-selection {
   background-color: $site-green;
   border-radius: 2px;
   margin-right: 8px;
+}
+
+.name-zh {
+  font-family: "Songti SC", "STSong", "SimSun", Georgia, serif;
 }
 
 .masthead__menu-home-item a {

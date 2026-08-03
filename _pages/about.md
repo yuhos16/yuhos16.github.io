@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 <div class="name-row">
-  <h1><span class="accent-bar"></span>Yuhao Shen 沈宇昊</h1>
+  <h1><span class="accent-bar"></span>Yuhao Shen <span class="name-zh">沈宇昊</span></h1>
 </div>
 <section class="bio-wrap">
   <div class="bio-main" markdown="1">
