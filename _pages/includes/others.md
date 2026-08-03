@@ -32,8 +32,8 @@
     <div class="profile-card-main">
       <div class="profile-card-title">Hangzhou Institute of Technology, Xidian University</div>
       <div class="profile-card-subtitle">Research Intern</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person"><strong><em>Prof. Chao Yang</em></strong></span></div>
-      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> 3D Point-Cloud Perception for Automated Ship-Hold Cleaning</div>
+      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person">Prof. Chao Yang</span></div>
+      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> 3D Point-Cloud Perception</div>
     </div>
     <div class="profile-card-meta">
       <div>Jul 2023 - Sep 2023</div>
@@ -48,7 +48,7 @@
     <div class="profile-logo"><img src="images/education/cuhk-shenzhen.png" alt="The Chinese University of Hong Kong, Shenzhen logo"></div>
     <div class="profile-card-main">
       <div class="profile-card-title">The Chinese University of Hong Kong, Shenzhen</div>
-      <div class="profile-card-subtitle">Master of Philosophy in Computer Science</div>
+      <div class="profile-card-subtitle">M.Phil. in Computer Science</div>
       <div class="profile-card-detail profile-card-facts">
         <span><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person"><strong><em><a class="profile-card-person-link" href="https://www.joshuachou.ink/about/">Prof. Juexiao Zhou</a></em></strong></span></span>
         <span>GPA: 3.6/4.0</span>
@@ -63,11 +63,10 @@
     <div class="profile-logo"><img src="images/education/hdu.png" alt="Hangzhou Dianzi University logo"></div>
     <div class="profile-card-main">
       <div class="profile-card-title">Hangzhou Dianzi University</div>
-      <div class="profile-card-subtitle">Bachelor of Engineering in Computer Science and Technology</div>
+      <div class="profile-card-subtitle">B.Eng. in Computer Science and Technology</div>
       <div class="profile-card-detail profile-card-facts">
         <span><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person"><strong><em><a class="profile-card-person-link" href="https://faculty.hdu.edu.cn/jsjxy/grs/main.htm">Prof. Renshu Gu</a></em></strong></span></span>
         <span>GPA: 3.8/4.0</span>
-        <span>Outstanding Graduate</span>
       </div>
     </div>
     <div class="profile-card-meta">
