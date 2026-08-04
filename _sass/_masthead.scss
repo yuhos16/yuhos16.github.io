@@ -37,26 +37,33 @@
 
 .masthead-logo {
   position: absolute;
-  right: clamp(9.4rem, 10.4vw, 13.4rem);
+  right: 0.5rem;
   top: 50%;
   display: flex !important;
   align-items: center;
   justify-content: center;
-  width: 4.4rem;
-  height: 4.4rem;
+  width: 17rem;
+  height: 3.25rem;
   margin: 0 !important;
   padding: 0 !important;
   transform: translateY(-50%);
   z-index: 20;
 
   img {
+    position: absolute;
+    inset: 0;
     display: block;
     max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
+    margin: auto;
     background: transparent;
     box-shadow: none;
+  }
+
+  .masthead-logo-wordmark-dark {
+    display: none;
   }
 
   &:hover img {
@@ -66,8 +73,8 @@
 
 @include breakpoint(max-width $medium) {
   .masthead-logo {
-    right: 0.85rem;
-    width: 2.75rem;
+    right: 0.5rem;
+    width: 7.5rem;
     height: 2.75rem;
   }
 
@@ -77,9 +84,10 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   min-height: 3rem;
-  padding-right: clamp(13rem, 15vw, 18rem);
+  padding-left: 0.5rem;
+  padding-right: 18rem;
 }
 
 .masthead-home-link {
@@ -93,8 +101,15 @@
 
 @include breakpoint(max-width $medium) {
   .masthead__menu {
-    padding-right: 4.2rem;
+    padding-left: 0.5rem;
+    padding-right: 8rem;
   }
+}
+
+html.theme-dark .masthead-logo-wordmark-dark {
+  display: block;
+  filter: brightness(0) invert(1);
+  clip-path: inset(0 0 0 19%);
 }
 
 .theme-toggle {

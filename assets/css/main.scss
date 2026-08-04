@@ -186,6 +186,14 @@ $site-green: #6F2C91;
       &.paper-box-image--ultrawide img {
         object-fit: contain;
       }
+
+      &.paper-box-image--wide > div {
+        aspect-ratio: 2.4 / 1;
+      }
+
+      &.paper-box-image--wide img {
+        object-fit: contain;
+      }
     }
 
     .paper-box-text {
