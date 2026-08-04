@@ -13,7 +13,7 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: 1160px;
+    max-width: 1110px;
   }
 
   @include breakpoint($large) {
@@ -102,12 +102,12 @@
     align-items: start;
     row-gap: 1em;
     @include breakpoint($medium){
-      grid-template-columns: 1fr 240px;
-      column-gap: 1.35em;
+      grid-template-columns: 1fr 270px;
+      column-gap: 0.65rem;
       row-gap: 0;
     }
     @include breakpoint($large){
-      grid-template-columns: 1fr 300px;
+      grid-template-columns: minmax(0, 1fr) 400px;
     }
   }
 
@@ -119,8 +119,8 @@
   }
 
   .bio-side{
-    flex: 0 0 300px;
-    width: 300px;
+    flex: 0 0 400px;
+    width: 400px;
 
     .profile_box{ display: block; }
     .author__avatar img{ max-width: 210px; }
@@ -138,16 +138,15 @@
 
   .bio-fixed{
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     margin: 0 auto;
     @include breakpoint($medium){
       width: 270px;
       max-width: none;
-      margin: .25rem 0 0 -14px;
+      margin: .25rem 0 0;
     }
     @include breakpoint($large){
-      width: 300px;
-      margin-left: -18px;
+      width: 400px;
     }
     .bio-photo{ display: flex; justify-content: flex-start; }
     .bio-photo img{ width: 100%; height: auto; border-radius: 0; box-shadow: none; }

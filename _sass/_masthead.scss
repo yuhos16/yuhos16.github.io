@@ -22,7 +22,7 @@
     background-color: $background-color;
   
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: 1110px;
     }
 
     nav {
@@ -42,8 +42,8 @@
   display: flex !important;
   align-items: center;
   justify-content: center;
-  width: 17rem;
-  height: 3.25rem;
+  width: 20rem;
+  height: 3.75rem;
   margin: 0 !important;
   padding: 0 !important;
   transform: translateY(-50%);
@@ -74,7 +74,7 @@
 @include breakpoint(max-width $medium) {
   .masthead-logo {
     right: 0.5rem;
-    width: 7.5rem;
+    width: 8rem;
     height: 2.75rem;
   }
 
@@ -102,7 +102,7 @@
 @include breakpoint(max-width $medium) {
   .masthead__menu {
     padding-left: 0.5rem;
-    padding-right: 8rem;
+    padding-right: 8.5rem;
   }
 }
 
