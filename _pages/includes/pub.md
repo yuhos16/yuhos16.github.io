@@ -76,6 +76,20 @@
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image paper-box-image--ultrawide'><div><div class="badge">Preprint, 2026</div><img src='images/guideskill.png' alt="GuideSkill" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning</div>
+<div class="paper-authors" markdown="1">
+Lang Cao, **Yuhao Shen✦**, Tianyang Luo, Simo Du✧, Hao Peng, Yue Guo
+</div>
+<div class="paper-meta"><strong>Preprint, 2026</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://arxiv.org/pdf/2607.26160">PDF</a>
+</div>
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2026</div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

@@ -109,6 +109,31 @@
   }
 }
 
+@include breakpoint(max-width $medium) {
+  .masthead-logo,
+  .greedy-nav > button,
+  .greedy-nav .hidden-links,
+  .masthead__menu-item:not(.masthead__menu-home-item) {
+    display: none !important;
+  }
+
+  .masthead__menu-home-item {
+    display: inline-flex !important;
+    padding-right: 0;
+  }
+
+  .greedy-nav {
+    min-width: 0;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .greedy-nav .visible-links {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
 .theme-toggle {
   position: absolute;
   right: 0.5em;
