@@ -580,26 +580,36 @@ html:not(.theme-dark) .masthead__menu-home-item a { color: $site-ink; }
 }
 
 .profile-card-detail a.profile-card-person-link,
-.profile-card-detail a.profile-card-person-link:visited,
-.profile-card-detail a.profile-card-person-link:hover {
-  color: $site-green;
+.profile-card-detail a.profile-card-person-link:visited {
+  color: $site-ink;
   text-decoration: none;
   font-style: italic;
   font-weight: 700;
 }
 
+.profile-card-detail a.profile-card-person-link:hover {
+  color: $site-ink;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
 html:not(.theme-dark) .page__content a.intro-accent-link,
-html:not(.theme-dark) .page__content a.intro-accent-link:visited,
-html:not(.theme-dark) .page__content a.intro-accent-link:hover {
-  color: $site-green;
+html:not(.theme-dark) .page__content a.intro-accent-link:visited {
+  color: $site-ink;
   text-decoration: none;
   font-style: italic;
   font-weight: 700;
+}
+
+html:not(.theme-dark) .page__content a.intro-accent-link:hover {
+  color: $site-ink;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
 }
 
 html:not(.theme-dark) .page__content a.intro-accent-link strong,
 html:not(.theme-dark) .page__content a.intro-accent-link em {
-  color: $site-green;
+  color: $site-ink;
   font-style: italic;
   font-weight: 700;
 }
@@ -629,23 +639,31 @@ html.theme-dark .profile-card-person {
 }
 
 html.theme-dark .profile-card-detail a.profile-card-person-link,
-html.theme-dark .profile-card-detail a.profile-card-person-link:visited,
-html.theme-dark .profile-card-detail a.profile-card-person-link:hover {
+html.theme-dark .profile-card-detail a.profile-card-person-link:visited {
   color: $site-white;
-  text-decoration: underline;
-  text-underline-offset: 0.12em;
+  text-decoration: none;
   font-style: italic;
   font-weight: 700;
 }
 
+html.theme-dark .profile-card-detail a.profile-card-person-link:hover {
+  color: $site-white;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
 html.theme-dark .page__content a.intro-accent-link,
-html.theme-dark .page__content a.intro-accent-link:visited,
+html.theme-dark .page__content a.intro-accent-link:visited {
+  color: $site-white;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 700;
+}
+
 html.theme-dark .page__content a.intro-accent-link:hover {
   color: $site-white;
   text-decoration: underline;
   text-underline-offset: 0.12em;
-  font-style: italic;
-  font-weight: 700;
 }
 
 html.theme-dark .page__content a.intro-accent-link strong,

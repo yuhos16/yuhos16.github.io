@@ -1,14 +1,10 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <a class="masthead-mobile-home" href="#about-me"><span class="accent-bar"></span><strong>Welcome to my page :)</strong></a>
       <nav id="site-nav" class="greedy-nav">
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a
               href="#about-me"><span class="accent-bar"></span><strong>Welcome to my page :)</strong></a></li>
-          {% for link in site.data.navigation.main %}
-          <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
         <a class="masthead-logo" href="#about-me" aria-label="CUHK-Shenzhen">

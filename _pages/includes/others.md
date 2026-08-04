@@ -32,7 +32,7 @@
     <div class="profile-card-main">
       <div class="profile-card-title">Hangzhou Institute of Technology, Xidian University</div>
       <div class="profile-card-subtitle">Research Intern</div>
-      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person">Prof. Chao Yang</span></div>
+      <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person"><strong><em>Prof. Chao Yang</em></strong></span></div>
       <div class="profile-card-detail"><span class="profile-card-label">Research:</span> 3D Point-Cloud Perception</div>
     </div>
     <div class="profile-card-meta">

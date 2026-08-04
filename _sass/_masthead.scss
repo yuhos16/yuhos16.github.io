@@ -3,8 +3,7 @@
    ========================================================================== */
 
 .masthead {
-  position: sticky;
-  top: 0;
+  position: relative;
   background-color: $background-color;
   border-bottom: 1px solid $border-color;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
@@ -92,10 +91,7 @@
 }
 
 .masthead__menu-home-item {
-  @include breakpoint($medium) {
-    display: block !important;
-  }
-  display: none !important;
+  display: block !important;
 }
 
 .masthead__menu-item {
@@ -105,36 +101,6 @@
 
   &--lg {
     padding-right: 2em;
-    font-weight: 700;
-  }
-}
-
-.masthead-mobile-home {
-  display: none;
-}
-
-@include breakpoint(max-width $medium) {
-  .greedy-nav {
-    min-width: 0;
-    height: 0;
-    overflow: hidden;
-    padding: 0;
-    pointer-events: none;
-  }
-
-  .greedy-nav > button,
-  .greedy-nav .visible-links,
-  .greedy-nav .hidden-links,
-  .masthead-logo {
-    display: none !important;
-  }
-
-  .masthead-mobile-home {
-    display: inline-flex !important;
-    align-items: center;
-    margin-left: 1rem;
-    padding: 0.35rem 0;
-    color: $masthead-link-color;
     font-weight: 700;
   }
 }
