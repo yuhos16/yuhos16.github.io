@@ -109,28 +109,22 @@
   }
 }
 
+.masthead-mobile-home {
+  display: none;
+}
+
 @include breakpoint(max-width $medium) {
-  .masthead-logo,
-  .greedy-nav > button,
-  .greedy-nav .hidden-links,
-  .masthead__menu-item:not(.masthead__menu-home-item) {
+  .greedy-nav {
     display: none !important;
   }
 
-  .masthead__menu-home-item {
+  .masthead-mobile-home {
     display: inline-flex !important;
-    padding-right: 0;
-  }
-
-  .greedy-nav {
-    min-width: 0;
-    padding-right: 0;
-    text-align: left;
-  }
-
-  .greedy-nav .visible-links {
-    width: 100%;
-    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+    padding: 0.35rem 0;
+    color: $masthead-link-color;
+    font-weight: 700;
   }
 }
 
