@@ -115,6 +115,17 @@
 
 @include breakpoint(max-width $medium) {
   .greedy-nav {
+    min-width: 0;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+  }
+
+  .greedy-nav > button,
+  .greedy-nav .visible-links,
+  .greedy-nav .hidden-links,
+  .masthead-logo {
     display: none !important;
   }
 
