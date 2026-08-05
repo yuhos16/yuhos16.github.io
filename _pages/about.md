@@ -13,13 +13,13 @@ redirect_from:
   <h1><span class="accent-bar"></span>Yuhao Shen <span class="name-zh">沈宇昊</span></h1>
 </div>
 <section class="bio-wrap">
+  <aside class="bio-fixed">
+    <div class="bio-photo"><img src="{{ site.author.avatar }}" alt="{{ site.author.name }}"></div>
+  </aside>
   <div class="bio-main" markdown="1">
     {% capture bio_md %}{% include_relative includes/intro.md %}{% endcapture %}
     {{ bio_md | markdownify }}
   </div>
-  <aside class="bio-fixed">
-    <div class="bio-photo"><img src="{{ site.author.avatar }}" alt="{{ site.author.name }}"></div>
-  </aside>
 </section>
 
 <p class="contact-line">I'm always open to academic discussions, potential collaborations and interdisciplinary projects. Feel free to reach out at: <strong>yuhaoshen [at] link.cuhk.edu.cn</strong>.</p>

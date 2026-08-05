@@ -715,17 +715,21 @@ html.theme-dark .profile-card-facts > span + span {
 }
 
 .vitem {
-  display: flex;
-  align-items: center;
+  position: relative;
+  display: block;
+  padding-left: 12px;
   margin: 0.25em 0;
 }
 .accent-bar-sm {
-  display: inline-block;
+  position: absolute;
+  top: 0.2em;
+  left: 0;
+  display: block;
   width: 4px;
   height: 1em;
   background-color: $site-green;
   border-radius: 2px;
-  margin-right: 8px;
+  margin-right: 0;
 }
 
 html.theme-dark .author__name:before,

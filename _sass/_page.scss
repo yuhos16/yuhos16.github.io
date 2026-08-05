@@ -97,21 +97,23 @@
   }
 
   .bio-wrap{
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: start;
+    display: flex;
+    flex-direction: column;
     row-gap: 1em;
     @include breakpoint($medium){
-      grid-template-columns: 1fr 270px;
-      column-gap: 0.65rem;
+      display: block;
       row-gap: 0;
-    }
-    @include breakpoint($large){
-      grid-template-columns: minmax(0, 1fr) 400px;
+
+      &::after{
+        content: "";
+        display: block;
+        clear: both;
+      }
     }
   }
 
   .bio-main{
+    order: 1;
     flex: 1 1 auto;
     min-width: 0;
     .bio-title{ margin: 0 0 .5em; font-size: $type-size-3; background: transparent; border: 0; box-shadow: none; padding: 0; }
@@ -137,13 +139,15 @@
   }
 
   .bio-fixed{
+    order: 2;
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
     @include breakpoint($medium){
+      float: right;
       width: 270px;
       max-width: none;
-      margin: .25rem 0 0;
+      margin: .25rem 0 0 .65rem;
     }
     @include breakpoint($large){
       width: 400px;
