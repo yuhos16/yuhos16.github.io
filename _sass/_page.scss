@@ -121,8 +121,8 @@
   }
 
   .bio-side{
-    flex: 0 0 400px;
-    width: 400px;
+    flex: 0 0 350px;
+    width: 350px;
 
     .profile_box{ display: block; }
     .author__avatar img{ max-width: 210px; }
@@ -141,7 +141,7 @@
   .bio-fixed{
     order: 2;
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
     @include breakpoint($medium){
       float: right;
@@ -150,7 +150,7 @@
       margin: .25rem 0 0 .65rem;
     }
     @include breakpoint($large){
-      width: 400px;
+      width: 350px;
     }
     .bio-photo{ display: flex; justify-content: flex-start; }
     .bio-photo img{ width: 100%; height: auto; border-radius: 0; box-shadow: none; }
