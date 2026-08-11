@@ -2,7 +2,7 @@
 # 📚 Selected Publication [[Google Scholar](https://scholar.google.com/citations?user=4lxKAtMAAAAJ&hl=zh-CN)]
 *\* Equal Contribution*
 
-<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Preprint, 2025</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Medical VLM</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities</div>
@@ -22,7 +22,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint, 2026</div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical LLM</div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">MedGuideX: Internalizing Decision Logic from Executable Guidelines into Large Language Models for Clinical Reasoning</div>
@@ -36,7 +36,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">ECCV 2026</div><img src='images/dermbench.png' alt="DermBench & DermEval" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Benchmark</div><img src='images/dermbench.png' alt="DermBench & DermEval" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives</div>
@@ -58,7 +58,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2026 Workshop</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Dataset</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning</div>
@@ -76,7 +76,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image paper-box-image--ultrawide'><div><div class="badge">Preprint, 2026</div><img src='images/guideskill.png' alt="GuideSkill" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image paper-box-image--ultrawide'><div><div class="badge">Medical Agents</div><img src='images/guideskill.png' alt="GuideSkill" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning</div>
@@ -90,7 +90,7 @@ Lang Cao, **Yuhao Shen✦**, Tianyang Luo, Simo Du✧, Hao Peng, Yue Guo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Preprint, 2026</div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Medical Agent</div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">SkinGPT-X: A Multimodal Collaborative Multi-agent System with Self-evolving Dermatological Memory for Transparent and Trustworthy Diagnosis</div>
@@ -110,7 +110,7 @@ Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, Yan Xu, Liyuan Sun, Z
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Preprint, 2025</div><img src='images/cotboxttt.png' alt="CoTBox-TTT" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Test-Time Training</div><img src='images/cotboxttt.png' alt="CoTBox-TTT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training</div>
