@@ -81,7 +81,7 @@
 
 <div class="paper-title">GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning</div>
 <div class="paper-authors" markdown="1">
-Lang Cao, **Yuhao Shen✦**, Tianyang Luo, Simo Du✧, Hao Peng, Yue Guo
+Lang Cao\*, **Yuhao Shen\***, Tianyang Luo, Simo Du, Hao Peng, Yue Guo
 </div>
 <div class="paper-meta"><strong>Preprint, 2026</strong></div>
 <div class="paper-links">
