@@ -15,7 +15,7 @@ The Chinese University of Hong Kong, Shenzhen</p>
 Hi there! I am currently an MPhil student in Computer Science at <a class="intro-accent-link" href="https://www.cuhk.edu.cn/en"><strong><em>CUHK-Shenzhen</em></strong></a>, advised by <a class="intro-accent-link" href="https://www.joshuachou.ink/about/"><strong><em>Prof. Juexiao Zhou</em></strong></a>. My primary research interest lies in **AI for Healthcare**, with a long-term vision of building trustworthy clinical AI systems. Specifically, my work focuses on the following three areas:
 
 <div class="vitem"><span class="accent-bar-sm"></span><span>Developing <strong>medical LLMs and agents</strong> for clinical decision-making.</span></div>
-<div class="vitem"><span class="accent-bar-sm"></span><span>Enabling <strong>interpretable and trustworthy reasoning</strong> for clinical diagnosis.</span></div>
-<div class="vitem"><span class="accent-bar-sm"></span><span>Building <strong>medical foundation models</strong> for robust visual understanding.</span></div>
+<div class="vitem"><span class="accent-bar-sm"></span><span>Enhancing <strong>trustworthy reasoning</strong> for clinical diagnosis.</span></div>
+<div class="vitem"><span class="accent-bar-sm"></span><span>Building <strong>medical foundation models</strong> for visual understanding.</span></div>
 
  
