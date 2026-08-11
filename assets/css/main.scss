@@ -603,21 +603,21 @@ html:not(.theme-dark) .masthead-home-link { color: $site-ink; }
 
 html:not(.theme-dark) .page__content a.intro-accent-link,
 html:not(.theme-dark) .page__content a.intro-accent-link:visited {
-  color: $site-ink;
+  color: $site-green;
   text-decoration: none;
   font-style: italic;
   font-weight: 700;
 }
 
 html:not(.theme-dark) .page__content a.intro-accent-link:hover {
-  color: $site-ink;
+  color: $site-green;
   text-decoration: underline;
   text-underline-offset: 0.12em;
 }
 
 html:not(.theme-dark) .page__content a.intro-accent-link strong,
 html:not(.theme-dark) .page__content a.intro-accent-link em {
-  color: $site-ink;
+  color: $site-green;
   font-style: italic;
   font-weight: 700;
 }
