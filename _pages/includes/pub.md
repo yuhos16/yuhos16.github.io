@@ -58,14 +58,14 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2026 Workshop MCHM</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2026 Workshop</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning</div>
 <div class="paper-authors" markdown="1">
 **Yuhao Shen**, Liyuan Sun, Yan Xu, Wenbin Liu, Shuping Zhang, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
 </div>
-<div class="paper-meta"><strong>ACMMM 2026 Workshop MCHM</strong></div>
+<div class="paper-meta"><strong>ACMMM 2026 Workshop</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2405.18004">PDF</a>
   <a class="paper-link-button" href="https://huggingface.co/datasets/yuhos16/SkinCaRe">Dataset</a>
