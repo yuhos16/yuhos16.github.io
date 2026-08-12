@@ -2,7 +2,7 @@
 # 📚 Selected Publication [[Google Scholar](https://scholar.google.com/citations?user=4lxKAtMAAAAJ&hl=zh-CN)]
 *\* Equal Contribution*
 
-<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Medical VLM</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Medical LLMs &amp; Agents</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities</div>
