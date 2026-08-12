@@ -7,7 +7,7 @@
       <div class="profile-card-title">Ant Group</div>
       <div class="profile-card-subtitle">Research Intern</div>
       <div class="profile-card-detail"><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person"><strong><em><a class="profile-card-person-link" href="https://junjun2016.github.io/">Dr. Junjun He</a></em></strong></span></div>
-      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Medical AGI and World Models</div>
+      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Generalist Medical AI and World Models</div>
     </div>
     <div class="profile-card-meta">
       <div>Aug 2026 - Present</div>
