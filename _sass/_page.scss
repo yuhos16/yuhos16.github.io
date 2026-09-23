@@ -141,16 +141,16 @@
   .bio-fixed{
     order: 2;
     width: 100%;
-    max-width: 350px;
+    max-width: 370px;
     margin: 0 auto;
     @include breakpoint($medium){
       float: right;
-      width: 270px;
+      width: 290px;
       max-width: none;
       margin: .25rem 0 0 .65rem;
     }
     @include breakpoint($large){
-      width: 350px;
+      width: 370px;
     }
     .bio-photo{ display: flex; justify-content: flex-start; }
     .bio-photo img{ width: 100%; height: auto; border-radius: 0; box-shadow: none; }
