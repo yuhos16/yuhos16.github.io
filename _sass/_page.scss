@@ -13,13 +13,14 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: 1110px;
+    max-width: 1060px;
   }
 
   @include breakpoint($large) {
     display: flex;
     align-items: flex-start;
     gap: 3em;
+    padding-top: 1.5rem;
   }
 }
 
@@ -150,7 +151,8 @@
       margin: .25rem 0 0 .65rem;
     }
     @include breakpoint($large){
-      width: 370px;
+      width: 320px;
+      margin-left: 1.6rem;
     }
     .bio-photo{ display: flex; justify-content: flex-start; }
     .bio-photo img{ width: 100%; height: auto; border-radius: 0; box-shadow: none; }

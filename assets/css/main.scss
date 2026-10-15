@@ -206,6 +206,17 @@ $site-green: #662A69;
     }
 
   }
+
+  @include breakpoint($large) {
+    .paper-box-image {
+      flex-basis: 36%;
+    }
+
+    .paper-box-text {
+      max-width: 64%;
+      padding-left: 1.6rem;
+    }
+  }
 }
 
 html.theme-dark .paper-box {
@@ -241,10 +252,14 @@ $scroll_offset: 0;
   pointer-events: none;
 }
 body {
-  font-size: 18px; // 默认大多是16px，你可以根据喜好改为 18~20px
-  line-height: 1.8; // 行间距可提升可读性
+  font-size: 18px;
+  line-height: 1.8;
   color: $site-ink;
   background: $site-white;
+
+  @include breakpoint($large) {
+    font-size: 16px;
+  }
 }
 
 html.theme-dark body {
