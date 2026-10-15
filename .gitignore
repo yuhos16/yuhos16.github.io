@@ -1,4 +1,12 @@
-_site/
-push.sh
 .DS_Store
-/github_myprofile_updater/README.mdvendor/
+.local/
+.bundle/
+/vendor/
+_site/
+docs/_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+docs/.sass-cache/

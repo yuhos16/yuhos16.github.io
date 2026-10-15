@@ -1,0 +1,50 @@
+title: "Yuhao Shen 沈宇昊"
+description: "Per aspera ad astra"
+url: "https://yuhos16.github.io"
+repository: "yuhos16/yuhos16.github.io"
+theme: null
+timezone: Asia/Shanghai
+
+google_analytics_id: G-SWFCX99KQZ
+google_site_verification: b_BbOIt7d513ZXYDw-YRMicO6O5tthYiouqWDdWjGTU
+bing_site_verification: B5AA590E7B9C03956A6F7DEC0F776211
+baidu_site_verification: code-ZxFK3f4pfb
+
+author:
+  name: "Yuhao Shen 沈宇昊"
+  avatar: "images/sep26-sweden.jpg"
+  googlescholar: "https://scholar.google.com/citations?user=4lxKAtMAAAAJ&hl=zh-CN"
+  email: "yuhaoshen@link.cuhk.edu.cn"
+  github: "yuhos16"
+  orcid: "https://orcid.org/0009-0005-5187-6736"
+  cv: "/CV_YuhaoShen_Oct.pdf"
+  cv_label: "CV (26.10)"
+
+include:
+  - _pages
+encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+incremental: false
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from

@@ -1,7 +1,7 @@
 ## Welcome to my page! 👋
 
 <a href="https://www.cuhk.edu.cn/en">
-  <img src="images/education/cuhk-shenzhen.png" alt="CUHK-Shenzhen logo" width="100" align="right">
+  <img src="docs/images/education/cuhk-shenzhen.png" alt="CUHK-Shenzhen logo" width="100" align="right">
 </a>
 
 Hi, I am **Yuhao**. I am an MPhil student in Computer Science at **The Chinese University of Hong Kong, Shenzhen**, advised by Prof. Juexiao Zhou.
