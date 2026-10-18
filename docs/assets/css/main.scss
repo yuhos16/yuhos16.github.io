@@ -268,7 +268,6 @@ html.theme-dark a:hover { color: $site-white; }
 
 html.theme-dark .masthead {
   background-color: $site-ink;
-  border-bottom-color: rgba($site-white, 0.16);
 }
 
 html.theme-dark .masthead__inner-wrap {
@@ -302,9 +301,6 @@ html.theme-dark .page__footer {
 }
 
 html.theme-dark .page__content h1 {
-  border-bottom-color: rgba($site-white, 0.16);
-}
-html.theme-dark .page__content .name-row {
   border-bottom-color: rgba($site-white, 0.16);
 }
 html.theme-dark .page__content h1, 
@@ -405,7 +401,7 @@ html:not(.theme-dark) .inline-links .il-icon-hf {
 
 .theme-toggle-fixed {
   position: fixed;
-  top: 0.75rem;
+  bottom: 1rem;
   right: 0.75rem;
   z-index: 1100;
 }
@@ -457,7 +453,7 @@ html:not(.theme-dark) ::-moz-selection {
   color: $site-white;
 }
 
-/* vertical accent bars before name and welcome link */
+/* vertical accent bars */
 .author__name {
   display: inline-flex;
   align-items: center;
@@ -476,11 +472,6 @@ html:not(.theme-dark) ::-moz-selection {
   font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
 }
 
-.masthead-home-link {
-  display: inline-flex;
-  align-items: center;
-  font-weight: 700;
-}
 html:not(.theme-dark) .masthead-home-link { color: $site-ink; }
 
 .accent-bar {
