@@ -14,7 +14,7 @@ The Chinese University of Hong Kong, Shenzhen</p>
 
 Hi there! I am currently an MPhil student in Computer Science at <a class="intro-accent-link" href="https://www.cuhk.edu.cn/en"><strong>CUHK-Shenzhen</strong></a>, advised by <a class="intro-accent-link" href="https://www.joshuachou.ink/about/"><strong>Prof. Juexiao Zhou</strong></a>. I am also a Research Intern at <a class="intro-accent-link" href="https://www.antgroup.com/en"><strong>Ant Group</strong></a>, mentored by <a class="intro-accent-link" href="https://jiyuanfeng.github.io/"><strong>Dr. Yuanfeng Ji</strong></a>. My primary research interest lies in **AI for Healthcare**, with a long-term vision of building trustworthy medical AI systems. Specifically, my work focuses on the following three areas:
 
-<div class="vitem"><span class="accent-bar-sm"></span><span>Developing <strong>medical LLMs and agents</strong> for clinical decision support.</span></div>
+<div class="vitem"><span class="accent-bar-sm"></span><span>Developing <strong>medical LLMs and agents</strong> for clinical support.</span></div>
 <div class="vitem"><span class="accent-bar-sm"></span><span>Advancing <strong>trustworthy and explainable AI</strong> for healthcare.</span></div>
 <div class="vitem"><span class="accent-bar-sm"></span><span>Building <strong>multimodal medical foundation models</strong> for unified clinical representations.</span></div>
 
