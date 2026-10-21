@@ -4,7 +4,7 @@
   <div class="profile-card experience-card">
     <div class="profile-logo profile-logo--ant"><img src="images/experience/ant-group.png" alt="Ant Group logo"></div>
     <div class="profile-card-main">
-      <div class="profile-card-title">Ant Healthcare, Ant Group</div>
+      <div class="profile-card-title">Ant Group</div>
       <div class="profile-card-detail profile-card-role"><span class="profile-card-position">Research Intern</span><span class="profile-card-supervisor"><span class="profile-card-label">Mentor:</span> <span class="profile-card-person"><strong><a class="profile-card-person-link" href="https://jiyuanfeng.github.io/">Dr. Yuanfeng Ji</a></strong></span></span></div>
       <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Generalist Medical AI driven by Clinical Guidelines</div>
       <div class="profile-card-detail profile-card-works"><span class="profile-card-label">Selected works:</span> <a class="profile-card-work-link" href="https://inclusionmed.ai">InclusionMed</a>, <strong>GuideEvo-Bench</strong></div>
@@ -63,7 +63,7 @@
       <div class="profile-card-title">The Chinese University of Hong Kong, Shenzhen</div>
       <div class="profile-card-subtitle">M.Phil. in Computer Science</div>
       <div class="profile-card-detail profile-card-facts">
-        <span><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person"><strong><em><a class="profile-card-person-link" href="https://www.joshuachou.ink/about/">Prof. Juexiao Zhou</a></em></strong></span></span>
+        <span><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person"><strong><a class="profile-card-person-link" href="https://www.joshuachou.ink/about/">Prof. Juexiao Zhou</a></strong></span></span>
         <span>GPA: 3.6/4.0</span>
       </div>
     </div>
@@ -78,7 +78,7 @@
       <div class="profile-card-title">Hangzhou Dianzi University</div>
       <div class="profile-card-subtitle">B.Eng. in Computer Science and Technology</div>
       <div class="profile-card-detail profile-card-facts">
-        <span><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person"><strong><em><a class="profile-card-person-link" href="https://faculty.hdu.edu.cn/jsjxy/grs/main.htm">Prof. Renshu Gu</a></em></strong></span></span>
+        <span><span class="profile-card-label">Supervisor:</span> <span class="profile-card-person"><strong><a class="profile-card-person-link" href="https://faculty.hdu.edu.cn/jsjxy/grs/main.htm">Prof. Renshu Gu</a></strong></span></span>
         <span>GPA: 3.8/4.0</span>
       </div>
     </div>
