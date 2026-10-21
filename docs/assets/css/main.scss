@@ -596,7 +596,7 @@ html:not(.theme-dark) .masthead-home-link { color: $site-ink; }
 
 .profile-card-detail a.profile-card-work-link,
 .profile-card-detail a.profile-card-work-link:visited {
-  color: $site-green;
+  color: $site-ink;
   font-weight: 700;
   text-decoration: none;
 }
@@ -733,6 +733,20 @@ html.theme-dark .page__content a.intro-accent-link em {
 
 html.theme-dark .profile-card-facts > span + span {
   border-left-color: rgba($site-white, 0.24);
+}
+
+.experience-card .profile-card-detail {
+  margin-top: 0.35rem;
+  line-height: 1.55;
+}
+
+html .experience-card .profile-card-detail a.profile-card-person-link {
+  font-style: normal;
+}
+
+html:not(.theme-dark) .experience-card .profile-card-person,
+html:not(.theme-dark) .experience-card .profile-card-detail a.profile-card-person-link {
+  color: $site-green;
 }
 
 @media (max-width: 640px) {
