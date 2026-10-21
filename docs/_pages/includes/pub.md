@@ -31,6 +31,24 @@ Lang Cao, Binghang Lu, **Yuhao Shen**, Yue Guo
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Benchmark &amp; Dataset</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning</div>
+<div class="paper-authors" markdown="1">
+**Yuhao Shen**, Liyuan Sun, Yan Xu, Wenbin Liu, Shuping Zhang, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
+</div>
+<div class="paper-meta"><strong>ACMMM 2026 Workshop</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://arxiv.org/abs/2405.18004">PDF</a>
+  <a class="paper-link-button" href="https://huggingface.co/datasets/yuhos16/SkinCaRe">Dataset</a>
+</div>
+
+ <!-- \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong> -->
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Benchmark &amp; Dataset</div><img src='images/dermbench.png' alt="DermBench & DermEval" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -139,23 +157,5 @@ Jiahe Qian\*, **Yuhao Shen\***, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 - Evidence-first **test-time training** with all backbones frozen; update continuous soft prompts guided by **visual chain-of-thought boxes**.
 -->
 <!-- removed second bullet -->
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Benchmark &amp; Dataset</div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning</div>
-<div class="paper-authors" markdown="1">
-**Yuhao Shen**, Liyuan Sun, Yan Xu, Wenbin Liu, Shuping Zhang, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
-</div>
-<div class="paper-meta"><strong>ACMMM 2026 Workshop</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/abs/2405.18004">PDF</a>
-  <a class="paper-link-button" href="https://huggingface.co/datasets/yuhos16/SkinCaRe">Dataset</a>
-</div>
-
- <!-- \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong> -->
-
 </div>
 </div>

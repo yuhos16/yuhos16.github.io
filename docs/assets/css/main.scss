@@ -587,6 +587,7 @@ html:not(.theme-dark) .masthead-home-link { color: $site-ink; }
 
 .profile-card-position {
   font-weight: 600;
+  font-style: normal;
 }
 
 .profile-card-supervisor {
@@ -740,13 +741,18 @@ html.theme-dark .profile-card-facts > span + span {
   line-height: 1.55;
 }
 
-html .experience-card .profile-card-detail a.profile-card-person-link {
-  font-style: normal;
+html .experience-card .profile-card-person,
+html .experience-card .profile-card-person strong,
+html .experience-card .profile-card-detail a.profile-card-person-link,
+.experience-card .profile-card-works a,
+.experience-card .profile-card-works strong {
+  font-style: italic;
+  font-weight: 700;
 }
 
 html:not(.theme-dark) .experience-card .profile-card-person,
 html:not(.theme-dark) .experience-card .profile-card-detail a.profile-card-person-link {
-  color: $site-green;
+  color: $site-ink;
 }
 
 @media (max-width: 640px) {
