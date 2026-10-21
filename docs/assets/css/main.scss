@@ -212,6 +212,23 @@ $site-green: #662A69;
   }
 }
 
+.paper-box .paper-box-image--banner {
+  > div {
+    aspect-ratio: auto;
+    overflow: visible;
+  }
+
+  .badge {
+    position: static;
+    display: table;
+    margin-bottom: 0.5rem;
+  }
+
+  img {
+    height: auto;
+  }
+}
+
 html.theme-dark .paper-box {
   background: #222222;
   border-bottom-color: #333333;
@@ -561,6 +578,24 @@ html:not(.theme-dark) .masthead-home-link { color: $site-ink; }
   font-weight: 400;
 }
 
+.profile-card-detail a.profile-card-work-link,
+.profile-card-detail a.profile-card-work-link:visited {
+  color: $site-green;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.profile-card-detail a.profile-card-work-link:hover,
+.profile-card-detail a.profile-card-work-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+html.theme-dark .profile-card-detail a.profile-card-work-link,
+html.theme-dark .profile-card-detail a.profile-card-work-link:visited {
+  color: $site-white;
+}
+
 .education-card .profile-card-subtitle {
   font-size: 0.88em;
   line-height: 1.42;
@@ -709,6 +744,10 @@ html.theme-dark .profile-card-facts > span + span {
   .profile-card-meta {
     grid-column: 2;
     text-align: left;
+    white-space: normal;
+  }
+
+  .profile-card-facts > span {
     white-space: normal;
   }
 }

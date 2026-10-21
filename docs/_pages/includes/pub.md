@@ -2,14 +2,91 @@
 # 📚 Selected Publication [[Google Scholar](https://scholar.google.com/citations?user=4lxKAtMAAAAJ&hl=zh-CN)]
 *\* Equal Contribution*
 
+<div class='paper-box'><div class='paper-box-image paper-box-image--banner'><div><div class="badge">Benchmark &amp; Dataset</div><img src='images/inclusionmed.png' alt="InclusionMed: an open index connecting medical AI benchmarks to inclusive real-world care" width="1930" height="556" loading="lazy"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">InclusionMed: Benchmarking Medical AI for Inclusive Healthcare</div>
+<div class="paper-authors" markdown="1">
+**Ant Group**
+</div>
+<div class="paper-meta"><strong>Technical Report</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://github.com/panuvi/inclusionmed">Code</a>
+  <a class="paper-link-button" href="https://inclusionmed.ai">Web</a>
+</div>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image paper-box-image--banner'><div><div class="badge">Medical LLMs &amp; Agents</div><img src='images/medrouter.png' alt="MedRouter: routing medical questions to specialist LLMs with competence-aware learning" width="2412" height="1174" loading="lazy"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">MedRouter: Demystifying Knowledge Differences Across Medical LLMs for Routing-Based Reasoning</div>
+<div class="paper-authors" markdown="1">
+Lang Cao, Binghang Lu, **Yuhao Shen**, Yue Guo
+</div>
+<div class="paper-meta"><strong>Under Review at ICLR 2027</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://arxiv.org/pdf/2609.33119">PDF</a>
+</div>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image paper-box-image--ultrawide'><div><div class="badge">Medical LLMs &amp; Agents</div><img src='images/guideskill.png' alt="GuideSkill" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning</div>
+<div class="paper-authors" markdown="1">
+Lang Cao, **Yuhao Shen**, Tianyang Luo, Yue Guo
+</div>
+<div class="paper-meta"><strong>Under Review at AAAI 2027</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://arxiv.org/pdf/2607.26160">PDF</a>
+</div>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical LLMs &amp; Agents</div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">MedGuideX: Internalizing Decision Logic from Clinical Guidelines into Large Language Models for Reliable Diagnostic Reasoning</div>
+<div class="paper-authors" markdown="1">
+**Yuhao Shen\***, Lang Cao\*, Simo Du, Yuqing Wang, Juexiao Zhou, Hao Peng, Yue Guo
+</div>
+<div class="paper-meta"><strong>Under Review at ICLR 2027</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://arxiv.org/abs/2605.26567">PDF</a>
+</div>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Medical LLMs &amp; Agents</div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">SkinGPT-X: A Self-Evolving Collaborative Multi-Agent System for Transparent and Trustworthy Dermatological Diagnosis</div>
+<div class="paper-authors" markdown="1">
+Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
+</div>
+<div class="paper-meta"><strong>Under peer review at Nature Communications</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://arxiv.org/abs/2603.26122">PDF</a>
+  <a class="paper-link-button" href="https://github.com/healme-225040511/Skingpt_X">Code</a>
+</div>
+
+<!--
+- Introduce **SkinGPT-X**, a multimodal collaborative multi-agent dermatology diagnosis system with self-evolving memory.
+-->
+<!-- removed second bullet -->
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Medical LLMs &amp; Agents</div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities</div>
 <div class="paper-authors" markdown="1">
-**Yuhao Shen**, Zhangtianyi Chen, Yuanhao He, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
+**Yuhao Shen\***, Zhangtianyi Chen\*, Yuanhao He\*, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
 </div>
-<div class="paper-meta"><strong>Preprint, 2025</strong></div>
+<div class="paper-meta"><strong>Under Revision at Nature Communications</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.15242">PDF</a>
   <a class="paper-link-button" href="https://huggingface.co/yuhos16/SkinGPT-R1">Code</a>
@@ -22,17 +99,24 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical LLMs &amp; Agents</div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Test-Time Training</div><img src='images/cotboxttt.png' alt="CoTBox-TTT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="paper-title">MedGuideX: Internalizing Decision Logic from Executable Guidelines into Large Language Models for Clinical Reasoning</div>
+<div class="paper-title">CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training</div>
 <div class="paper-authors" markdown="1">
-**Yuhao Shen**, Lang Cao, Simo Du, Yuqing Wang, Juexiao Zhou, Hao Peng, Yue Guo
+Jiahe Qian\*, **Yuhao Shen\***, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 </div>
-<div class="paper-meta"><strong>Preprint, 2026</strong></div>
+<div class="paper-meta"><strong>Under Review at ICLR 2027</strong></div>
 <div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/abs/2605.26567">PDF</a>
+  <a class="paper-link-button" href="https://arxiv.org/abs/2511.12446">PDF</a>
 </div>
+
+<!-- [**Project**](https://github.com/placeholder/CoTBox-TTT) \| [**Code**](https://github.com/placeholder/CoTBox-TTT)  <strong><span class='show_paper_citations' data='PLACEHOLDER_COTBOX_TTT'></span></strong> -->
+
+<!--
+- Evidence-first **test-time training** with all backbones frozen; update continuous soft prompts guided by **visual chain-of-thought boxes**.
+-->
+<!-- removed second bullet -->
 </div>
 </div>
 
@@ -41,7 +125,7 @@
 
 <div class="paper-title">Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives</div>
 <div class="paper-authors" markdown="1">
-**Yuhao Shen**, Jiahe Qian, Shuping Zhang, Zhangtianyi Chen, Tao Lu, Juexiao Zhou
+**Yuhao Shen\***, Jiahe Qian\*, Shuping Zhang, Zhangtianyi Chen, Tao Lu, Juexiao Zhou
 </div>
 <div class="paper-meta"><strong>ECCV 2026</strong></div>
 <div class="paper-links">
@@ -73,60 +157,5 @@
 
  <!-- \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong> -->
 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image paper-box-image--ultrawide'><div><div class="badge">Medical LLMs &amp; Agents</div><img src='images/guideskill.png' alt="GuideSkill" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning</div>
-<div class="paper-authors" markdown="1">
-Lang Cao\*, **Yuhao Shen\***, Tianyang Luo, Simo Du, Hao Peng, Yue Guo
-</div>
-<div class="paper-meta"><strong>Preprint, 2026</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/pdf/2607.26160">PDF</a>
-</div>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Medical LLMs &amp; Agents</div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">SkinGPT-X: A Multimodal Collaborative Multi-agent System with Self-evolving Dermatological Memory for Transparent and Trustworthy Diagnosis</div>
-<div class="paper-authors" markdown="1">
-Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
-</div>
-<div class="paper-meta"><strong>Preprint, 2026</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/abs/2603.26122">PDF</a>
-  <a class="paper-link-button" href="https://github.com/healme-225040511/Skingpt_X">Code</a>
-</div>
-
-<!--
-- Introduce **SkinGPT-X**, a multimodal collaborative multi-agent dermatology diagnosis system with self-evolving memory.
--->
-<!-- removed second bullet -->
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image paper-box-image--wide'><div><div class="badge">Test-Time Training</div><img src='images/cotboxttt.png' alt="CoTBox-TTT" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training</div>
-<div class="paper-authors" markdown="1">
-Jiahe Qian\*, **Yuhao Shen\***, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
-</div>
-<div class="paper-meta"><strong>Preprint, 2025</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/abs/2511.12446">PDF</a>
-</div>
-
-<!-- [**Project**](https://github.com/placeholder/CoTBox-TTT) \| [**Code**](https://github.com/placeholder/CoTBox-TTT)  <strong><span class='show_paper_citations' data='PLACEHOLDER_COTBOX_TTT'></span></strong> -->
-
-<!--
-- Evidence-first **test-time training** with all backbones frozen; update continuous soft prompts guided by **visual chain-of-thought boxes**.
--->
-<!-- removed second bullet -->
 </div>
 </div>
