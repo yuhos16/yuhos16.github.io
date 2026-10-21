@@ -219,12 +219,12 @@ $site-green: #662A69;
   }
 
   .badge {
-    position: static;
-    display: table;
-    margin-bottom: 0.5rem;
+    top: 0;
+    transform: translateY(-45%);
   }
 
   img {
+    display: block;
     height: auto;
   }
 }
@@ -578,6 +578,22 @@ html:not(.theme-dark) .masthead-home-link { color: $site-ink; }
   font-weight: 400;
 }
 
+.profile-card-role {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.1rem 0.6rem;
+}
+
+.profile-card-position {
+  font-weight: 600;
+}
+
+.profile-card-supervisor {
+  padding-left: 0.6rem;
+  border-left: 1px solid currentColor;
+}
+
 .profile-card-detail a.profile-card-work-link,
 .profile-card-detail a.profile-card-work-link:visited {
   color: $site-green;
@@ -749,6 +765,11 @@ html.theme-dark .profile-card-facts > span + span {
 
   .profile-card-facts > span {
     white-space: normal;
+  }
+
+  .profile-card-supervisor {
+    padding-left: 0;
+    border-left: 0;
   }
 }
 

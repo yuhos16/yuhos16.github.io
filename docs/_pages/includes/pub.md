@@ -9,7 +9,7 @@
 <div class="paper-authors" markdown="1">
 **Ant Group**
 </div>
-<div class="paper-meta"><strong>Technical Report</strong></div>
+<div class="paper-meta"><strong>Technical Report, 2026</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://github.com/panuvi/inclusionmed">Code</a>
   <a class="paper-link-button" href="https://inclusionmed.ai">Web</a>
@@ -24,7 +24,7 @@
 <div class="paper-authors" markdown="1">
 Lang Cao, Binghang Lu, **Yuhao Shen**, Yue Guo
 </div>
-<div class="paper-meta"><strong>Under Review at ICLR 2027</strong></div>
+<div class="paper-meta"><strong>Preprint</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/pdf/2609.33119">PDF</a>
 </div>
@@ -38,7 +38,7 @@ Lang Cao, Binghang Lu, **Yuhao Shen**, Yue Guo
 <div class="paper-authors" markdown="1">
 Lang Cao, **Yuhao Shen**, Tianyang Luo, Yue Guo
 </div>
-<div class="paper-meta"><strong>Under Review at AAAI 2027</strong></div>
+<div class="paper-meta"><strong>Preprint</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/pdf/2607.26160">PDF</a>
 </div>
@@ -52,7 +52,7 @@ Lang Cao, **Yuhao Shen**, Tianyang Luo, Yue Guo
 <div class="paper-authors" markdown="1">
 **Yuhao Shen\***, Lang Cao\*, Simo Du, Yuqing Wang, Juexiao Zhou, Hao Peng, Yue Guo
 </div>
-<div class="paper-meta"><strong>Under Review at ICLR 2027</strong></div>
+<div class="paper-meta"><strong>Preprint</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2605.26567">PDF</a>
 </div>
@@ -66,7 +66,7 @@ Lang Cao, **Yuhao Shen**, Tianyang Luo, Yue Guo
 <div class="paper-authors" markdown="1">
 Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
 </div>
-<div class="paper-meta"><strong>Under peer review at Nature Communications</strong></div>
+<div class="paper-meta"><strong>Preprint</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2603.26122">PDF</a>
   <a class="paper-link-button" href="https://github.com/healme-225040511/Skingpt_X">Code</a>
@@ -86,7 +86,7 @@ Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, Yan Xu, Liyuan Sun, Z
 <div class="paper-authors" markdown="1">
 **Yuhao Shen\***, Zhangtianyi Chen\*, Yuanhao He\*, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
 </div>
-<div class="paper-meta"><strong>Under Revision at Nature Communications</strong></div>
+<div class="paper-meta"><strong>Preprint</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.15242">PDF</a>
   <a class="paper-link-button" href="https://huggingface.co/yuhos16/SkinGPT-R1">Code</a>
@@ -106,7 +106,7 @@ Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, Yan Xu, Liyuan Sun, Z
 <div class="paper-authors" markdown="1">
 Jiahe Qian\*, **Yuhao Shen\***, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
 </div>
-<div class="paper-meta"><strong>Under Review at ICLR 2027</strong></div>
+<div class="paper-meta"><strong>Preprint</strong></div>
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2511.12446">PDF</a>
 </div>
