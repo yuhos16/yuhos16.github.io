@@ -1,5 +1,5 @@
 <span class='anchor' id='publication'></span>
-# 📚 Selected Publication [[Google Scholar](https://scholar.google.com/citations?user=4lxKAtMAAAAJ&hl=zh-CN)]
+<h1 class="section-heading"><span>Selected Works</span><span class="section-heading-links"><a href="#full-publication-list">All publications</a><a href="https://scholar.google.com/citations?user=4lxKAtMAAAAJ&amp;hl=zh-CN">Google Scholar</a></span></h1>
 *\* Equal Contribution*
 
 <div class='paper-box'><div class="badge">Benchmark &amp; Dataset</div><div class='paper-box-image paper-box-image--banner'><div><img src='images/inclusionmed.png' alt="InclusionMed: an open index connecting medical AI benchmarks to inclusive real-world care" width="1930" height="556" loading="lazy"></div></div>
@@ -13,20 +13,6 @@
 <div class="paper-links">
   <a class="paper-link-button" href="https://github.com/panuvi/inclusionmed">Code</a>
   <a class="paper-link-button" href="https://inclusionmed.ai">Web</a>
-</div>
-</div>
-</div>
-
-<div class='paper-box'><div class="badge">Medical LLMs &amp; Agents</div><div class='paper-box-image paper-box-image--banner'><div><img src='images/medrouter.png' alt="MedRouter: routing medical questions to specialist LLMs with competence-aware learning" width="2412" height="1174" loading="lazy"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">MedRouter: Demystifying Knowledge Differences Across Medical LLMs for Routing-Based Reasoning</div>
-<div class="paper-authors" markdown="1">
-Lang Cao, Binghang Lu, **Yuhao Shen**, Yue Guo
-</div>
-<div class="paper-meta"><strong>Preprint, 2026</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/pdf/2609.33119">PDF</a>
 </div>
 </div>
 </div>

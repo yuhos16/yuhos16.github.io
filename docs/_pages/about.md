@@ -23,6 +23,10 @@ redirect_from:
 
 <p class="contact-line">I'm always open to academic discussions, potential collaborations and interdisciplinary projects. Feel free to reach out at: <strong>yuhaoshen [at] link.cuhk.edu.cn</strong>.</p>
 
+{% include_relative includes/news.md %}
+
 {% include_relative includes/pub.md %}
 
 {% include_relative includes/background.md %}
+
+{% include_relative includes/full-publications.md %}
