@@ -2,25 +2,7 @@
 <h1 class="section-heading"><span>Selected Works</span><span class="section-heading-links"><a href="#full-publication-list">All publications</a><a href="https://scholar.google.com/citations?user=4lxKAtMAAAAJ&amp;hl=zh-CN">Google Scholar</a></span></h1>
 *\* Equal Contribution*
 
-<div class='paper-box'><div class="badge">Benchmark &amp; Dataset</div><div class='paper-box-image'><div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">SkinCaRe: A Multimodal Dermatology Dataset Annotated with Medical Caption and Chain-of-Thought Reasoning</div>
-<div class="paper-authors" markdown="1">
-**Yuhao Shen**, Liyuan Sun, Yan Xu, Wenbin Liu, Shuping Zhang, Shawn Afvari, Zhongyi Han, Jiaoyan Song, Yongzhi Ji, Tao Lu, Xiaonan He, Xin Gao, Juexiao Zhou
-</div>
-<div class="paper-meta"><strong>ACMMM 2026 Workshop</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/abs/2405.18004">PDF</a>
-  <a class="paper-link-button" href="https://huggingface.co/datasets/yuhos16/SkinCaRe">Dataset</a>
-</div>
-
- <!-- \| [**Project**](https://github.com/placeholder/SkinCaRe)  <strong><span class='show_paper_citations' data='PLACEHOLDER_SKINCARE'></span></strong> -->
-
-</div>
-</div>
-
-<div class='paper-box'><div class="badge">Benchmark &amp; Dataset</div><div class='paper-box-image paper-box-image--wide'><div><img src='images/dermbench.png' alt="DermBench & DermEval" width="100%"></div></div>
+<div class='paper-box'><div class="badge">Benchmark &amp; Dataset</div><div class='paper-box-image paper-box-image--wide'><div><img src='images/dermbench.png' alt="DermBench" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">Towards Trustworthy Dermatology MLLMs: A Benchmark and Multimodal Evaluator for Diagnostic Narratives</div>
@@ -61,7 +43,7 @@
 
 <div class="paper-title">Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities</div>
 <div class="paper-authors" markdown="1">
-**Yuhao Shen\***, Zhangtianyi Chen\*, Yuanhao He\*, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
+**Yuhao Shen\***, Zhangtianyi Chen\*, et al., Zongyuan Ge, Siyuan Yan, Juexiao Zhou
 </div>
 <div class="paper-meta"><strong>Preprint, 2025</strong></div>
 <div class="paper-links">
@@ -81,7 +63,7 @@
 
 <div class="paper-title">SkinGPT-X: A Self-Evolving Collaborative Multi-Agent System for Transparent and Trustworthy Dermatological Diagnosis</div>
 <div class="paper-authors" markdown="1">
-Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, Yan Xu, Liyuan Sun, Zijian Wang, Hongyi Chen, Wufei Dai, Juexiao Zhou
+Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, et al., Juexiao Zhou
 </div>
 <div class="paper-meta"><strong>Preprint, 2026</strong></div>
 <div class="paper-links">
@@ -107,26 +89,5 @@ Lang Cao, **Yuhao Shen**, Tianyang Luo, Yue Guo
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/pdf/2607.26160">PDF</a>
 </div>
-</div>
-</div>
-
-<div class='paper-box'><div class="badge">Test-Time Training</div><div class='paper-box-image paper-box-image--wide'><div><img src='images/cotboxttt.png' alt="CoTBox-TTT" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training</div>
-<div class="paper-authors" markdown="1">
-Jiahe Qian\*, **Yuhao Shen\***, Zhangtianyi Chen, Juexiao Zhou, Peisong Wang
-</div>
-<div class="paper-meta"><strong>Preprint, 2025</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/abs/2511.12446">PDF</a>
-</div>
-
-<!-- [**Project**](https://github.com/placeholder/CoTBox-TTT) \| [**Code**](https://github.com/placeholder/CoTBox-TTT)  <strong><span class='show_paper_citations' data='PLACEHOLDER_COTBOX_TTT'></span></strong> -->
-
-<!--
-- Evidence-first **test-time training** with all backbones frozen; update continuous soft prompts guided by **visual chain-of-thought boxes**.
--->
-<!-- removed second bullet -->
 </div>
 </div>
