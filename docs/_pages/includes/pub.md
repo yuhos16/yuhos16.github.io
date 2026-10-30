@@ -1,21 +1,6 @@
-<span class='anchor' id='publication'></span>
+<div id="publication"></div>
 <h1 class="section-heading"><span>Selected Works</span><span class="section-heading-links"><a href="#full-publication-list">All publications</a><a href="https://scholar.google.com/citations?user=4lxKAtMAAAAJ&amp;hl=zh-CN">Google Scholar</a></span></h1>
 *\* Equal Contribution*
-
-<div class='paper-box'><div class="badge">Benchmark &amp; Dataset</div><div class='paper-box-image paper-box-image--banner'><div><img src='images/inclusionmed.png' alt="InclusionMed: an open index connecting medical AI benchmarks to inclusive real-world care" width="1930" height="556" loading="lazy"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">InclusionMed: Benchmarking Medical AI for Inclusive Healthcare</div>
-<div class="paper-authors" markdown="1">
-**Ant Group**
-</div>
-<div class="paper-meta"><strong>Technical Report, 2026</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://github.com/panuvi/inclusionmed">Code</a>
-  <a class="paper-link-button" href="https://inclusionmed.ai">Web</a>
-</div>
-</div>
-</div>
 
 <div class='paper-box'><div class="badge">Benchmark &amp; Dataset</div><div class='paper-box-image'><div><img src='images/skincare.png' alt="SkinCaRe Dataset" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -57,20 +42,6 @@
 </div>
 </div>
 
-<div class='paper-box'><div class="badge">Medical LLMs &amp; Agents</div><div class='paper-box-image paper-box-image--ultrawide'><div><img src='images/guideskill.png' alt="GuideSkill" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div class="paper-title">GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning</div>
-<div class="paper-authors" markdown="1">
-Lang Cao, **Yuhao Shen**, Tianyang Luo, Yue Guo
-</div>
-<div class="paper-meta"><strong>Preprint, 2026</strong></div>
-<div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/pdf/2607.26160">PDF</a>
-</div>
-</div>
-</div>
-
 <div class='paper-box'><div class="badge">Medical LLMs &amp; Agents</div><div class='paper-box-image'><div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -82,6 +53,26 @@ Lang Cao, **Yuhao Shen**, Tianyang Luo, Yue Guo
 <div class="paper-links">
   <a class="paper-link-button" href="https://arxiv.org/abs/2605.26567">PDF</a>
 </div>
+</div>
+</div>
+
+<div class='paper-box'><div class="badge">Medical LLMs &amp; Agents</div><div class='paper-box-image paper-box-image--wide'><div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div class="paper-title">Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities</div>
+<div class="paper-authors" markdown="1">
+**Yuhao Shen\***, Zhangtianyi Chen\*, Yuanhao He\*, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
+</div>
+<div class="paper-meta"><strong>Preprint, 2025</strong></div>
+<div class="paper-links">
+  <a class="paper-link-button" href="https://arxiv.org/abs/2511.15242">PDF</a>
+  <a class="paper-link-button" href="https://huggingface.co/yuhos16/SkinGPT-R1">Code</a>
+</div>
+
+<!--
+- Introduce **SkinGPT-R1**, a dermatology VLM that achieves interpretable and equitable diagnosis across diverse ethnicities by performing explicit, step-by-step, and verifiable diagnostic chain-of-thought reasoning.
+-->
+<!-- removed second bullet -->
 </div>
 </div>
 
@@ -105,23 +96,17 @@ Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, Yan Xu, Liyuan Sun, Z
 </div>
 </div>
 
-<div class='paper-box'><div class="badge">Medical LLMs &amp; Agents</div><div class='paper-box-image paper-box-image--wide'><div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
+<div class='paper-box'><div class="badge">Medical LLMs &amp; Agents</div><div class='paper-box-image paper-box-image--ultrawide'><div><img src='images/guideskill.png' alt="GuideSkill" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="paper-title">Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities</div>
+<div class="paper-title">GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning</div>
 <div class="paper-authors" markdown="1">
-**Yuhao Shen\***, Zhangtianyi Chen\*, Yuanhao He\*, Yan Xu, Shuping Zhang, Liyuan Sun, Zijian Wang, Yinghao Zhu, Yuyuan Yang, Jiahe Qian, Ziwen Wang, Xinyuan Zhang, Wenbin Liu, Zongyuan Ge, Tao Lu, Siyuan Yan, Juexiao Zhou
+Lang Cao, **Yuhao Shen**, Tianyang Luo, Yue Guo
 </div>
-<div class="paper-meta"><strong>Preprint, 2025</strong></div>
+<div class="paper-meta"><strong>Preprint, 2026</strong></div>
 <div class="paper-links">
-  <a class="paper-link-button" href="https://arxiv.org/abs/2511.15242">PDF</a>
-  <a class="paper-link-button" href="https://huggingface.co/yuhos16/SkinGPT-R1">Code</a>
+  <a class="paper-link-button" href="https://arxiv.org/pdf/2607.26160">PDF</a>
 </div>
-
-<!--
-- Introduce **SkinGPT-R1**, a dermatology VLM that achieves interpretable and equitable diagnosis across diverse ethnicities by performing explicit, step-by-step, and verifiable diagnostic chain-of-thought reasoning.
--->
-<!-- removed second bullet -->
 </div>
 </div>
 

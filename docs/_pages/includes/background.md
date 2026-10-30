@@ -6,7 +6,7 @@
     <div class="profile-card-main">
       <div class="profile-card-title">Ant Group</div>
       <div class="profile-card-detail profile-card-role"><span class="profile-card-position">Research Intern</span><span class="profile-card-supervisor"><span class="profile-card-label">Mentor:</span> <span class="profile-card-person"><strong><a class="profile-card-person-link" href="https://jiyuanfeng.github.io/">Dr. Yuanfeng Ji</a></strong></span></span></div>
-      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Generalist Medical AI driven by Clinical Guidelines</div>
+      <div class="profile-card-detail"><span class="profile-card-label">Research:</span> Guideline-driven Medical AI and Search Agent</div>
       <div class="profile-card-detail profile-card-works"><span class="profile-card-label">Selected works:</span> <a class="profile-card-work-link" href="https://inclusionmed.ai">InclusionMed</a>, <strong>GuideEvo-Bench</strong></div>
     </div>
     <div class="profile-card-meta">
