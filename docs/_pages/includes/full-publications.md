@@ -3,11 +3,6 @@
 
   <h2 class="publication-year">2026</h2>
   <ol class="publication-list">
-    <li id="pub-inclusionmed">
-      <p class="full-pub-title"><a href="https://inclusionmed.ai">InclusionMed: Benchmarking Medical AI for Inclusive Healthcare</a></p>
-      <p class="full-pub-authors"><strong>The InclusionMed Collaboration</strong></p>
-      <p class="full-pub-meta"><em>Technical Report, 2026</em><span class="full-pub-role">Core Contributor</span><span class="full-pub-links"><a href="https://github.com/panuvi/inclusionmed">Code</a><a href="https://inclusionmed.ai">Web</a></span></p>
-    </li>
     <li id="pub-medrouter">
       <p class="full-pub-title"><a href="https://arxiv.org/abs/2609.33119">MedRouter: Demystifying Knowledge Differences Across Medical LLMs for Routing-Based Reasoning</a></p>
       <p class="full-pub-authors">Lang Cao, Binghang Lu, <strong>Yuhao Shen</strong>, Yue Guo</p>
