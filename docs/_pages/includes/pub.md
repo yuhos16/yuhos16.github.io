@@ -1,5 +1,5 @@
 <div id="publication"></div>
-<h1 class="section-heading"><span>Selected Works</span><span class="section-heading-links"><a href="#full-publication-list">All publications</a><a href="https://scholar.google.com/citations?user=4lxKAtMAAAAJ&amp;hl=zh-CN">Google Scholar</a></span></h1>
+<h1 class="section-heading"><span>Selected Works</span><span class="section-heading-links"><a href="{{ site.author.googlescholar | escape }}">[Google Scholar]</a></span></h1>
 *\* Equal Contribution*
 
 <div class='paper-box'><div class="badge">Benchmark &amp; Dataset</div><div class='paper-box-image paper-box-image--wide'><div><img src='images/dermbench.png' alt="DermBench" width="100%"></div></div>

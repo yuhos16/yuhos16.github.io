@@ -89,6 +89,13 @@ $site-green: #662A69;
 
 .page__content #publication + .section-heading {
   margin-top: 0;
+  justify-content: flex-start;
+  column-gap: 0.45em;
+}
+
+#publication + .section-heading .section-heading-links {
+  font-size: 0.85em;
+  font-weight: 700;
 }
 
 .news-scroll {
