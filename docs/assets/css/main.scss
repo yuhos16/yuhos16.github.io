@@ -482,6 +482,39 @@ html.theme-dark .page__content .news-list .news-accent {
   }
 }
 
+.paper-box .paper-box-text--adaptive-authors {
+  container: selected-authors / inline-size;
+
+  .paper-authors {
+    font-size: 15px;
+    text-wrap: balance;
+  }
+}
+
+:where(.author-extra) {
+  display: none;
+}
+
+@container selected-authors (min-width: 275px) {
+  .author-extra--narrow { display: inline; }
+}
+
+@container selected-authors (min-width: 310px) {
+  .author-extra--compact { display: inline; }
+}
+
+@container selected-authors (min-width: 375px) {
+  .author-extra--medium { display: inline; }
+}
+
+@container selected-authors (min-width: 418px) {
+  .author-extra--wide { display: inline; }
+}
+
+@container selected-authors (min-width: 442px) {
+  .author-extra--desktop { display: inline; }
+}
+
 html.theme-dark .paper-box {
   background: #222222;
   border-bottom-color: #333333;

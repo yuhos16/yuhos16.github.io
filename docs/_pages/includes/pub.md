@@ -39,11 +39,11 @@
 </div>
 
 <div class='paper-box'><div class="badge">Medical LLMs &amp; Agents</div><div class='paper-box-image paper-box-image--wide'><div><img src='images/skingpt-r1.png' alt="SkinGPT-R1" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-text paper-box-text--adaptive-authors' markdown="1">
 
 <div class="paper-title">Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities</div>
 <div class="paper-authors" markdown="1">
-**Yuhao Shen\***, Zhangtianyi Chen\*, et al., Zongyuan Ge, Siyuan Yan, Juexiao Zhou
+**Yuhao Shen\***<span class="author-extra author-extra--narrow">, Zhangtianyi Chen*</span><span class="author-extra author-extra--compact">, Yuanhao He*</span><span class="author-extra author-extra--medium">, Yan Xu</span><span class="author-extra author-extra--wide">, Shuping Zhang</span>, Zongyuan Ge<span class="author-extra author-extra--desktop">, Tao Lu</span>, Siyuan Yan, Juexiao Zhou
 </div>
 <div class="paper-meta"><strong>Preprint, 2025</strong></div>
 <div class="paper-links">
@@ -59,11 +59,11 @@
 </div>
 
 <div class='paper-box'><div class="badge">Medical LLMs &amp; Agents</div><div class='paper-box-image paper-box-image--wide'><div><img src='images/skingptx.png' alt="SkinGPT-X" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-text paper-box-text--adaptive-authors' markdown="1">
 
 <div class="paper-title">SkinGPT-X: A Self-Evolving Collaborative Multi-Agent System for Transparent and Trustworthy Dermatological Diagnosis</div>
 <div class="paper-authors" markdown="1">
-Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja\*, et al., Juexiao Zhou
+Zhangtianyi Chen\*, **Yuhao Shen\***, Florensia Widjaja*<span class="author-extra author-extra--compact">, Yan Xu, Liyuan Sun</span><span class="author-extra author-extra--medium">, Zijian Wang</span><span class="author-extra author-extra--desktop">, Hongyi Chen</span><span class="author-extra author-extra--wide">, Wufei Dai</span>, Juexiao Zhou
 </div>
 <div class="paper-meta"><strong>Preprint, 2026</strong></div>
 <div class="paper-links">
