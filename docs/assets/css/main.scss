@@ -164,6 +164,10 @@ $site-green: #662A69;
   text-underline-offset: 0.15em;
 }
 
+.page__content .news-list .news-accent {
+  color: $site-green;
+}
+
 .page__content .publication-year {
   margin: 1.5rem 0 0.65rem;
   padding: 0;
@@ -278,6 +282,10 @@ html.theme-dark .page__content .news-list a,
 html.theme-dark .page__content .full-pub-title a,
 html.theme-dark .page__content .full-pub-links a {
   color: $site-white;
+}
+
+html.theme-dark .page__content .news-list .news-accent {
+  color: mix($site-white, $site-green, 60%);
 }
 
 @media (max-width: 480px) {

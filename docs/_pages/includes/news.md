@@ -3,7 +3,7 @@
   <div class="news-scroll" tabindex="0" role="region" aria-label="Research news">
     <ol class="news-list">
       <li><time datetime="2026-09">2026.09</time><p>Check out our latest work, <a href="https://arxiv.org/abs/2609.33119">MedRouter</a>, on combining specialist medical LLMs for clinical reasoning.</p></li>
-      <li><time datetime="2026-08">2026.08</time><p>I received the <strong>DYP Travel Award</strong> for <strong>ECCV 2026</strong>.</p></li>
+      <li><time datetime="2026-08">2026.08</time><p>Delighted to receive the <strong class="news-accent">DYP Award</strong>!</p></li>
       <li><time datetime="2026-08">2026.08</time><p>Happy to share that <a href="https://arxiv.org/abs/2405.18004">SkinCaRe</a> has been accepted to the <strong>ACM MM 2026 Workshop</strong>!</p></li>
       <li><time datetime="2026-08">2026.08</time><p>Excited to join <a href="https://www.antgroup.com/en">Ant Group</a> as a Research Intern, working on guideline-driven medical AI and search agent research.</p></li>
       <li><time datetime="2026-07">2026.07</time><p>We released <a href="https://arxiv.org/abs/2607.26160">GuideSkill</a>, evolving executable agent skills for guideline-grounded clinical reasoning.</p></li>
