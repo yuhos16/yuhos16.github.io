@@ -24,7 +24,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class="badge">Medical LLMs &amp; Agents</div><div class='paper-box-image'><div><img src='images/medguidex.png' alt="MedGuideX" width="100%"></div></div>
+<div class='paper-box'><div class="badge">Medical LLMs &amp; Agents</div><div class='paper-box-image paper-box-image--wide'><div><img src='images/medguidex.png' alt="MedGuideX overview of factual and counterfactual reasoning from clinical guidelines" width="2200" height="854"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div class="paper-title">MedGuideX: Internalizing Decision Logic from Clinical Guidelines into Large Language Models for Reliable Diagnostic Reasoning</div>
